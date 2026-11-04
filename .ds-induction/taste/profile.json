@@ -1,0 +1,76 @@
+{
+  "_about": "taste profile for Bellis Australia website (design-v5); owner rulings of 2026-11-04",
+  "adopted": "all",
+  "adoption_note": "Owner: 'adopt necessary ones and ones that don't go against our initiative that is to create a stunning refreshed design'. Rules gate new work; a device a dealt direction needs is allowed provisionally per demo, listed for the owner at the demo review, and ruled into the profile only for the approved demo.",
+  "surfaces": {
+    "page": [
+      "/",
+      "/products",
+      "/corrosion-control",
+      "/contact"
+    ],
+    "story": [],
+    "openers": [
+      "/"
+    ],
+    "screen": []
+  },
+  "generated_pictures": {
+    "allowed": false,
+    "surfaces": [],
+    "floor_share": 0
+  },
+  "story": {
+    "scroll_model": "sync+lock",
+    "runtime": "gsap-scrolltrigger-in-kit-markup",
+    "smoothing": "none",
+    "scene_cap": 3,
+    "calibration": {
+      "viewport_seconds": 2,
+      "read_seconds_per_word": 0.3
+    },
+    "budgets": {
+      "screens": 14,
+      "image_kb_desktop": 350,
+      "image_kb_phone": 120,
+      "js_kb_gz": 60
+    },
+    "sound": "off",
+    "generated_pictures": {
+      "allowed": false,
+      "surfaces": [],
+      "floor_share": 0
+    }
+  },
+  "allow": [],
+  "direction": {
+    "sheet": ".ds-induction/taste/direction.json",
+    "id": "loud-flat-poster",
+    "name": "Loud and flat",
+    "seed": 101,
+    "redraws": []
+  },
+  "demos": [
+    {
+      "key": "A",
+      "direction": "editorial-report",
+      "seed": 103,
+      "status": "Not chosen (2026-11-04)"
+    },
+    {
+      "key": "B",
+      "direction": "loud-flat-poster",
+      "seed": 101,
+      "status": "Approved (2026-11-04)"
+    },
+    {
+      "key": "B2",
+      "direction": "loud-flat-poster",
+      "seed": 101,
+      "status": "Proposed (Home opener revision of B, for side-by-side)"
+    }
+  ],
+  "idea": "On this site, the hi-vis vest every Bellis crew wears becomes the poster's ground: flat safety-yellow and black, blunt statements at full volume, product cut-outs stuck on at a tilt.",
+  "live_thing": "Filter the product catalogue by the job it does (hot, cold, acoustic, fire, corrosion, access and fixing).",
+  "inventory": ".ds-induction/taste/inventory.md"
+}

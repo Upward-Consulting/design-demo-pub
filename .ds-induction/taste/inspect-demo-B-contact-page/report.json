@@ -1,0 +1,2032 @@
+{
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=contact",
+ "at": "2026-11-04T07:19:59.350Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.63,
+    0.91,
+    0.98,
+    0.83,
+    0.43
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 1,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4105,
+     "screens": 4.6,
+     "words": 273,
+     "img": 36,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 18,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "marine-insulated-pipe.webp",
+      "aspen-aerogel-pyrogel-hps.webp",
+      "steel-banding.webp",
+      "needle-felt.webp",
+      "rockwool-slabs.webp",
+      "oil-gas-energy.webp",
+      "rubber-insulation.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 1,
+     "size": 152.6,
+     "vw": 10.6,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.97,
+     "top": 130,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "lines": 1,
+     "size": 152.6,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 152.6,
+      "vw": 10.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 130,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 1307,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.16,
+      "top": 1547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 1547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 1547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "1300 740 564",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 1795,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.29,
+      "top": 1795,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 2,
+      "size": 121,
+      "vw": 8.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 2174,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "b e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 225,
+      "vw": 15.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3373,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      20,
+      24,
+      28,
+      37,
+      121,
+      130,
+      153,
+      225
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 24,
+      "leading": 1.35,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 225,
+      "vw": 15.6,
+      "font": "Red Hat Display",
+      "text": "b"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 989,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.97
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f53fd6",
+      "hsl": {
+       "h": 310,
+       "s": 0.9,
+       "l": 0.6
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 4,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert",
+      "Call 1300 740 564"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 32,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1523
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1751
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.39
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4105,
+    "margins": {
+     "left": 24,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.b-hero.b-hero--ground",
+      "tag": "section",
+      "top": 90,
+      "height": 899,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert.",
+       "size": 153,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 14,
+      "textLeft": 24,
+      "textRight": 244,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-strip",
+      "tag": "section",
+      "top": 989,
+      "height": 198,
+      "words": 0,
+      "media": 32,
+      "middle": 5111,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cbranches",
+      "tag": "section",
+      "top": 1187,
+      "height": 724,
+      "words": 78,
+      "media": 0,
+      "middle": 58,
+      "heading": {
+       "text": "Five branches",
+       "size": 130,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 124,
+      "textLeft": 24,
+      "textRight": 124,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.b-enquiry",
+      "tag": "section",
+      "top": 1911,
+      "height": 1227,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Send an enquiry",
+       "size": 121,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 17,
+      "textLeft": 24,
+      "textRight": 672,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 3233,
+      "height": 872,
+      "words": 83,
+      "media": 0,
+      "middle": 266,
+      "heading": {
+       "text": "Products",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3348,
+      "height": 364
+     }
+    ],
+    "h1s": [
+     {
+      "text": "talk to an expert.",
+      "size": 153,
+      "top": 130,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 24,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 0,
+     "y": 420,
+     "w": 600,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.69,
+    0.93,
+    1,
+    0.38,
+    0.47
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 1,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4200,
+     "screens": 4.1,
+     "words": 265,
+     "img": 36,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "marine-insulated-pipe.webp",
+      "aspen-aerogel-pyrogel-hps.webp",
+      "steel-banding.webp",
+      "needle-felt.webp",
+      "rockwool-slabs.webp",
+      "marine-insulated-pipe.webp",
+      "aspen-aerogel-pyrogel-hps.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 1,
+     "size": 81.4,
+     "vw": 10.6,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 130,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "lines": 1,
+     "size": 81.4,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 81.4,
+      "vw": 10.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 130,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 949,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1123,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1123,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1351,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1351,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1579,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 2,
+      "size": 64.5,
+      "vw": 8.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2119,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "b e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 153.6,
+      "vw": 20,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3202,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      19,
+      22,
+      24,
+      28,
+      65,
+      69,
+      81,
+      154
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 21.8,
+      "leading": 1.35,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 153.6,
+      "vw": 20,
+      "font": "Red Hat Display",
+      "text": "b"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 631,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.97
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f53fd6",
+      "hsl": {
+       "h": 310,
+       "s": 0.9,
+       "l": 0.6
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 6,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu",
+      "Call 1300 740 564",
+      "Pause the photographs"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 32,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1099
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1783
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.17
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4200,
+    "margins": {
+     "left": 24,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "section.b-hero.b-hero--ground",
+      "tag": "section",
+      "top": 90,
+      "height": 541,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert.",
+       "size": 81,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 19,
+      "textLeft": 24,
+      "textRight": 119,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-strip",
+      "tag": "section",
+      "top": 631,
+      "height": 198,
+      "words": 0,
+      "media": 32,
+      "middle": 5792,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cbranches",
+      "tag": "section",
+      "top": 829,
+      "height": 1114,
+      "words": 78,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Five branches",
+       "size": 69,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 76,
+      "textLeft": 24,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.b-enquiry",
+      "tag": "section",
+      "top": 1943,
+      "height": 1026,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Send an enquiry",
+       "size": 65,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 21,
+      "textLeft": 24,
+      "textRight": 190,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 3065,
+      "height": 1135,
+      "words": 83,
+      "media": 0,
+      "middle": 38,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3176,
+      "height": 420
+     }
+    ],
+    "h1s": [
+     {
+      "text": "talk to an expert.",
+      "size": 81,
+      "top": 130,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 22,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.66,
+    0.97,
+    0.78,
+    1,
+    0.79,
+    0.38
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 1,
+    "transitions": 14,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5054,
+     "screens": 6,
+     "words": 265,
+     "img": 36,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "site-photo-2016.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 1,
+     "size": 37.4,
+     "vw": 9.6,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 120,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "talk to an expert.",
+     "words": 4,
+     "lines": 1,
+     "size": 37.4,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 9.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 120,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 50.7,
+      "vw": 13,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 886,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1065,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1278,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1469,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1660,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1851,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "1300 740 564",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2062,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2174,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2442,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "b e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 85.8,
+      "vw": 22,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4007,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "products",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4233,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4457,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4652,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      18,
+      20,
+      22,
+      24,
+      28,
+      37,
+      47,
+      51,
+      86
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 20,
+      "leading": 1.35,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 85.8,
+      "vw": 22,
+      "font": "Red Hat Display",
+      "text": "b"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 648,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.97
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#f53fd6",
+      "hsl": {
+       "h": 310,
+       "s": 0.9,
+       "l": 0.6
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 6,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu",
+      "Call 1300 740 564",
+      "Pause the photographs"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5054,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.b-hero.b-hero--ground",
+      "tag": "section",
+      "top": 88,
+      "height": 560,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert.",
+       "size": 37,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 12,
+      "textLeft": 16,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-strip",
+      "tag": "section",
+      "top": 648,
+      "height": 142,
+      "words": 0,
+      "media": 4,
+      "middle": 4455,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cbranches",
+      "tag": "section",
+      "top": 790,
+      "height": 1564,
+      "words": 78,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Five branches",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 50,
+      "textLeft": 16,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.b-enquiry",
+      "tag": "section",
+      "top": 2354,
+      "height": 1395,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Send an enquiry",
+       "size": 47,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 13,
+      "textLeft": 16,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 3845,
+      "height": 1209,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Products",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 22,
+      "textLeft": 16,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3976,
+      "height": 260
+     }
+    ],
+    "h1s": [
+     {
+      "text": "talk to an expert.",
+      "size": 37,
+      "top": 120,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 20,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 390,
+   "message": "11 different font sizes (15, 16, 18, 20, 22, 24, 28, 37, 47, 51, 86).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-contact-page/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

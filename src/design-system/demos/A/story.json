@@ -1,0 +1,37 @@
+{
+  "family": "demo-A-editorial-report",
+  "idea": "On this site, the engineer's job report becomes the page: the LNG carrier as masthead, a fixed column axis with the figures in the margin, solid colour blocks.",
+  "signature": "masked headline on load; the five jobs land one after another as the page is read",
+  "storyline": "the five jobs of a layer of insulation, said bluntly, then the one payoff",
+  "rhythm": "HOLD: one screen. Statements land by p 0.16; the payoff by 0.2; then the picture settles by p 1.",
+  "look": {
+    "ground": "--dA-bg",
+    "ink": "--dA-ink",
+    "accent": "--dA-accent",
+    "display": "--dA-display",
+    "text": "--dA-text"
+  },
+  "calibration": { "viewport_seconds": 2, "read_seconds_per_word": 0.3 },
+  "smoothing": { "weight": 0 },
+  "budgets": { "screens": 14, "image_kb_desktop": 350, "image_kb_phone": 120, "js_kb_gz": 60 },
+  "chapters": [
+    {
+      "id": "opener",
+      "label": "Bellis Australia: Insulation for heavy industry.",
+      "concept": "The five jobs land as statements over one held screen; the h1 and the action are in place at p 0.",
+      "model": "lock",
+      "hold": 1,
+      "phone": "rest",
+      "restAt": 1,
+      "rests": [],
+      "textStill": null,
+      "ground": "--dA-bg",
+      "focal": ["the h1", "the first statement", "the LNG carrier"],
+      "scale": { "p0": "picture at 1.00", "p1": "picture at 1.05" },
+      "layers": { "picture": 1, "statements": 0 },
+      "verbs": { "statements": "LAND", "payoff": "LANDS", "picture": "SETTLES" },
+      "transitionOut": { "kind": "none", "cause": "the next section scrolls up over the finished stage" },
+      "shots": ["opener-plate"]
+    }
+  ]
+}

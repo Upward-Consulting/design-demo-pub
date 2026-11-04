@@ -1,0 +1,124 @@
+{
+  "family": "loud-flat-poster",
+  "revision": "B2 (home v2: the held stage carries the h1, the action and pictures only)",
+  "idea": "On this page, the hi-vis vest every Bellis crew wears becomes the poster's ground: flat safety-yellow and black, blunt statements at full volume, product cut-outs stuck on at a tilt.",
+  "storyline": "The one line that says what this is, held still; then the five jobs, stuck on the crew's photograph one at a time",
+  "signature": "masked headline",
+  "rhythm": "HOLD: the h1 and the action stand at p 0 and never move; the crew photograph rises and five stickers land on its collage, one per job, in order; REST. The five statements follow the stage as poster fields, not held",
+  "calibration": {
+    "viewport_seconds": 2,
+    "read_seconds_per_word": 0.3
+  },
+  "smoothing": {
+    "weight": 0
+  },
+  "budgets": {
+    "screens": 14,
+    "image_kb_desktop": 350,
+    "image_kb_phone": 120,
+    "js_kb_gz": 60
+  },
+  "look": {
+    "ground": "--dB2-bg",
+    "ink": "--dB2-ink",
+    "accent": "--dB2-accent",
+    "accent_where": "the primary action only"
+  },
+  "chapters": [
+    {
+      "id": "opener",
+      "label": "Opening statement",
+      "concept": "The h1 and the action are readable at p 0 and do not move. As the visitor scrolls the held stage, the crew photograph rises a little and settles its tilt, and five stickers land on its collage one after another, one for each job the statements name; then the stage rests. The stage carries four words of text.",
+      "model": "lock",
+      "hold": 1,
+      "phone": "rest",
+      "restAt": 1,
+      "rests": [
+        [
+          0.88,
+          1
+        ]
+      ],
+      "textStill": [
+        0,
+        1
+      ],
+      "words_on_stage": 4,
+      "ground": "--dB2-bg",
+      "focal": [
+        "the title",
+        "the crew photograph"
+      ],
+      "scale": {
+        "p0": "no scale change",
+        "p1": "no scale change"
+      },
+      "layers": {
+        "title": 0,
+        "action": 0,
+        "picture": 1,
+        "stickers": 1
+      },
+      "verbs": {
+        "title": "HOLDS",
+        "action": "HOLDS",
+        "picture": "RISES AND SETTLES",
+        "stickers": "FIRST ONE IS THERE AT P0; THE REST LAND ONE PER JOB"
+      },
+      "photo": {
+        "rise": 7.5,
+        "from": 0,
+        "to": 0.25,
+        "tiltFrom": 6,
+        "tiltTo": 4
+      },
+      "stickerRise": 6,
+      "stickers": [
+        {
+          "id": "cutRockwool",
+          "job": "temperature",
+          "from": 0,
+          "to": 0,
+          "tilt": -4
+        },
+        {
+          "id": "cutFoamglas",
+          "job": "cold",
+          "from": 0.28,
+          "to": 0.4,
+          "tilt": 5
+        },
+        {
+          "id": "acousticFoamSmall",
+          "job": "noise",
+          "from": 0.44,
+          "to": 0.56,
+          "tilt": -5
+        },
+        {
+          "id": "pyrogelCutSmall",
+          "job": "fire",
+          "from": 0.6,
+          "to": 0.72,
+          "tilt": 4
+        },
+        {
+          "id": "rustedFlange",
+          "job": "corrosion",
+          "from": 0.76,
+          "to": 0.88,
+          "tilt": -3
+        }
+      ],
+      "transitionOut": {
+        "kind": "cut",
+        "cause": "the statement block that follows opens on an ink field, so the yellow stage ends at a hard colour edge"
+      },
+      "shots": [
+        "opener-desktop",
+        "opener-phone"
+      ],
+      "stickerNote": "the first sticker (Rockwool, temperature) is on the collage at p = 0 (from = to = 0: placed, never moving); the other four arrive one per job"
+    }
+  ]
+}

@@ -1,0 +1,1829 @@
+{
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=products",
+ "at": "2026-11-04T05:38:50.442Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.95,
+    0.55,
+    0.56,
+    0.88,
+    0.68,
+    0.43
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 8,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4859,
+     "screens": 5.4,
+     "words": 511,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "rockwool-slabs.webp",
+      "interam-endothermic-mat.webp",
+      "pyrogel-xte-xtf.webp",
+      "rockwool-slabs.png",
+      "rubber-insulation.png",
+      "foamglas-cryogenic.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 99.4,
+     "vw": 6.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.56,
+     "top": 514,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 99.4,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 99.4,
+      "vw": 6.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.56,
+      "top": 514,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3266,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 432,
+      "vw": 30,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3823,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 4322,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 4374,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 4426,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 4478,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 4530,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 4654,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      22,
+      36,
+      64,
+      99,
+      432
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 17.9,
+      "leading": 1.45,
+      "weight": 700,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 25,
+     "max": {
+      "size": 432,
+      "vw": 30,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 418,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#dafa9c",
+       "top": 3138,
+       "hsl": {
+        "h": 80,
+        "s": 0.9,
+        "l": 0.8
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f0f0f",
+       "share": 0.65
+      },
+      {
+       "color": "#4d4d4d",
+       "share": 0.21
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.1
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.03
+      },
+      {
+       "color": "#dafa9c",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#eeeeec",
+      "hsl": {
+       "h": 60,
+       "s": 0.06,
+       "l": 0.93
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 6,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert",
+      "Cold",
+      "Acoustic",
+      "Corrosion"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.09
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4859,
+    "margins": {
+     "left": 32,
+     "right": 48
+    },
+    "sections": [
+     {
+      "sel": "section.a-mosaic-wrap",
+      "tag": "section",
+      "top": 88,
+      "height": 330,
+      "words": 0,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-axis",
+      "tag": "div",
+      "top": 514,
+      "height": 368,
+      "words": 49,
+      "media": 0,
+      "middle": 311,
+      "heading": {
+       "text": "About 90",
+       "size": 99,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 186,
+      "textLeft": 32,
+      "textRight": 186,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-table-full",
+      "tag": "div",
+      "top": 938,
+      "height": 2072,
+      "words": 384,
+      "media": 0,
+      "middle": 81,
+      "heading": null,
+      "left": 32,
+      "right": 48,
+      "textLeft": 32,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-lime",
+      "tag": "section",
+      "top": 3138,
+      "height": 589,
+      "words": 24,
+      "media": 3,
+      "middle": 103,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 938,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 3727,
+      "height": 1132,
+      "words": 50,
+      "media": 0,
+      "middle": 68,
+      "heading": {
+       "text": "Bellis",
+       "size": 432,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 99,
+      "top": 514,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 3
+     },
+     {
+      "x": 605,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 300,
+     "y": 420,
+     "w": 300,
+     "h": 480
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.96,
+    0.68,
+    0.81,
+    0.74,
+    0.79,
+    0.5,
+    0.36
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 9,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6471,
+     "screens": 6.3,
+     "words": 443,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "rockwool-slabs.webp",
+      "interam-endothermic-mat.webp",
+      "pyrogel-xte-xtf.webp",
+      "rockwool-slabs.png",
+      "rubber-insulation.png",
+      "foamglas-cryogenic.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 53,
+     "vw": 6.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 635,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 53,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 53,
+      "vw": 6.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 635,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 47.5,
+      "vw": 6.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4737,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 30,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5436,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 5752,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 5804,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 5856,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 5908,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 5960,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 6084,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      17,
+      21,
+      31,
+      48,
+      53,
+      230
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16.5,
+      "leading": 1.45,
+      "weight": 700,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 230.4,
+      "vw": 30,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 418,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eeeeec",
+       "top": 1422,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#dafa9c",
+       "top": 4609,
+       "hsl": {
+        "h": 80,
+        "s": 0.9,
+        "l": 0.8
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f0f0f",
+       "share": 0.7
+      },
+      {
+       "color": "#4d4d4d",
+       "share": 0.18
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.09
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.03
+      },
+      {
+       "color": "#dafa9c",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#eeeeec",
+      "hsl": {
+       "h": 60,
+       "s": 0.06,
+       "l": 0.93
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 6,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu",
+      "Cold",
+      "Acoustic",
+      "Corrosion"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6471,
+    "margins": {
+     "left": 32,
+     "right": 71
+    },
+    "sections": [
+     {
+      "sel": "section.a-mosaic-wrap",
+      "tag": "section",
+      "top": 88,
+      "height": 330,
+      "words": 0,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-axis",
+      "tag": "div",
+      "top": 514,
+      "height": 399,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About 90",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 71,
+      "textLeft": 32,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-table-full",
+      "tag": "div",
+      "top": 969,
+      "height": 3512,
+      "words": 327,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 78,
+      "textLeft": 32,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-lime",
+      "tag": "section",
+      "top": 4609,
+      "height": 732,
+      "words": 24,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 176,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 5340,
+      "height": 1131,
+      "words": 50,
+      "media": 0,
+      "middle": 34,
+      "heading": {
+       "text": "Bellis",
+       "size": 230,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 53,
+      "top": 635,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.97,
+    0.79,
+    0.83,
+    0.76,
+    0.66,
+    0.81,
+    0.72,
+    0.32
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 9,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6662,
+     "screens": 7.9,
+     "words": 443,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "rockwool-slabs.webp",
+      "interam-endothermic-mat.webp",
+      "pyrogel-xte-xtf.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 42.1,
+     "vw": 10.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 694,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 42.1,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 42.1,
+      "vw": 10.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 694,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 36.9,
+      "vw": 9.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5039,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 105.3,
+      "vw": 27,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5653,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      20,
+      37,
+      42,
+      105
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.35,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.2
+     },
+     "measureChars": 25,
+     "max": {
+      "size": 105.3,
+      "vw": 27,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 432,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eeeeec",
+       "top": 1574,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#dafa9c",
+       "top": 4959,
+       "hsl": {
+        "h": 80,
+        "s": 0.9,
+        "l": 0.8
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f0f0f",
+       "share": 0.7
+      },
+      {
+       "color": "#4d4d4d",
+       "share": 0.18
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.09
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.03
+      },
+      {
+       "color": "#dafa9c",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#eeeeec",
+      "hsl": {
+       "h": 60,
+       "s": 0.06,
+       "l": 0.93
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6662,
+    "margins": {
+     "left": 20,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "section.a-mosaic-wrap",
+      "tag": "section",
+      "top": 72,
+      "height": 360,
+      "words": 0,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-axis",
+      "tag": "div",
+      "top": 528,
+      "height": 478,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About 90",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 50,
+      "textLeft": 20,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-table-full",
+      "tag": "div",
+      "top": 1062,
+      "height": 3817,
+      "words": 327,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-lime",
+      "tag": "section",
+      "top": 4959,
+      "height": 598,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 5557,
+      "height": 1104,
+      "words": 50,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bellis",
+       "size": 105,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 42,
+      "top": 694,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 32px on the left, 48px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 14 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/tablet-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-products-page/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

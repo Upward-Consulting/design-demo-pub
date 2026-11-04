@@ -1,0 +1,40 @@
+TASTE GATE · LINT   7 file(s) · scope page
+  WARN [outlined-box] src/design-system/demos/A/demo.css:377  border: 1px solid
+      → A 1px outlined box. Prefer a filled surface or no box.
+  RESULT: 0 FAIL, 1 WARN
+
+TASTE GATE · INSPECT   scope page · allowed dev-server
+
+TASTESKILL · INSPECT   http://127.0.0.1:5201/ds.html?view=demo&d=A&page=corrosion
+
+MEASURED (first viewport listed)
+  hero headline   "Corrosion under insulation."  3 words · 2 line(s) · 99.4px (6.9vw) · Young Serif 400 · tracking -0.02em · leading 0.95
+  @768px          2 line(s) · 53px
+  @390px          2 line(s) · 42.1px
+  typefaces       Source Serif 4 87%, Young Serif 13%
+  sizes in use    14 / 18 / 22 / 36 / 64 / 99 / 432 px   body 17.9px / 1.55
+  colour          page #0f0f0f · sections #0f0f0f #ffffff · button #dafa9c
+  page            5.4 screens · 273 words · 6 images · hero media 14% img
+  headings        14 · longest 2 line(s) · median 1 words
+
+WARN — fix, or be able to defend
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [still-page] @1440px  Little motion: 14 element(s) moved while the page loaded and scrolled.
+      → Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph.
+  [name-only-title] @390px  The h1 is a bare name ("Corrosion under insulation.") and nothing else on the first screen says what this is.
+      → Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .ds-induction/taste/inspect-demo-A-corrosion-page/desktop-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-corrosion-page/desktop-page-01.jpg
+                  .ds-induction/taste/inspect-demo-A-corrosion-page/desktop-page-02.jpg
+  tablet 768px    .ds-induction/taste/inspect-demo-A-corrosion-page/tablet-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-corrosion-page/tablet-page-01.jpg
+  mobile 390px    .ds-induction/taste/inspect-demo-A-corrosion-page/mobile-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-corrosion-page/mobile-page-01.jpg
+
+report: .ds-induction/taste/inspect-demo-A-corrosion-page/report.json
+RESULT: 0 FAIL, 3 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.
+
+gate summary: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/gate.json

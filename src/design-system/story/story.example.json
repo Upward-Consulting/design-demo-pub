@@ -1,0 +1,31 @@
+{
+  "family": "<family>",
+  "idea": "On this site, <the subject's own material> becomes <the device>.",
+  "storyline": "<the picked storyline's name>",
+  "signature": "opener",
+  "rhythm": "PIN-SCRUB, rest, SNAP, hold, event",
+  "calibration": { "viewport_seconds": 2, "read_seconds_per_word": 0.3 },
+  "smoothing": { "weight": 0.14 },
+  "budgets": { "screens": 14, "image_kb_desktop": 350, "image_kb_phone": 120, "js_kb_gz": 15, "frame_set_mb": 2.5 },
+  "look": { "ground": "--<prefix>-ink", "ink": "--<prefix>-ground", "accent": "--<prefix>-accent", "accent_where": "the action, once per chapter", "grain": "--<prefix>-grain", "light": "one low key light from the left" },
+  "chapters": [
+    {
+      "id": "opener",
+      "label": "<the chapter's accessible name, from the content file>",
+      "concept": "What the reader experiences in this range, in one or two sentences.",
+      "model": "lock",
+      "hold": 2,
+      "phone": "live",
+      "restAt": 1,
+      "rests": [[0.8, 1]],
+      "textStill": [0.0, 1.0],
+      "ground": "--<prefix>-ink",
+      "focal": ["the window", "the title"],
+      "scale": { "p0": "window 44% of width", "p1": "full bleed" },
+      "layers": { "picture": 1, "title": 0 },
+      "verbs": { "window": "OPENS", "picture": "SETTLES", "title": "HOLDS" },
+      "transitionOut": { "kind": "sheet-over", "cause": "the next chapter's ground rises over the held picture" },
+      "shots": ["opener-plate"]
+    }
+  ]
+}

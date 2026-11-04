@@ -1,0 +1,2124 @@
+{
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=corrosion",
+ "at": "2026-11-04T05:26:49.567Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.46,
+    0.91,
+    0.48,
+    0.58,
+    0.66,
+    0.43
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 1,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4827,
+     "screens": 5.4,
+     "words": 273,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrosion-control-pipe.jpg",
+      "foamglas-cryogenic.webp",
+      "contract-services.webp",
+      "removable-mats.webp",
+      "oil-gas-energy.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "chars": 27,
+     "lines": 2,
+     "size": 99.4,
+     "vw": 6.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.56,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "lines": 2,
+     "size": 99.4,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Corrosion under insulation.",
+      "words": 3,
+      "chars": 27,
+      "lines": 2,
+      "size": 99.4,
+      "vw": 6.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.56,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Strip it, treat it, put it back.",
+      "words": 7,
+      "chars": 32,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 908,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Remove and inspect",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1143,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Paint",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1306,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Reinstate",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1469,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "What keeps the water out.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1848,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Found rust? Talk to an expert.",
+      "words": 6,
+      "chars": 30,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 432,
+      "vw": 30,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3791,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 4290,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 4342,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 4394,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 4446,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 4498,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 4622,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      22,
+      36,
+      64,
+      99,
+      432
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 17.9,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.2
+     },
+     "measureChars": 25,
+     "max": {
+      "size": 432,
+      "vw": 30,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 796,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.45
+      },
+      {
+       "color": "#8f8f8f",
+       "share": 0.26
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.24
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#dafa9c",
+      "hsl": {
+       "h": 80,
+       "s": 0.9,
+       "l": 0.8
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4827,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 88,
+      "height": 708,
+      "words": 36,
+      "media": 1,
+      "middle": 184,
+      "heading": {
+       "text": "Corrosion under insulation.",
+       "size": 99,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-paper",
+      "tag": "section",
+      "top": 796,
+      "height": 924,
+      "words": 62,
+      "media": 0,
+      "middle": 219,
+      "heading": {
+       "text": "Strip it, treat it, put it back.",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 237,
+      "textLeft": 32,
+      "textRight": 237,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 1720,
+      "height": 1320,
+      "words": 83,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "What keeps the water out.",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 605,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 3040,
+      "height": 656,
+      "words": 32,
+      "media": 1,
+      "middle": 40,
+      "heading": {
+       "text": "Found rust? Talk to an expert.",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 237,
+      "textLeft": 605,
+      "textRight": 237,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 3695,
+      "height": 1132,
+      "words": 50,
+      "media": 0,
+      "middle": 68,
+      "heading": {
+       "text": "Bellis",
+       "size": 432,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1552,
+      "height": 280
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Corrosion under insulation.",
+      "size": 99,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 605,
+      "n": 5
+     },
+     {
+      "x": 32,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.22,
+    "voidBox": {
+     "x": 0,
+     "y": 420,
+     "w": 600,
+     "h": 480
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.56,
+    0.8,
+    0.67,
+    0.71,
+    0.51,
+    0.36
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 2,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6002,
+     "screens": 5.9,
+     "words": 262,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrosion-control-pipe.jpg",
+      "foamglas-cryogenic.webp",
+      "contract-services.webp",
+      "removable-mats.webp",
+      "oil-gas-energy.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "chars": 27,
+     "lines": 2,
+     "size": 53,
+     "vw": 6.9,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "lines": 2,
+     "size": 53,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Corrosion under insulation.",
+      "words": 3,
+      "chars": 27,
+      "lines": 2,
+      "size": 53,
+      "vw": 6.9,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Strip it, treat it, put it back.",
+      "words": 7,
+      "chars": 32,
+      "lines": 1,
+      "size": 47.5,
+      "vw": 6.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 962,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Remove and inspect",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1097,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Paint",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1253,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Reinstate",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1410,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "What keeps the water out.",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 47.5,
+      "vw": 6.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2699,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Found rust? Talk to an expert.",
+      "words": 6,
+      "chars": 30,
+      "lines": 1,
+      "size": 47.5,
+      "vw": 6.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4489,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 30,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4967,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 5283,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 5335,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 5387,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 5439,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 5491,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "sales@bellis.com.au",
+      "words": 1,
+      "chars": 19,
+      "lines": 1,
+      "size": 30.9,
+      "vw": 4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 5615,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      17,
+      21,
+      31,
+      48,
+      53,
+      230
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16.5,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.2
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 230.4,
+      "vw": 30,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 796,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1a1a1a",
+       "top": 1783,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.44
+      },
+      {
+       "color": "#8f8f8f",
+       "share": 0.27
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.24
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#dafa9c",
+      "hsl": {
+       "h": 80,
+       "s": 0.9,
+       "l": 0.8
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6002,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 88,
+      "height": 708,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Corrosion under insulation.",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-paper",
+      "tag": "section",
+      "top": 796,
+      "height": 859,
+      "words": 55,
+      "media": 0,
+      "middle": 186,
+      "heading": {
+       "text": "Remove and inspect",
+       "size": 31,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 42,
+      "textLeft": 32,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-axis",
+      "tag": "div",
+      "top": 1783,
+      "height": 1431,
+      "words": 83,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-pair",
+      "tag": "div",
+      "top": 3326,
+      "height": 471,
+      "words": 0,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 3797,
+      "height": 1074,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 4871,
+      "height": 1131,
+      "words": 50,
+      "media": 0,
+      "middle": 34,
+      "heading": {
+       "text": "Bellis",
+       "size": 230,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 672,
+      "height": 416
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Corrosion under insulation.",
+      "size": 53,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.4,
+    0.97,
+    0.59,
+    0.61,
+    0.52,
+    0.37,
+    0.32
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 2,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5376,
+     "screens": 6.4,
+     "words": 262,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrosion-control-pipe.jpg",
+      "foamglas-cryogenic.webp",
+      "contract-services.webp",
+      "removable-mats.webp",
+      "oil-gas-energy.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "chars": 27,
+     "lines": 2,
+     "size": 42.1,
+     "vw": 10.8,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Corrosion under insulation.",
+     "words": 3,
+     "lines": 2,
+     "size": 42.1,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "Corrosion under insulation.",
+      "words": 3,
+      "chars": 27,
+      "lines": 2,
+      "size": 42.1,
+      "vw": 10.8,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Strip it, treat it, put it back.",
+      "words": 7,
+      "chars": 32,
+      "lines": 2,
+      "size": 36.9,
+      "vw": 9.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 998,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Remove and inspect",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1169,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Paint",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1350,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Reinstate",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1532,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "What keeps the water out.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 36.9,
+      "vw": 9.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2314,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Found rust? Talk to an expert.",
+      "words": 6,
+      "chars": 30,
+      "lines": 2,
+      "size": 36.9,
+      "vw": 9.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3932,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bellis",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 105.3,
+      "vw": 27,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4368,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      20,
+      28,
+      37,
+      42,
+      105
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 16,
+      "leading": 1.35,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.2
+     },
+     "measureChars": 25,
+     "max": {
+      "size": 105.3,
+      "vw": 27,
+      "font": "Young Serif",
+      "text": "Bellis"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0f",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0f0f0f",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 850,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1a1a1a",
+       "top": 1841,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.44
+      },
+      {
+       "color": "#8f8f8f",
+       "share": 0.27
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.24
+      },
+      {
+       "color": "#b9b9b9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#dafa9c",
+      "hsl": {
+       "h": 80,
+       "s": 0.9,
+       "l": 0.8
+      },
+      "fg": "#0f0f0f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "source serif 4",
+     "young serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5376,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 72,
+      "height": 778,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Corrosion under insulation.",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-paper",
+      "tag": "section",
+      "top": 850,
+      "height": 911,
+      "words": 62,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Strip it, treat it, put it back.",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-axis",
+      "tag": "div",
+      "top": 1841,
+      "height": 1212,
+      "words": 83,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "What keeps the water out.",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-pair",
+      "tag": "div",
+      "top": 3165,
+      "height": 388,
+      "words": 0,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section.a-dark",
+      "tag": "section",
+      "top": 3553,
+      "height": 719,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Found rust? Talk to an expert.",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer",
+      "tag": "footer",
+      "top": 4272,
+      "height": 1104,
+      "words": 50,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bellis",
+       "size": 105,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 724,
+      "height": 264
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Corrosion under insulation.",
+      "size": 42,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 14 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 390,
+   "message": "The h1 is a bare name (\"Corrosion under insulation.\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-corrosion-page/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

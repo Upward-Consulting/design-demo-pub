@@ -1,0 +1,22 @@
+{
+ "status": "no-issues-detected",
+ "viewport": 390,
+ "checked": {
+  "controls": 3,
+  "containers": 10,
+  "texts": 54,
+  "surfaces": 18,
+  "svgs": 1
+ },
+ "counts": {},
+ "findings": [],
+ "deferred": [],
+ "smallest": {
+  "px": 13.03,
+  "el": "a.b-skip",
+  "text": "Skip to content"
+ },
+ "manual": [
+  "Boxes only: optical centring, hierarchy, contrast, states and motion are judged by eye (references/craft-rules.md)."
+ ]
+}

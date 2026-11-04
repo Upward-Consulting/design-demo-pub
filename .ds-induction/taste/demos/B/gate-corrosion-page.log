@@ -1,0 +1,36 @@
+TASTE GATE · LINT   9 file(s) · scope page
+  RESULT: 0 FAIL, 0 WARN
+
+TASTE GATE · INSPECT   scope page · allowed dev-server
+
+TASTESKILL · INSPECT   http://127.0.0.1:5201/ds.html?view=demo&d=B&page=corrosion
+
+MEASURED (first viewport listed)
+  hero headline   "corrosion under insulation."  3 words · 2 line(s) · 152.6px (10.6vw) · Red Hat Display 900 · tracking -0.03em · leading 0.9
+  @768px          2 line(s) · 81.4px
+  @390px          2 line(s) · 37.4px
+  typefaces       Red Hat Text 85%, Red Hat Display 15%
+  sizes in use    16 / 20 / 24 / 32 / 115 / 121 / 130 / 150 / 153 / 225 px   body 20px / 1.5
+  colour          page #ffd249 · sections #ffd249 #ffffff #0a0a0a #f9a21f · button #f53fd6
+  page            5.8 screens · 305 words · 6 images · hero media 16% img
+  headings        13 · longest 2 line(s) · median 3 words
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768, 390)  10 different font sizes (16, 20, 24, 32, 115, 121, 130, 150, 153, 225).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .ds-induction/taste/inspect-demo-B-corrosion-page/desktop-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-corrosion-page/desktop-page-01.jpg
+                  .ds-induction/taste/inspect-demo-B-corrosion-page/desktop-page-02.jpg
+  tablet 768px    .ds-induction/taste/inspect-demo-B-corrosion-page/tablet-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-corrosion-page/tablet-page-01.jpg
+  mobile 390px    .ds-induction/taste/inspect-demo-B-corrosion-page/mobile-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-corrosion-page/mobile-page-01.jpg
+
+report: .ds-induction/taste/inspect-demo-B-corrosion-page/report.json
+RESULT: 0 FAIL, 2 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.
+
+gate summary: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-corrosion-page/gate.json

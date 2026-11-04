@@ -1,0 +1,6 @@
+desktop  opener: 1.8 screens tall, running → .ds-induction/taste/demos/B/scenes-home/opener-desktop.jpg
+smoothness: 61 frames, median 16.7 ms, 0 over 34 ms (headless timing is rough; a handful is normal)
+phone    opener: 1.2 screens tall, finished composition → .ds-induction/taste/demos/B/scenes-home/opener-phone.jpg
+reduced  13 screens → .ds-induction/taste/demos/B/scenes-home/reduced-desktop.jpg
+
+RESULT: every scene ran. Now look at every sheet: does each frame read, and is the scene as bold as it should be?

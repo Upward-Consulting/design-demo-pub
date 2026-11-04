@@ -1,0 +1,43 @@
+TASTE GATE · LINT   9 file(s) · scope page
+  RESULT: 0 FAIL, 0 WARN
+
+TASTE GATE · INSPECT   scope page · allowed dev-server
+
+TASTESKILL · INSPECT   http://127.0.0.1:5201/ds.html?view=demo&d=B&page=home
+
+MEASURED (first viewport listed)
+  hero headline   "insulation for heavy industry."  4 words · 2 line(s) · 158.4px (11vw) · Red Hat Display 900 · tracking -0.03em · leading 0.9
+  @768px          2 line(s) · 84.5px
+  @390px          2 line(s) · 41.3px
+  typefaces       Red Hat Text 77%, Red Hat Display 23%
+  sizes in use    16 / 18 / 20 / 23 / 24 / 28 / 30 / 37 / 66 / 89 / 97 / 101 / 107 / 108 / 109 / 124 / 130 / 150 / 158 / 225 / 324 px   body 20px / 1.5
+  colour          page #ffd249 · sections #ffd249 #ffffff #0a0a0a #e8730c #a4f6f8 · button #f53fd6
+  page            13.5 screens · 618 words · 16 images · hero media 20% img
+  headings        30 · longest 2 line(s) · median 3 words
+
+WARN — fix, or be able to defend
+  [card-rows] @1440px (+768)  3 rows of identical boxed cards.
+      → Vary the composition; not every section is a card grid.
+  [size-count] @1440px (+768, 390)  21 different font sizes (16, 18, 20, 23, 24, 28, 30, 37, 66, 89, 97, 101, 107, 108, 109, 124, 130, 150, 158, 225, 324).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [blank-gap] @768px  A 452px stretch at 11592px holds nothing.
+      → Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .ds-induction/taste/inspect-demo-B-home-page/desktop-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/desktop-page-01.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/desktop-page-02.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/desktop-page-03.jpg
+  tablet 768px    .ds-induction/taste/inspect-demo-B-home-page/tablet-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/tablet-page-01.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/tablet-page-02.jpg
+  mobile 390px    .ds-induction/taste/inspect-demo-B-home-page/mobile-fold.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/mobile-page-01.jpg
+                  .ds-induction/taste/inspect-demo-B-home-page/mobile-page-02.jpg
+
+report: .ds-induction/taste/inspect-demo-B-home-page/report.json
+RESULT: 0 FAIL, 4 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.
+
+gate summary: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-home-page/gate.json

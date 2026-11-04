@@ -1,0 +1,326 @@
+/* Workbench furniture: board header, slot headers, captions, chips, system-page text, frames.
+ * Neutral on purpose, so it is never mistaken for a component. Raw values are fine here, and only here.
+ * Every selector is a .dsx- class (or a child of one inside furniture): nothing reaches into variants or examples. */
+
+.dsx-page {
+  box-sizing: border-box;
+  padding: 32px 24px 96px;
+}
+
+.dsx-head,
+.dsx-slot-head,
+.dsx-caption,
+.dsx-kicker,
+.dsx-title,
+.dsx-meta,
+.dsx-toc,
+.dsx-index,
+.dsx-foot,
+.dsx-lines,
+.dsx-build,
+.dsx-label,
+.dsx-round,
+.dsx-loading,
+.dsx-error,
+.dsx-chip {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: left;
+}
+
+.dsx-head,
+.dsx-slot-head {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto 16px;
+  padding: 16px 20px;
+  border: 1px dashed #c9ced6;
+  border-radius: 6px;
+  background: #fafafa;
+  color: #374151;
+}
+
+.dsx-kicker,
+.dsx-meta,
+.dsx-caption,
+.dsx-label,
+.dsx-round {
+  margin: 0 0 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #4b5563;
+}
+
+.dsx-kicker {
+  font-weight: 600;
+  color: #111827;
+}
+
+.dsx-title {
+  margin: 4px 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111827;
+}
+
+.dsx-label {
+  max-width: 1440px;
+  margin: 24px auto 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+}
+
+.dsx-round {
+  max-width: 1440px;
+  margin: 32px auto 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #c9ced6;
+  font-weight: 600;
+}
+
+.dsx-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.dsx-toc a,
+.dsx-index a,
+.dsx-foot a,
+.dsx-kicker a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.dsx-slot,
+.dsx-sheet,
+.dsx-specimen {
+  max-width: 1600px;
+  margin: 48px auto 0;
+}
+
+.dsx-variant,
+.dsx-example {
+  margin: 0 auto 32px;
+}
+
+.dsx-caption {
+  max-width: 1440px;
+  margin: 0 auto 6px;
+}
+
+.dsx-ground {
+  box-sizing: border-box;
+  padding: 24px;
+  outline: 1px dashed #c9ced6;
+}
+
+.dsx-ground[data-full-bleed] {
+  padding: 0;
+}
+
+.dsx-content {
+  margin: 0 auto;
+}
+
+.dsx-solo .dsx-ground {
+  outline: none;
+}
+
+.dsx-chip {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.6;
+  vertical-align: middle;
+  background: #eef0f3;
+  color: #374151;
+}
+
+.dsx-chip[data-tone='final'] {
+  background: #dcf5e3;
+  color: #14532d;
+}
+
+.dsx-chip[data-tone='out'] {
+  background: #f6e3e3;
+  color: #7f1d1d;
+}
+
+.dsx-chip[data-tone='passed'] {
+  background: #e0ecff;
+  color: #1e3a8a;
+}
+
+.dsx-chip[data-tone='open'] {
+  background: #fdf3d7;
+  color: #713f12;
+}
+
+.dsx-loading {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.dsx-error {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border: 2px solid #dc2626;
+  border-radius: 6px;
+  background: #fef2f2;
+  color: #7f1d1d;
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+
+.dsx-index,
+.dsx-lines ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.dsx-index {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.dsx-lines,
+.dsx-build {
+  max-width: 1440px;
+  margin: 16px auto 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.dsx-build div {
+  display: flex;
+  gap: 12px;
+}
+
+.dsx-build dt {
+  min-width: 120px;
+  font-weight: 600;
+}
+
+.dsx-build dd {
+  margin: 0;
+}
+
+.dsx-foot {
+  display: flex;
+  gap: 24px;
+  max-width: 1440px;
+  margin: 64px auto 0;
+  font-size: 13px;
+}
+
+.dsx-specimen-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.dsx-kind-type {
+  flex-direction: column;
+}
+
+.dsx-type-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.dsx-swatch {
+  margin: 0;
+  width: 160px;
+}
+
+.dsx-swatch-sample {
+  height: 64px;
+  border: 1px solid #e5e7eb;
+  background: #f3f4f6;
+}
+
+.dsx-swatch-size .dsx-swatch-sample {
+  height: 12px;
+  background: #9ca3af;
+}
+
+.dsx-swatch-radius .dsx-swatch-sample,
+.dsx-swatch-shadow .dsx-swatch-sample {
+  width: 96px;
+  background: #ffffff;
+}
+
+.dsx-swatch figcaption {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+
+/* Demo proposals. The demo view adds nothing around the demo: it renders the whole page itself. */
+.dsx-demo {
+  min-height: 100svh;
+}
+
+.dsx-demos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 24px;
+  max-width: 1600px;
+  margin: 24px auto 0;
+}
+
+.dsx-demo-shots {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.dsx-frame {
+  overflow: hidden;
+  outline: 1px dashed #c9ced6;
+  background: #fff;
+}
+
+.dsx-frame iframe {
+  display: block;
+  border: 0;
+  transform-origin: 0 0;
+}
+
+.dsx-demo-col .dsx-meta a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.dsx-toc a[aria-current='page'] {
+  font-weight: 600;
+  text-decoration: none;
+}

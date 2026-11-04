@@ -1,0 +1,28 @@
+{
+ "brand": "/^(Red Hat Display|Red Hat Text)$/i",
+ "textElements": 69,
+ "families": {
+  "Red Hat Text": {
+   "count": 36,
+   "weights": [
+    "400",
+    "500"
+   ]
+  },
+  "Red Hat Display": {
+   "count": 33,
+   "weights": [
+    "900"
+   ]
+  }
+ },
+ "outsideCount": 0,
+ "outside": [],
+ "notLoaded": 0,
+ "loadedFaces": [
+  "Red Hat Display 900 normal",
+  "Red Hat Text 400 normal",
+  "Red Hat Text 500 normal"
+ ],
+ "ok": true
+}

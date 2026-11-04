@@ -1,0 +1,84 @@
+{
+  "family": "loud-flat-poster",
+  "idea": "On this page, the hi-vis vest every Bellis crew wears becomes the poster's ground: flat safety-yellow and black, blunt statements at full volume, product cut-outs stuck on at a tilt.",
+  "storyline": "The five jobs, said bluntly, then the company",
+  "signature": "masked headline",
+  "rhythm": "HOLD: the h1 and the action stand at p 0; the five statements land one after another; REST",
+  "calibration": {
+    "viewport_seconds": 2,
+    "read_seconds_per_word": 0.3
+  },
+  "smoothing": {
+    "weight": 0.14
+  },
+  "budgets": {
+    "screens": 2,
+    "image_kb_desktop": 350,
+    "image_kb_phone": 120,
+    "js_kb_gz": 60
+  },
+  "look": {
+    "ground": "--dB-bg",
+    "ink": "--dB-ink",
+    "accent": "--dB-accent",
+    "accent_where": "the primary action only"
+  },
+  "chapters": [
+    {
+      "id": "opener",
+      "label": "Opening statement",
+      "concept": "The h1 and the action are readable at p 0. As the visitor scrolls the held stage, the five problems insulation solves land one after another, then the payoff. The photograph rises once on load and then stands still.",
+      "model": "lock",
+      "hold": 1,
+      "phone": "rest",
+      "restAt": 1,
+      "rests": [
+        [
+          0.5,
+          1
+        ]
+      ],
+      "textStill": [
+        0.25,
+        1
+      ],
+      "ground": "--dB-bg",
+      "focal": [
+        "the title",
+        "the crew photograph"
+      ],
+      "scale": {
+        "p0": "no scale change",
+        "p1": "no scale change"
+      },
+      "layers": {
+        "title": 0,
+        "statements": 1,
+        "picture": 1,
+        "cutouts": 1
+      },
+      "verbs": {
+        "title": "HOLDS",
+        "statements": "LAND",
+        "picture": "RISES INTO PLACE, THEN STANDS",
+        "cutouts": "LAND WITH THEIR STATEMENT"
+      },
+      "transitionOut": {
+        "kind": "cut",
+        "cause": "the next section's ground follows the held stage"
+      },
+      "shots": [
+        "opener-desktop",
+        "opener-phone"
+      ],
+      "statementWindows": [
+        0,
+        0.05,
+        0.1,
+        0.15,
+        0.19
+      ],
+      "payoffWindow": 0.21
+    }
+  ]
+}

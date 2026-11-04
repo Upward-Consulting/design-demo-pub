@@ -1,0 +1,542 @@
+{
+  "demo": "A",
+  "direction": "editorial-report, The printed annual (seed 103): Young Serif / Source Serif 4; soot, white and pale lime; axis at 42vw; masthead and solid colour blocks",
+  "port": 8931,
+  "lane": "src/design-system/demos/A/",
+  "urls": {
+    "home": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=home",
+    "products": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=products",
+    "corrosion": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=corrosion",
+    "contact": "http://127.0.0.1:5201/ds.html?view=demo&d=A&page=contact"
+  },
+  "pages": [
+    {
+      "key": "home",
+      "scope": "page (whole Home) + opener (first screen, story check)",
+      "gate": ".ds-induction/taste/inspect-demo-A-home-page/gate.json: 0 FAIL, 1 WARN (defended: no-footage, see allowances)",
+      "opener_gate": ".ds-induction/taste/inspect-demo-A-home-opener-opener/gate.json: 0 FAIL, 0 WARN",
+      "allowances": [],
+      "craft_lint": {
+        "1440": "no-issues-detected (0 findings)",
+        "390": "no-issues-detected (0 findings)"
+      },
+      "font_audit": "ok: Young Serif and Source Serif 4 only; 0 outside the brand faces",
+      "look": {
+        "round": 1,
+        "design": 8,
+        "usability": 7.5,
+        "creativity": 8,
+        "content": 7.5,
+        "overall": 7.8,
+        "caps": [],
+        "top3_fixed": [
+          "The opener's headline wrapped to four lines and the whole opener sat 88 px low (display size now tied to the right-hand column; no top padding on Home's stage).",
+          "Job rows drew their tone cell by cell, leaving a stepped grey block (tone moved onto the row; the materials column stays lime).",
+          "Figure captions drifted with each number's width (fixed three-track grid; rows opened to 96 px so no caption reads as a label)."
+        ]
+      }
+    },
+    {
+      "key": "products",
+      "scope": "page",
+      "gate": ".ds-induction/taste/inspect-demo-A-products-page/gate.json: 0 FAIL, 3 WARN (no-footage; margins 32/48 px at 1440; still-page 14 elements)",
+      "allowances": [],
+      "craft_lint": {
+        "1440": "no-issues-detected (0 findings)",
+        "390": "no-issues-detected (0 findings)"
+      },
+      "font_audit": "ok",
+      "look": {
+        "round": 1,
+        "design": 7.5,
+        "usability": 8,
+        "creativity": 7.5,
+        "content": 7.5,
+        "overall": 7.65,
+        "caps": [],
+        "top3_fixed": [
+          "The catalogue table ran past the right margin at 1440 and its last job columns were cut off (full content width; Yes/No right-aligned).",
+          "Filter chips lost their shape when their borders went (filled tones; pressed chip lime).",
+          "The phone and tablet table kept the desktop column widths (cells take the row width; tablet rows give family across the top and lines in two columns)."
+        ]
+      }
+    },
+    {
+      "key": "corrosion",
+      "scope": "page",
+      "gate": ".ds-induction/taste/inspect-demo-A-corrosion-page/gate.json: 0 FAIL, 3 WARN (no-footage; still-page 14; name-only-title at 390, defended)",
+      "allowances": [],
+      "craft_lint": {
+        "1440": "no-issues-detected (0 findings)",
+        "390": "no-issues-detected (0 findings)"
+      },
+      "font_audit": "ok",
+      "look": {
+        "round": 1,
+        "design": 8,
+        "usability": 7.5,
+        "creativity": 7.5,
+        "content": 7.5,
+        "overall": 7.7,
+        "caps": [],
+        "top3_fixed": [
+          "The heading wrapped to three lines (display size reduced; 10.8vw on a phone so it holds two lines).",
+          "The step rows lost the page margin on the phone (padding restored; step titles and bodies pair up on tablet).",
+          "Prevention descriptions were the paper grey on the dark ground (muted tone)."
+        ]
+      }
+    },
+    {
+      "key": "contact",
+      "scope": "page",
+      "gate": ".ds-induction/taste/inspect-demo-A-contact-page/gate.json: 0 FAIL, 2 WARN (no-footage; still-page 15)",
+      "allowances": [],
+      "craft_lint": {
+        "1440": "no-issues-detected (0 findings)",
+        "390": "no-issues-detected (0 findings)"
+      },
+      "font_audit": "ok",
+      "look": {
+        "round": 1,
+        "design": 7.5,
+        "usability": 8,
+        "creativity": 7,
+        "content": 7.5,
+        "overall": 7.55,
+        "caps": [],
+        "top3_fixed": [
+          "Branch rows used the dark surface on the paper ground, so the dark text disappeared (paper tones).",
+          "Phone and email labels sat above the heading, reading as eyebrows (labels now follow their numbers; phone and email follow the heading on narrow screens).",
+          "Only two pictures on the page (a strip of three own photographs added; masthead settles on load)."
+        ]
+      }
+    }
+  ],
+  "pictures": [
+    {
+      "slot": "home opener: LNG carrier masthead (moves: scale 1.00 to 1.05 across the hold)",
+      "source": "own",
+      "id": "lngCarrier",
+      "file": "src/design-system/assets/own/hero/banner-1.jpg",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "home: workshop band panel 1 (cladding)",
+      "source": "own",
+      "id": "stainlessTanker",
+      "file": "src/design-system/assets/own/services/custom-metal-jobs.webp",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "home: workshop band panel 2 (removable covers)",
+      "source": "own",
+      "id": "removableCovers",
+      "file": "src/design-system/assets/own/services/removable-mats.webp",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "home: workshop band panel 3 (expansion joint)",
+      "source": "own",
+      "id": "expansionJoint",
+      "file": "src/design-system/assets/own/services/expansion-joint.webp",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "home: workshop band panel 4 (sheet-metal rolling)",
+      "source": "own",
+      "id": "sheetMetalRolling",
+      "file": "src/design-system/assets/own/services/sheet-metal-fabrication.webp",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "home: closing strip (3 photographs)",
+      "source": "own",
+      "id": "crewRoof, valvePipework, removableCovers",
+      "file": "src/design-system/assets/own/hero/bellis-hard-hat.jpg; .../services/contract-services.webp; .../services/removable-mats.webp",
+      "credit": "Bellis Australia, client photographs"
+    },
+    {
+      "slot": "home: closing field portrait slot (the place, not a person: no staff portrait supplied)",
+      "source": "own",
+      "id": "branchBuilding",
+      "file": "src/design-system/assets/own/hero/site-photo-2016.jpg",
+      "credit": "Bellis Australia, client photograph (2016)"
+    },
+    {
+      "slot": "products masthead mosaic (4 cells, product colour)",
+      "source": "own",
+      "id": "foamglasCryo, rockwool, interam, pyrogelXte",
+      "file": "src/design-system/assets/own/products/{foamglas-cryogenic,rockwool-slabs,interam-endothermic-mat,pyrogel-xte-xtf}.webp",
+      "credit": "Bellis Australia, client product photographs"
+    },
+    {
+      "slot": "products closing: cut-outs on lime",
+      "source": "own",
+      "id": "cutRockwool, cutRubber, cutFoamglas",
+      "file": "src/design-system/assets/own/cutouts/{rockwool-slabs,rubber-insulation,foamglas-cryogenic}.png",
+      "credit": "client product shots, cut out by the lead (flood fill from the edges); not a generated or found picture"
+    },
+    {
+      "slot": "corrosion masthead (client's rusted flange)",
+      "source": "own",
+      "id": "rustedFlange",
+      "file": "src/design-system/assets/own/services/corrosion-control-pipe.jpg",
+      "credit": "Bellis Australia, client photograph"
+    },
+    {
+      "slot": "corrosion prevention side and products shots",
+      "source": "own",
+      "id": "foamglasCryo",
+      "file": "src/design-system/assets/own/products/foamglas-cryogenic.webp",
+      "credit": "Bellis Australia, client product photograph"
+    },
+    {
+      "slot": "corrosion pair and closing",
+      "source": "own",
+      "id": "valvePipework, removableCovers, operator",
+      "file": "src/design-system/assets/own/services/{contract-services,removable-mats,oil-gas-energy}.webp",
+      "credit": "Bellis Australia, client photographs"
+    },
+    {
+      "slot": "contact masthead and branch photograph",
+      "source": "own",
+      "id": "branchBuilding",
+      "file": "src/design-system/assets/own/hero/site-photo-2016.jpg",
+      "credit": "Bellis Australia, client photograph (2016)"
+    },
+    {
+      "slot": "contact form side and strip",
+      "source": "own",
+      "id": "crewSign, expansionJoint, valvePipework, operator",
+      "file": "src/design-system/assets/own/services/{technical-support,expansion-joint,contract-services,oil-gas-energy}.webp",
+      "credit": "Bellis Australia, client photographs"
+    },
+    {
+      "slot": "header logo (colour, on a white block, 132 px wide)",
+      "source": "own",
+      "id": "logo",
+      "file": "src/design-system/assets/own/brand/bellis-logo-horizontal.webp",
+      "credit": "Bellis Australia logo (raster; no vector supplied)"
+    }
+  ],
+  "sample_details": [],
+  "image_requests": [],
+  "copy_added": [
+    "Bellis in figures. (figures heading, Home)",
+    "Job / What it does / Materials (column headers, Home jobs table; Materials also as a phone label)",
+    "Family / Lines / Yes / No (products table headers and cell words)",
+    "Product families and the jobs they do (products table caption)",
+    "Showing {n} of 11 families. (live count; 11 from the deck's 'Eleven families')",
+    "Menu / Close (mobile menu button)",
+    "Back to top (footer)",
+    "Bellis (footer wordmark, type; the name only, the logo is not enlarged)"
+  ],
+  "allowances": [],
+  "allowances_note": "No --allow was used on any gate run. The direction needed no device the house rules ban: lime is a fill and an action colour, underlines are links, the label blocks are solid, and the figures are type. The one device the gate flagged (no-footage) is defended, not allowed.",
+  "story_check": {
+    "settings": {
+      "HIJACK": [],
+      "STEPS": 12,
+      "VIEWPORT_SECONDS": 2,
+      "READ_SECONDS_PER_WORD": 0.3,
+      "WORD_CAP": 12,
+      "DEAD_SCREENS": 1.5,
+      "MOTION_FLOOR": 8,
+      "MAX_SCREENS": 14,
+      "MAX_HOLD": 1,
+      "MAX_LOCK_RUN": 3,
+      "IMAGE_KB": 350,
+      "IDLE_MS": 5000,
+      "SCENE_CAP": 3,
+      "PICTURE_FLOOR": 4,
+      "GENERATED_COUNTS": 0,
+      "BLOCKOUT": false,
+      "WHEEL": 400,
+      "WHEEL_TOLERANCE": 0.1,
+      "smoothing_weight": 0,
+      "source": "profile.json story block; MAX_HOLD 1 per the brief"
+    },
+    "results": {
+      "status": "findings",
+      "fails": 1,
+      "warns": 2,
+      "units": [
+        {
+          "id": "opener",
+          "model": "lock",
+          "mode": "live",
+          "screens": 2,
+          "moving": 10
+        }
+      ],
+      "first_view": "h1 in first viewport at opacity 1 (Insulation for / heavy industry.)",
+      "wheel_first": "moved at 1.5 s",
+      "reduced_running": "0 animations still running after 1.2 s",
+      "reduced_wheel": "400 px wheel travelled 400 px, landed within 150 ms",
+      "focus_hidden": "0 (closed menu is display:none)",
+      "idle_motion": "no finding",
+      "text_over_picture": "no finding",
+      "dom_issues": "none (no canvas, no scramble, no audio)"
+    },
+    "findings": [
+      {
+        "level": "FAIL",
+        "rule": "picture-floor",
+        "status": "n/a for a one-chapter opener",
+        "reason": "The floor counts pictures across the page's chapters and carriers; the opener holds one picture by design (the masthead). Home's other pictures sit in utility sections outside the chapter."
+      },
+      {
+        "level": "WARN",
+        "rule": "too-many-words",
+        "status": "defended",
+        "reason": "46 words on the held stage: the h1 (4), the standfirst and action (15), the five statements the brief names as motion content (22), the payoff (5). This is the first screen of a utility page, not a held paragraph; cutting any of them removes the first-screen answer."
+      },
+      {
+        "level": "WARN",
+        "rule": "read-window",
+        "status": "defended",
+        "reason": "The standfirst (11 words) is visible and still for the whole screen (1.00 against 1.65 screens needed). It is read in the first view before any scroll begins; the hold is one screen by design."
+      }
+    ],
+    "rules_not_applicable": [
+      {
+        "rule": "picture-floor (chapters)",
+        "reason": "one-chapter opener; see findings"
+      },
+      {
+        "rule": "consecutive-locks",
+        "reason": "one lock chapter on the page"
+      }
+    ],
+    "scene_sheets": {
+      "read": true,
+      "files": [
+        ".ds-induction/taste/demos/A/scenes-home/opener-desktop.jpg",
+        ".ds-induction/taste/demos/A/scenes-home/opener-phone.jpg",
+        ".ds-induction/taste/demos/A/scenes-home/reduced-desktop.jpg"
+      ],
+      "reading": "Statements land in order and stay still; the payoff lands by about 20 per cent; the accent block rises into place; the picture settles; the first screen is complete before any scroll. Phone shows the finished composition (rest). Reduced motion shows every word at full strength."
+    },
+    "manual_checks_remaining": [
+      "Judge the feel of the opener's landings at real speed (the statements are scrubbed; a person should check the rhythm).",
+      "Director pass and positive rubric (story-mode section 8) on the opener.",
+      "Phone walk-through on a real device (the opener's rest plan)."
+    ]
+  },
+  "motion": {
+    "durations": {
+      "button_hover": "200 ms (background, measured 218,250,156 to 236,255,198)",
+      "nav_underline": "400 ms (scale on ::after)",
+      "menu_open": "600 ms opacity, 700 ms transform, staggered links 45 ms (120 ms lead)",
+      "menu_close": "250 ms",
+      "entrances": "700 ms, 18 px, 70 ms stagger, once, when the top is 88% down the viewport",
+      "filter_result_fade": "240 ms count, 320 ms rows",
+      "menu_label_fade": "200 ms",
+      "opener": "scrubbed by p (statements land in 4% of p each; payoff 5%; picture scale 1.00 to 1.05; accent rises 36 px; scroll cue brightens 0.25 to 1)"
+    },
+    "traces": {
+      "filter_click_corrosion": {
+        "status": "issues (expected)",
+        "findings": [
+          "jump: the table narrows in one frame (intended: a list narrows; rows fade in 320 ms)",
+          "vanishes: old count and rows removed at once (replaced by keyed fade-in)",
+          "not-returned: pointer still on the chip (hover tone) and keyed nodes replaced"
+        ]
+      },
+      "menu_click_390": {
+        "status": "issues, one fixed",
+        "findings": [
+          "swap: Menu to Close in one frame (fixed: 200 ms fade on the label)",
+          "not-returned: target still hovered (hover tone)"
+        ]
+      },
+      "load_1440": {
+        "status": "inconclusive (first reading before the demo mounted)",
+        "afterWatch": "0 visible content hidden; 76 elements below the fold wait for their entrance (expected)"
+      }
+    },
+    "hover_endpoints": {
+      "button": "background 218,250,156 to 236,255,198 over 200 ms",
+      "nav": "underline scale on ::after 400 ms",
+      "underlined_link": "decoration colour 200 ms"
+    },
+    "focus_ring": "3 px solid lime on the soot ground; 3 px ink on paper (computed)"
+  },
+  "keyboard": {
+    "tab_order_phone_top": [
+      "Talk to an expert (hero action)",
+      "or call 1300 740 564",
+      "Talk to an expert. (closing)",
+      "1300 740 564",
+      "footer places (Brisbane...)"
+    ],
+    "menu_390": "Menu opens (aria-expanded true), focus moves to the first link, Tab moves on, Escape closes, aria-expanded false, focus returns to the Menu button; closed links are display:none (not in the tab order).",
+    "filter": "Enter selects Hot (5 families, aria-pressed true), Tab then Space selects Cold (4 families). Native buttons.",
+    "form": "Empty submit: summary focused (role alert), 6 errors listed with links, aria-invalid on each failed field, aria-describedby names the error; invalid email shows the format error; valid submit focuses the success state (local, no network call)."
+  },
+  "checks": {
+    "typecheck": "npx tsc --noEmit: lane A clean. Errors seen in src/design-system/demos/B/pages/Opener.tsx belong to demo B's lane (tell the lead).",
+    "console": "clean on all four pages (0 errors, 0 warnings in the last reads)",
+    "craft_lint": "no-issues-detected on all four pages at 1440 and 390",
+    "font_audit": "ok on all four pages at 1440 and 390 (Young Serif, Source Serif 4; no outside faces; no unloaded faces)",
+    "overflow_820": "scrollWidth equals clientWidth on all four pages (805 / 805): no sideways scroll",
+    "overflow_1440_390": "no sideways scroll on all four pages (390: 390 / 390; 1440: 1440 / 1440)",
+    "prep": "scrollbar 0, no overlay, nothing pending at each capture"
+  },
+  "departures": [
+    {
+      "from": "Hero: division at 34% of the width (hero blueprint)",
+      "why": "The composition habit (one axis at 42%) is part of the direction and outranks the hero blueprint; one axis on every page."
+    },
+    {
+      "from": "Hero headline at clamp(88px, 9.8vw, 150px) (blueprint)",
+      "why": "Held to two lines by the house rule with the deck's words: the size is set by the right-hand column (about 7 to 7.4vw at 1440)."
+    },
+    {
+      "from": "Phone headline at 15vw (sheet)",
+      "why": "'heavy industry.' does not hold two lines at 15vw on 390 px; set at 11.8vw. Two lines beat the size (house rule)."
+    },
+    {
+      "from": "Four text links on the top edge of the hero's right column",
+      "why": "The page chrome carries the four links (a fixed header with the action and the phone); the column keeps its headline."
+    },
+    {
+      "from": "Hero supporting sentence (22px)",
+      "why": "Used the deck's clientLine (the standfirst the deck supplies for this use); the two-sentence lead is not repeated on the first screen."
+    },
+    {
+      "from": "Features: heading 2-4 words, three answer columns",
+      "why": "Five jobs from the deck, each with what it does and its materials; the third column is the materials, in the lime block. No third fact invented."
+    },
+    {
+      "from": "Showcase: heading 2-4 words, first panel carries a title",
+      "why": "The deck heading is five words and stays whole (deck copy wins). Panel titles are solid soot label blocks, not a scrim (a scrim is a gradient and the house rules forbid it)."
+    },
+    {
+      "from": "How-it-works: four lines 'First you send it.' 'Then we take it apart.' 'You choose one.' 'It ships on Friday.'",
+      "why": "Those lines are not in the copy deck and 'It ships on Friday' is a delivery fact the client has not supplied. The four deck steps are used: Estimate, Procure, Fabricate, Install and maintain."
+    },
+    {
+      "from": "How-it-works: last line in the accent colour",
+      "why": "A coloured word in a headline is a house-rule break. The staircase carries the emphasis by position."
+    },
+    {
+      "from": "Stats: decimal ledger for figures with decimals",
+      "why": "All four figures are whole numbers; the decimal grid is kept (three tracks, fixed value track, right-aligned whole part) with the decimal track empty."
+    },
+    {
+      "from": "List: cards that fold into spines, pinned for three screens",
+      "why": "The deck has no journal or note entries, and a pin needs content for three screens. Dropped; the sheet allows dropping a section the argument does not need."
+    },
+    {
+      "from": "Contact band: sentence, portrait, two links, reply time",
+      "why": "Used as the Home closing. Portrait is the branch photograph (no staff portrait supplied). The reply-time line is not in the deck, so the deck's ctaNote (the phone line) is used instead."
+    },
+    {
+      "from": "CTA: closing statement over three lines with an underlined link, two lines below",
+      "why": "The deck's heading is one line and is the underlined link; the deck's body is the statement; the phone line sits below. Same device, deck words."
+    },
+    {
+      "from": "Footer: wordmark sliced at its top edge (8% above the section)",
+      "why": "The inspector fails letters cropped along their top. The name is set whole at its full width, not cropped."
+    },
+    {
+      "from": "Numbered report sections for corrosion steps and the 'numbered' idea",
+      "why": "House rules ban index numbering (01, Step 2). Order is shown by position and words."
+    },
+    {
+      "from": "Imagery: the sheet's Objects set (picsum photographs of shirts, coffee, cups)",
+      "why": "The owner's ruling: the client's own pictures only; no stock or found pictures."
+    },
+    {
+      "from": "Corrosion masthead as a full-width band",
+      "why": "The rusted-flange picture is 1024 px wide; it is set at 803 px (the axis to the margin) so it is not scaled past its maximum."
+    },
+    {
+      "from": "Products masthead: a single crop band (sheet)",
+      "why": "Four product photographs in a gutterless four-cell mosaic, the product colour kept (one treatment), each at no more than its maximum width."
+    }
+  ],
+  "rough": [
+    "Opener at 820 px portrait: the right column is open between the headline and the photograph until the payoff lands on scroll. A designer may want the photograph to rise higher on tablet.",
+    "The opener is one held screen (two seconds by the calibration). The five statements land in the first fifth of the hold; after that the picture pushes slowly and nothing else moves. Reviewers may want more travel.",
+    "The opener's standfirst (11 words) and the 46 words on the held stage are above the story rules' caps; defended (see story_check). The owner may prefer shorter first-screen copy; the deck would need to supply it.",
+    "Products is long: 4,859 px at 1440 and 6,662 px at 390, with 66 Yes/No cells in the matrix. It is the real catalogue density; a designer may want the families grouped under their jobs instead.",
+    "Filtering removes the non-matching rows in one step (the list narrows without a collapse); the new set fades in over 320 ms. Intended; the motion trace records it as a jump and a vanish.",
+    "The filter's empty state is built (deck words) but cannot be reached with the current catalogue: every job has at least one family.",
+    "Pressing the pressed job again returns to All (a toggle). Chosen so the filter returns to rest; a radio pattern would hold the choice.",
+    "Contact success copy from the deck ('A person at Bellis will reply to the email you gave') appears after a local-only submit. The owner should confirm the wording before any real form exists.",
+    "The fourth workshop panel (sheet-metal rolling) has no caption in the deck; it carries its alt text only.",
+    "No footage anywhere: the owner's rule admits only the client's own pictures and the client supplied no clip (WARN no-footage defended).",
+    "The header logo is the supplied raster on a white block at 132 px wide (no vector; no knockout). The footer's 'Bellis' is set as type, not as the logo.",
+    "Browser support: :has() needs Chrome 105+; the menu's opening entrance uses @starting-style and display allow-discrete (Chrome 117+); older browsers open the menu without the entrance.",
+    "Look scores are from one look round on the rendered pages (critique passes, screenshots only). Round 1 ended at 7.5 to 8.0 by page. No third round was needed: the top items were fixed and re-gated."
+  ],
+  "findings_for_the_notes": [
+    {
+      "kind": "trap",
+      "text": "A story chapter's useChapterProgress only subscribes when it sits inside the chapter. A parent component that renders StoryChapter gets p = 1 once and never scrubs.",
+      "reproduction": "Call useChapterProgress in the component that renders <StoryChapter>.",
+      "workaround": "Render a child component inside the chapter that calls the hook (OpenerScene in home.tsx)."
+    },
+    {
+      "kind": "trap",
+      "text": "Layout effects of a sibling run before the earlier siblings' refs attach, so a GSAP timeline built on the first progress callback may be built with no targets.",
+      "reproduction": "Build the timeline in the first callback with refs that are set by sibling elements.",
+      "workaround": "Guard the build until every target ref is set; build lazily."
+    },
+    {
+      "kind": "trap",
+      "text": "The taste gate's reduced-motion check reads a scroll cue that fades to 0 at p 1 as text not shown under reduced motion.",
+      "reproduction": "A scrubbed element that ends at opacity 0.",
+      "workaround": "Scrub from a faint start to full opacity so the finished composition shows every word."
+    },
+    {
+      "kind": "trap",
+      "text": "The story check counts focusable links inside a closed menu as focus-hidden under visibility:hidden and under aria-hidden/inert.",
+      "reproduction": "A closed mobile menu with visibility:hidden or inert.",
+      "workaround": "Close the menu with display:none and animate the open with @starting-style + display allow-discrete."
+    },
+    {
+      "kind": "audit",
+      "text": "The taste gate's off-centre rule uses the 98th percentile of text right edges, not the maximum: a table with many short right-hand cells reads as off-centre.",
+      "reproduction": "Products table at 1440 with left-aligned Yes/No cells.",
+      "workaround": "Right-align the short cells."
+    },
+    {
+      "kind": "audit",
+      "text": "Gate eyebrow rule fires on any short small text stacked above a large figure, including captions on their own figure's baseline.",
+      "reproduction": "Figures list with a caption above the next figure's numeral.",
+      "workaround": "Space the rows (96 px) and reorder so no caption is directly above a figure."
+    },
+    {
+      "kind": "audit",
+      "text": "The motion trace echoes the whole snippet into its output; large snippets (the craft lint, font audit) must be wrapped in one file per run.",
+      "reproduction": "browser_run_code_unsafe with a 240 KB wrapper.",
+      "workaround": "Read the saved tool-results file and parse the JSON after the marker."
+    }
+  ],
+  "files_written": [
+    "src/design-system/demos/A/demo.tsx",
+    "src/design-system/demos/A/demo.css",
+    "src/design-system/demos/A/home.tsx",
+    "src/design-system/demos/A/products.tsx",
+    "src/design-system/demos/A/corrosion.tsx",
+    "src/design-system/demos/A/contact.tsx",
+    "src/design-system/demos/A/parts.tsx",
+    "src/design-system/demos/A/story.json",
+    ".ds-induction/taste/demos/A/font-audit.js",
+    ".ds-induction/taste/demos/A/story-check.run.js",
+    ".ds-induction/taste/demos/A/motion-*.run.js",
+    ".ds-induction/taste/demos/A/scenes-home/",
+    ".ds-induction/taste/demos/A/gate-*.log",
+    ".ds-induction/evidence/demos/A/{home,products,corrosion,contact}-{1440,390}.png",
+    ".ds-induction/evidence/reports/demos/A.json"
+  ],
+  "scenes_sheets": "read: opener-desktop.jpg, opener-phone.jpg, reduced-desktop.jpg",
+  "could_not_verify": [
+    "Real iOS and Android devices (only Playwright Chrome at 390 wide)",
+    "Chrome older than 117 for the menu's entrance (not tested)",
+    "Speed-judged feel of the opener's landings (a person should watch it at real speed)"
+  ]
+}

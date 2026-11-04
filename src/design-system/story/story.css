@@ -1,0 +1,165 @@
+/* Story kit styles (the induction skill's story-mode reference, § 4). Import once, after the token file. The values
+ * below are defaults the story's SPEC overrides with its own motion tokens (in the project prefix, e.g. --np-story-ease-arrive).
+ *
+ * Two ways to move things inside a chapter, both pure functions of the chapter's progress:
+ *   JS tier   useChapterProgress(p => …) computes eased values and writes them to refs (any easing, any value).
+ *   CSS tier  keyframes on the chapter's named view timeline, off the main thread, where supported:
+ *               .my-title { animation: rise linear both; animation-timeline: --story-chapter;
+ *                           animation-range: contain 0% contain 30%; }
+ *             `contain 0%` → `contain 100%` is exactly p = 0 → 1 of a lock chapter's hold. Wrap every rule in
+ *             @supports (animation-timeline: view()) and @media (prefers-reduced-motion: no-preference), and scope it
+ *             to .is-live, so other browsers and reduced motion get the finished composition.
+ * --p itself is linear: calc() on --p gives linear mappings only; eased values come from the JS tier or keyframes. */
+
+:root {
+  --story-vh: 100svh; /* the held stage's height; check on a real phone before trusting small-viewport units */
+  /* The kit's four ease roles, as timeline.ts `ease` has them (code values, the kit's own). arrive: the Reveal rise and
+   * fade; settle: the Reveal focus and the gate's fade; move: the Reveal wipe; exit: a story element leaving. Story exits use
+   * this curve (timeline.ts ease.exit is the same one); utility pages keep taste's leave curve. No kit element leaves yet.
+   * The studied curves are named in motion-standards.md § 5.2. */
+  --story-ease-arrive: cubic-bezier(0.16, 1, 0.3, 1);
+  --story-ease-settle: cubic-bezier(0.22, 1, 0.36, 1);
+  --story-ease-move: cubic-bezier(0.65, 0, 0.35, 1);
+  --story-ease-exit: cubic-bezier(0.7, 0, 0.84, 0);
+  --story-stagger: 90ms;
+}
+
+/* p is 1 (the finished composition) until the kit writes it: CSS that maps --p shows the end state without script. */
+.story-chapter {
+  --p: 1;
+  position: relative;
+}
+
+.story-chapter > .story-stage {
+  position: relative;
+}
+
+/* lock, live: (hold + 1) screens tall, the stage held for `hold` of them, and the chapter's view timeline for the CSS
+ * tier. Never set overflow: hidden (or a transform, filter or contain) on any ancestor: it breaks sticky. */
+.story-lock.is-live {
+  height: calc((var(--hold, 2) + 1) * var(--story-vh));
+  view-timeline: --story-chapter block;
+}
+
+.story-lock.is-live > .story-stage {
+  position: sticky;
+  top: 0;
+  height: var(--story-vh);
+  /* clip, not hidden: hidden makes the stage a scroll container */
+  overflow: clip;
+}
+
+/* sync: in normal flow, at least one screen; scrubbed while it passes through the viewport. */
+.story-sync > .story-stage {
+  min-height: var(--story-vh);
+}
+
+/* At rest (reduced motion, the phone plan, the board, before mount, or a composition too tall to hold) the chapter shows
+ * its finished composition: one screen, in normal flow. Stage layers are usually absolutely positioned, so the stage
+ * needs this height of its own. */
+.story-chapter.is-rest > .story-stage {
+  min-height: var(--story-vh);
+}
+
+/* The carrier layer of a story run: full-screen, sticky over its chapters, takes no space, never blocks a click. */
+.story-run {
+  position: relative;
+}
+
+.story-carrier {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: var(--story-vh);
+  margin-bottom: calc(-1 * var(--story-vh));
+  overflow: clip;
+  pointer-events: none;
+}
+
+/* Triggered entrances (Reveal). Hidden start states only when motion is welcome and the kit is running. The wipe keeps
+ * its element at full strength and uncovers it from the top edge: a clip, 500 ms, ease-in-out. A hidden element is also
+ * visibility: hidden, so its links and buttons leave the tab order until the entrance starts. Visibility has no
+ * transition: it changes at once, and the opacity, clip or filter transition is what the eye sees. */
+@media (prefers-reduced-motion: no-preference) {
+  .story-js [data-reveal]:not([data-in]) {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .story-js [data-reveal='rise']:not([data-in]) {
+    transform: translate3d(0, 24px, 0);
+  }
+
+  .story-js [data-reveal='focus']:not([data-in]) {
+    filter: blur(8px);
+  }
+
+  .story-js [data-reveal='wipe']:not([data-in]) {
+    opacity: 1;
+    clip-path: inset(0 0 100% 0);
+  }
+
+  .story-js [data-reveal] {
+    transition:
+      opacity 0.8s var(--story-ease-arrive),
+      transform 0.8s var(--story-ease-arrive),
+      filter 0.8s var(--story-ease-settle),
+      clip-path 0.5s var(--story-ease-move);
+    transition-delay: calc(var(--i, 0) * var(--story-stagger));
+  }
+}
+
+/* The arrival gate (useStoryGate): data-gate elements wait for html.story-ready, at most the gate's cap. The headline is
+ * never marked data-gate. Under reduced motion nothing waits. A waiting element is visibility: hidden as well, so its
+ * focusable content is out of the tab order while it waits (no transition on visibility: the release is at once). */
+@media (prefers-reduced-motion: no-preference) {
+  html.story-js:not(.story-ready) [data-gate] {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  html.story-ready [data-gate] {
+    transition: opacity 0.6s var(--story-ease-settle);
+  }
+}
+
+/* Ambient life (data-ambient): a loop with no scroll and no visitor action. AmbientPause sets html.story-paused, and
+ * reduced motion always pauses it (the induction skill's motion-standards reference, § 4.9). */
+html.story-paused [data-ambient],
+html.story-paused [data-ambient] * {
+  animation-play-state: paused;
+}
+
+/* html raises the specificity above a consumer's class-based animation shorthand, which would otherwise reset the play state. */
+@media (prefers-reduced-motion: reduce) {
+  html [data-ambient],
+  html [data-ambient] * {
+    animation-play-state: paused;
+  }
+}
+
+/* A CSS loop marked by useVisibleLoop runs only while it is in view (data-in-view). Reduced motion never sets the mark,
+ * so the loop stays on its first frame. */
+[data-visible-loop]:not([data-in-view]) {
+  animation-play-state: paused;
+}
+
+/* The pause control keeps a focus ring (the motion-standards reference, § 3). */
+[data-story-pause]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* The pause control shows its state as well as aria-pressed does: pressed, it is filled. Its label never changes. The
+ * colours are the system pair, so the fill keeps its contrast whatever the page's palette (a page may restyle it). */
+[data-story-pause][aria-pressed='true'] {
+  background-color: CanvasText;
+  color: Canvas;
+}
+
+/* Inside a live chapter or a carrier nothing transitions on its own: a transition on a scrubbed property lags the
+ * scroll and makes the same p look different depending on how the visitor got there. */
+.story-chapter.is-live [data-move],
+.story-carrier [data-move] {
+  transition: none;
+}

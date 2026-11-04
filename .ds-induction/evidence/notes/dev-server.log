@@ -1,0 +1,286 @@
+npm notice run bellis-design-v5@5.0.0 dev
+npm notice run vite --port 5201 --strictPort --host 127.0.0.1
+
+  VITE v8.3.5  ready in 287 ms
+
+  ➜  Local:   http://127.0.0.1:5201/
+2:39:46 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx, /src/design-system/workbench/Demos.tsx, /src/design-system/workbench/Board.tsx, /src/design-system/workbench/SystemPages.tsx
+2:39:56 pm [vite] (client) dependencies optimized: gsap, gsap/ScrollTrigger
+2:41:06 pm [vite] (client) hmr update /src/design-system/demos/P/demo.css
+2:41:06 pm [vite] (client) hmr update /src/design-system/demos/P/demo.tsx, /src/design-system/workbench/Workbench.tsx, /src/design-system/workbench/Demos.tsx, /src/design-system/workbench/Board.tsx, /src/design-system/workbench/SystemPages.tsx
+2:41:06 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/P/demo.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+2:41:06 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/P/demo.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+2:51:48 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx, /src/design-system/workbench/Demos.tsx, /src/design-system/workbench/Board.tsx, /src/design-system/workbench/SystemPages.tsx
+2:54:47 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:54:48 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:54:49 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx
+2:55:05 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:55:36 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx, /src/design-system/workbench/Demos.tsx, /src/design-system/workbench/Board.tsx, /src/design-system/workbench/SystemPages.tsx
+2:55:50 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:55:51 pm [vite] (client) [console.error] ReferenceError: payoff is not defined
+    at Opener (http://127.0.0.1:5201/src/design-system/demos/A/home.tsx?t=1793768150960:180:12)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:14139:12)
+    at renderWithHooks (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:4397:19)
+    at updateFunctionComponent (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:5772:16)
+    at beginWork (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:6388:20)
+    at runWithFiberInDEV (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:941:66)
+    at performUnitOfWork (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:9145:92)
+    at workLoopSync (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:9041:37)
+    at renderRootSync (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:9025:6)
+    at performWorkOnRoot (http://127.0.0.1:5201/node_modules/.vite/deps/react-dom_client.js?v=048cd084:8712:27)
+
+The above error occurred in the <Opener> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+2:55:51 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:56:09 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:56:10 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:56:10 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:56:54 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+2:56:56 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:57:04 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+2:57:14 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:57:43 pm [vite] (client) hmr update /src/design-system/demos/A/products.tsx
+2:57:48 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:58:04 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:58:06 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+2:58:07 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:58:43 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:58:46 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:59:02 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:59:33 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+2:59:33 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+2:59:37 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:00:06 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:00:06 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Home.tsx
+3:00:06 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:00:11 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:00:53 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:01:02 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:01:24 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:01:24 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+3:01:37 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+3:01:37 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:01:38 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:01:46 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:01:59 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:02:23 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:02:23 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:02:43 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:02:46 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:02:50 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:03:36 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:03:36 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:04:24 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:05:06 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:05:23 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:05:48 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:06:32 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:06:35 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:06:35 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:08:14 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:08:58 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:09:25 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:09:35 pm [vite] (client) hmr update /src/design-system/demos/A/products.tsx
+3:09:35 pm [vite] (client) hmr update /src/design-system/demos/A/corrosion.tsx
+3:09:35 pm [vite] (client) hmr update /src/design-system/demos/A/contact.tsx
+3:11:38 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:11:38 pm [vite] (client) hmr update /src/design-system/demos/A/contact.tsx
+3:12:10 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:12:54 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:12:54 pm [vite] (client) hmr update /src/design-system/demos/B/parts/primitives.tsx
+3:12:54 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:12:54 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:12:55 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:13:00 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:13:32 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:14:53 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:14:53 pm [vite] (client) hmr update /src/design-system/demos/B/parts/primitives.tsx
+3:14:53 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:14:53 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:16:31 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:16:31 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:16:31 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:16:31 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:17:06 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx
+3:17:06 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:18:10 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:18:10 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx
+3:18:10 pm [vite] (client) hmr update /src/design-system/demos/A/home.tsx
+3:18:18 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+3:18:18 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:18:18 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:20:56 pm [vite] (client) hmr update /src/design-system/demos/A/products.tsx
+3:20:58 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:21:29 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx
+3:21:29 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:22:08 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+3:22:08 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx
+3:22:08 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:22:08 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:22:31 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:22:31 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:24:05 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:24:17 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:24:56 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:24:56 pm [vite] Internal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected corresponding JSX closing tag for 'Reveal'.
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/design-system/demos/B/pages/Contact.tsx:94:11 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m85 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0mReveal[38;5;249m [0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249m=[0m[38;5;249m{[0m[38;5;249m2[0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249ml[0m[38;5;249ma[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249mN[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mb[0m[38;5;249m-[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m-[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249ms[0m[38;5;249m"[0m[38;5;249m>[0m
+ [38;5;240m   │[0m          ───┬──  
+ [38;5;240m   │[0m             ╰──── Opened here
+ [38;5;240m   │[0m 
+ [38;5;246m94 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m[38;5;249m/[0mdiv[38;5;249m>[0m
+ [38;5;240m   │[0m           ─┬─  
+ [38;5;240m   │[0m            ╰─── Expected `</Reveal>`
+[38;5;246m────╯[0m
+
+  Plugin: vite:oxc
+  File: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/src/design-system/demos/B/pages/Contact.tsx
+      at transformWithOxc (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:7618:19)
+      at TransformPluginContext.transform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:7690:26)
+      at EnvironmentPluginContainer.transform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:8582:51)
+      at async loadAndTransform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:20155:26)
+      at async viteTransformMiddleware (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:20375:20)
+3:24:56 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+3:25:01 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:25:01 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:25:04 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:26:36 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:26:48 pm [vite] (client) hmr update /src/design-system/demos/A/demo.css
+3:26:56 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx
+3:26:56 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+3:26:56 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:26:56 pm [vite] Internal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected corresponding JSX closing tag for 'Reveal'.
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/design-system/demos/B/pages/Contact.tsx:324:11 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m144 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0mReveal[38;5;249m [0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249m=[0m[38;5;249m{[0m[38;5;249m2[0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249ml[0m[38;5;249ma[0m[38;5;249ms[0m[38;5;249ms[0m[38;5;249mN[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249m=[0m[38;5;249m"[0m[38;5;249mb[0m[38;5;249m-[0m[38;5;249mc[0m[38;5;249mf[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mm[0m[38;5;249m_[0m[38;5;249m_[0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249md[0m[38;5;249my[0m[38;5;249m"[0m[38;5;249m>[0m
+ [38;5;240m    │[0m          ───┬──  
+ [38;5;240m    │[0m             ╰──── Opened here
+ [38;5;240m    │[0m 
+ [38;5;246m324 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m<[0m[38;5;249m/[0mdiv[38;5;249m>[0m
+ [38;5;240m    │[0m           ─┬─  
+ [38;5;240m    │[0m            ╰─── Expected `</Reveal>`
+[38;5;246m─────╯[0m
+
+  Plugin: vite:oxc
+  File: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/src/design-system/demos/B/pages/Contact.tsx
+      at transformWithOxc (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:7618:19)
+      at TransformPluginContext.transform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:7690:26)
+      at EnvironmentPluginContainer.transform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:8582:51)
+      at async loadAndTransform (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:20155:26)
+      at async viteTransformMiddleware (file:///home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/node_modules/vite/dist/node/chunks/node.js:20375:20)
+3:26:56 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+3:27:00 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+3:27:46 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:31:04 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:34:29 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:34:35 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+3:35:40 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:37:12 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:37:21 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+3:39:41 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx
+3:40:40 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+4:29:04 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+4:29:13 pm [vite] (client) hmr update /src/design-system/demos/B/parts/primitives.tsx
+4:29:13 pm [vite] (client) hmr invalidate /src/design-system/demos/B/parts/primitives.tsx Could not Fast Refresh (export "MenuIcon" removed)
+4:29:13 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' does not provide an export named 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Corrosion.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Corrosion.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' does not provide an export named 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Products.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' does not provide an export named 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Products.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' does not provide an export named 'MenuIcon'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/parts/Chrome.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' does not provide an export named 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'MenuIcon'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/parts/Chrome.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:13 pm [vite] (client) [console.error] [vite] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'Reveal'
+4:29:13 pm [vite] (client) [console.error] [vite] Failed to reload /src/design-system/demos/B/pages/Contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+4:29:38 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+4:29:43 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+4:30:01 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+4:30:37 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Home.tsx
+4:30:47 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Home.tsx
+4:30:47 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+4:31:12 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+4:31:16 pm [vite] (client) [console.error] SyntaxError: The requested module 'http://127.0.0.1:5201/src/design-system/demos/B/parts/primitives.tsx?t=1793773753173' doesn't provide an export named: 'Reveal'
+
+The above error occurred in one of your React components.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+4:31:31 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx
+4:32:04 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+4:32:13 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+4:32:23 pm [vite] (client) hmr update /src/design-system/demos/B/demo.tsx
+4:34:58 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+4:35:09 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+4:35:16 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+4:35:16 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+4:35:50 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+4:35:50 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+4:36:09 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Products.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Home.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/parts/Chrome.tsx
+5:00:05 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Opener.tsx
+5:00:57 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:01:24 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:04:30 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:07:51 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:08:08 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:08:44 pm [vite] (client) hmr update /src/design-system/demos/B/demo.css
+5:14:16 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Contact.tsx
+5:15:22 pm [vite] (client) hmr update /src/design-system/demos/B/pages/Corrosion.tsx
+5:17:26 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+5:17:26 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/demo.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx and 1 more
+5:17:26 pm [vite] (client) page reload src/design-system/assets/own/cutouts/foamglas-cryogenic.png
+5:17:26 pm [vite] (client) page reload src/design-system/assets/own/cutouts/rockwool-slabs.png
+5:17:26 pm [vite] (client) page reload src/design-system/assets/own/cutouts/rubber-insulation.png
+5:20:04 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+5:20:06 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+5:20:13 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+6:23:52 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx
+6:23:52 pm [vite] (client) hmr update /src/design-system/workbench/Workbench.tsx, /src/design-system/workbench/Demos.tsx, /src/design-system/workbench/Board.tsx, /src/design-system/workbench/SystemPages.tsx
+6:24:16 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx
+6:33:57 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:35:43 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:36:07 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:36:20 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:36:48 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:40:11 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:40:11 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:40:16 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:44:05 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:44:23 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:44:45 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:45:23 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:46:01 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:47:39 pm [vite] (client) hmr update /src/design-system/demos/B2/demo.css
+6:53:49 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more
+6:54:37 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:54:37 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+6:54:42 pm [vite] (client) hmr update /src/design-system/demos/B2/pages/Opener.tsx
+7:00:19 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more
+7:00:20 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more
+7:00:20 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more
+7:00:21 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more
+7:00:21 pm [vite] (client) hmr update /src/design-system/demos/A/demo.tsx, /src/design-system/demos/A/corrosion.tsx, /src/design-system/demos/A/home.tsx, /src/design-system/demos/A/contact.tsx, /src/design-system/demos/A/products.tsx, /src/design-system/demos/B/pages/Corrosion.tsx, /src/design-system/demos/B/pages/Home.tsx, /src/design-system/demos/B/parts/Chrome.tsx, /src/design-system/demos/B/pages/Contact.tsx, /src/design-system/demos/B/pages/Products.tsx, /src/design-system/demos/B/pages/Opener.tsx and 6 more

@@ -1,0 +1,2227 @@
+{
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=products",
+ "at": "2026-11-04T05:40:53.048Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.48,
+    0.75,
+    0.66,
+    0.65,
+    0.67,
+    0.84,
+    0.53,
+    0.36
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 0,
+    "transitions": 25,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6520,
+     "screens": 7.2,
+     "words": 507,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "pyrogel-xte-xtf.webp",
+      "ainsul-80.jpg",
+      "rockwool-slabs.webp",
+      "custom-metal-jobs.webp",
+      "steel-banding.webp",
+      "interam-endothermic-mat.webp",
+      "removable-mats.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 144,
+     "vw": 10,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.97,
+     "top": 208,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 144,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 208,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cold and cryogenic",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1169,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hot and high temperature",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1531,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Acoustic",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fireproofing",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cladding and jacketing",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2560,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Banding and fixings",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2865,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accessories and tapes",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3227,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Mastics and adhesives",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3626,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fabrics and removable covers",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3930,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pipe supports",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 4256,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Specialty",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 4520,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 5000,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 5501,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      19,
+      26,
+      63,
+      144
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.8
+     },
+     "measureChars": 60,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "text": "About 90 product lines."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 710,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0a0a0a",
+       "top": 4880,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 10,
+     "radius": 0,
+     "height": 76,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Products",
+      "Talk to an expert",
+      "All",
+      "Hot"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6520,
+    "margins": {
+     "left": 24,
+     "right": 52
+    },
+    "sections": [
+     {
+      "sel": "section.b-page-hero",
+      "tag": "section",
+      "top": 88,
+      "height": 622,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About 90",
+       "size": 144,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 521,
+      "textLeft": 24,
+      "textRight": 521,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-filter",
+      "tag": "section",
+      "top": 710,
+      "height": 315,
+      "words": 17,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "Filter by job",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-families",
+      "tag": "section",
+      "top": 1025,
+      "height": 3856,
+      "words": 326,
+      "media": 9,
+      "middle": 68,
+      "heading": {
+       "text": "Cold and cryogenic",
+       "size": 63,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 50,
+      "textLeft": 24,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-closing.b-on-ink",
+      "tag": "section",
+      "top": 4880,
+      "height": 621,
+      "words": 21,
+      "media": 0,
+      "middle": 323,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 144,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 52,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 5501,
+      "height": 1019,
+      "words": 102,
+      "media": 0,
+      "middle": 105,
+      "heading": {
+       "text": "Products",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 52,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5408,
+      "height": 412
+     }
+    ],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 144,
+      "top": 208,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.24,
+    "voidBox": {
+     "x": 960,
+     "y": 120,
+     "w": 480,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.52,
+    0.79,
+    0.76,
+    0.74,
+    0.77,
+    0.8,
+    0.75,
+    0.71,
+    0.74,
+    0.82,
+    0.71,
+    0.73
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 0,
+    "transitions": 25,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 13015,
+     "screens": 12.7,
+     "words": 496,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "pyrogel-xte-xtf.webp",
+      "ainsul-80.jpg",
+      "rockwool-slabs.webp",
+      "custom-metal-jobs.webp",
+      "steel-banding.webp",
+      "interam-endothermic-mat.webp",
+      "removable-mats.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 76.8,
+     "vw": 10,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 208,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 76.8,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 208,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cold and cryogenic",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1164,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hot and high temperature",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2224,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Acoustic",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3284,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fireproofing",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4344,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cladding and jacketing",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5324,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Banding and fixings",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6279,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accessories and tapes",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 7339,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Mastics and adhesives",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8434,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fabrics and removable covers",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8763,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pipe supports",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 9788,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Specialty",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 10742,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 11368,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 11767,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      18,
+      23,
+      44,
+      77
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.8
+     },
+     "measureChars": 30,
+     "max": {
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "text": "About 90 product lines."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 635,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0a0a0a",
+       "top": 11248,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 9,
+     "radius": 0,
+     "height": 72,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu",
+      "All",
+      "Hot",
+      "Cold"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 9,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 13015,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.b-page-hero",
+      "tag": "section",
+      "top": 88,
+      "height": 547,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About 90",
+       "size": 77,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 267,
+      "textLeft": 24,
+      "textRight": 267,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-filter",
+      "tag": "section",
+      "top": 635,
+      "height": 386,
+      "words": 17,
+      "media": 0,
+      "middle": 8,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-families",
+      "tag": "section",
+      "top": 1020,
+      "height": 10228,
+      "words": 326,
+      "media": 9,
+      "middle": 0,
+      "heading": {
+       "text": "Cold and cryogenic",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-closing.b-on-ink",
+      "tag": "section",
+      "top": 11248,
+      "height": 519,
+      "words": 21,
+      "media": 0,
+      "middle": 107,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 77,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 80,
+      "textLeft": 24,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 11767,
+      "height": 1247,
+      "words": 102,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Products",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 52,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 11672,
+      "height": 452
+     }
+    ],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 77,
+      "top": 208,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.54,
+    0.93,
+    0.71,
+    0.71,
+    0.76,
+    0.73,
+    0.69,
+    0.72,
+    0.74,
+    0.75,
+    0.81,
+    0.46
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 0,
+    "transitions": 25,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10597,
+     "screens": 12.6,
+     "words": 496,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "foamglas-cryogenic.webp",
+      "pyrogel-xte-xtf.webp",
+      "ainsul-80.jpg",
+      "rockwool-slabs.webp",
+      "custom-metal-jobs.webp",
+      "steel-banding.webp",
+      "interam-endothermic-mat.webp",
+      "removable-mats.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 41,
+     "vw": 10.5,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About 90 product lines.",
+     "words": 4,
+     "lines": 2,
+     "size": 41,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "About 90 product lines.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cold and cryogenic",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1136,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hot and high temperature",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1931,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Acoustic",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2735,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fireproofing",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3530,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cladding and jacketing",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4248,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Banding and fixings",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4951,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accessories and tapes",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5721,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Mastics and adhesives",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6535,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fabrics and removable covers",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6862,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pipe supports",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7632,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Specialty",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8302,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Not sure which family?",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 8820,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9188,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      17,
+      20,
+      36,
+      41
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.8
+     },
+     "measureChars": 17,
+     "max": {
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "text": "About 90 product lines."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 541,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0a0a0a",
+       "top": 8732,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 8,
+     "radius": 0,
+     "height": 64,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu",
+      "All",
+      "Hot",
+      "Cold"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 9,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 10597,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.b-page-hero",
+      "tag": "section",
+      "top": 72,
+      "height": 469,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About 90",
+       "size": 41,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 120,
+      "textLeft": 16,
+      "textRight": 120,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-filter",
+      "tag": "section",
+      "top": 541,
+      "height": 486,
+      "words": 17,
+      "media": 0,
+      "middle": 4,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 81,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-families",
+      "tag": "section",
+      "top": 1028,
+      "height": 7705,
+      "words": 326,
+      "media": 9,
+      "middle": 0,
+      "heading": {
+       "text": "Cold and cryogenic",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-closing.b-on-ink",
+      "tag": "section",
+      "top": 8732,
+      "height": 456,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Not sure which family?",
+       "size": 41,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 59,
+      "textLeft": 16,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-wordmark",
+      "tag": "div",
+      "top": 9188,
+      "height": 186,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-footer__grid",
+      "tag": "div",
+      "top": 9493,
+      "height": 1072,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Products",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 38,
+      "textLeft": 16,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 9052,
+      "height": 336
+     }
+    ],
+    "h1s": [
+     {
+      "text": "About 90 product lines.",
+      "size": 41,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 24px on the left, 52px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 412px stretch at 5408px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    768
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/tablet-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/mobile-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-products-page/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

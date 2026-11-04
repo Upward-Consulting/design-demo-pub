@@ -1,0 +1,23 @@
+{
+ "status": "no-issues-detected",
+ "viewport": 390,
+ "checked": {
+  "controls": 12,
+  "containers": 11,
+  "texts": 67,
+  "surfaces": 41,
+  "svgs": 1
+ },
+ "counts": {},
+ "findings": [],
+ "deferred": [],
+ "smallest": {
+  "px": 13.03,
+  "el": "a.b-skip",
+  "text": "Skip to content"
+ },
+ "manual": [
+  "div.b-strip__track: runs an infinite animation, not linted",
+  "Boxes only: optical centring, hierarchy, contrast, states and motion are judged by eye (references/craft-rules.md)."
+ ]
+}

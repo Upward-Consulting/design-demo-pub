@@ -1,0 +1,11 @@
+{
+  "devServer": "http://127.0.0.1:5201",
+  "workbench": "http://127.0.0.1:5201/ds.html",
+  "demoView": "http://127.0.0.1:5201/ds.html?view=demo&d=<L>&page=<key>",
+  "pages": ["home", "products", "corrosion", "contact"],
+  "demos": {
+    "A": {"direction": "editorial-report", "seed": 103, "port": 8931, "lane": "src/design-system/demos/A/", "tokenPrefix": "--dA-", "classPrefix": "a-", "sheet": ".ds-induction/taste/demos/A/direction.md", "report": ".ds-induction/evidence/reports/demos/A.json"},
+    "B": {"direction": "loud-flat-poster", "seed": 101, "port": 8932, "lane": "src/design-system/demos/B/", "tokenPrefix": "--dB-", "classPrefix": "b-", "sheet": ".ds-induction/taste/demos/B/direction.md", "report": ".ds-induction/evidence/reports/demos/B.json"}
+  },
+  "shared": {"copyDeck": "src/design-system/content/demo-copy.ts", "pictures": "src/design-system/assets/own/pictures.ts", "storyKit": "src/design-system/story/"}
+}

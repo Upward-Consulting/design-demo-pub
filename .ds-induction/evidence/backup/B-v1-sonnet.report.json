@@ -1,0 +1,362 @@
+{
+ "demo": "B",
+ "direction": "loud-flat-poster (Loud and flat), seed 101",
+ "port": 8932,
+ "lane": "src/design-system/demos/B/",
+ "urls": {
+  "home": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=home",
+  "products": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=products",
+  "corrosion": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=corrosion",
+  "contact": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=contact"
+ },
+ "pages": [
+  {
+   "key": "home",
+   "scope": "page",
+   "gate": ".ds-induction/taste/demos/B/inspect-home-page/gate.json: 0 FAIL, 4 WARN (defended: card-rows = the dealt proof tiles, sector-named filled tiles with no icons or cards; no-footage = no footage in the client's assets and owner ruled own pictures only; empty-middle = the photo strip is a clipped moving marquee whose off-screen pictures the probe reads as a gap; blank-gap = the footer's colour-block wordmark, which the probe does not count as content)",
+   "allowances": [],
+   "craft_lint": {
+    "1440": "0 findings",
+    "390": "0 findings"
+   },
+   "look": {
+    "round": 1,
+    "scored": false,
+    "note": "one abbreviated look round on the 1440 and 390 overview sheets; the 14 passes were not scored per page",
+    "caps": [],
+    "top3_fixed": [
+     "first screen had an empty lower left until scroll: the first statement and its cut-out now stand at progress 0",
+     "phone workshop: the first picture spanned two columns of a one-column grid and squeezed the second caption: fixed",
+     "stats claim too small for a heading: raised to the head step"
+    ]
+   }
+  },
+  {
+   "key": "products",
+   "scope": "page",
+   "gate": ".ds-induction/taste/demos/B/inspect-products-page/gate.json: 0 FAIL, 3 WARN (defended: no-footage as above; off-centre = ragged right-hand text lines, the grid and buttons reach the 24 px margin; blank-gap = footer wordmark)",
+   "allowances": [],
+   "craft_lint": {
+    "1440": "0 findings",
+    "390": "0 findings"
+   },
+   "look": {
+    "round": 1,
+    "scored": false,
+    "note": "one abbreviated look round on overview sheets at 1440; the 390 page was not reviewed by eye after the final change",
+    "caps": [],
+    "top3_fixed": [
+     "eleven identical tall family rows: converted to a compact line-up with a 168 px thumbnail",
+     "filter label pressed against the hero edge: band padded",
+     "family name wrapped to three lines: name column widened"
+    ]
+   }
+  },
+  {
+   "key": "corrosion",
+   "scope": "page",
+   "gate": ".ds-induction/taste/demos/B/inspect-corrosion-page/gate.json: 0 FAIL, 3 WARN (defended: no-footage as above; blank-gap = footer wordmark; still-page = 12 elements move, entrances on the bands, the list and the close, more motion would compete with the reading)",
+   "allowances": [],
+   "craft_lint": {
+    "1440": "0 findings",
+    "390": "0 findings"
+   },
+   "look": {
+    "round": 1,
+    "scored": false,
+    "note": "one abbreviated look round at 1440; band copy spacing fixed after it",
+    "caps": [],
+    "top3_fixed": [
+     "step band title and body had no gap: copy wrapper gets its own 22 px rhythm",
+     "few pictures (2): valve, cut-out, thermobreak and interam added (5 in all)",
+     "phone band width 64 percent: full width on a phone"
+    ]
+   }
+  },
+  {
+   "key": "contact",
+   "scope": "page",
+   "gate": ".ds-induction/taste/demos/B/inspect-contact-page/gate.json: 0 FAIL, 4 WARN (defended: no-footage as above; blank-gap = footer wordmark; still-page = 10 elements move; lopsided = the form intro column is one photograph and one paragraph beside the form)",
+   "allowances": [],
+   "craft_lint": {
+    "1440": "0 findings",
+    "390": "0 findings"
+   },
+   "look": {
+    "round": 1,
+    "scored": false,
+    "note": "not visually reviewed as a look round after the final changes; fixes came from the gate: covered branch names on a phone, edge text in the email cell, a mixed-face heading, an eyebrow above the branch phone placeholder",
+    "caps": [],
+    "top3_fixed": [
+     "branch note overlapped the city name at 390: branch rows stack on a phone",
+     "email cell touched the right edge at 390: cell text wraps",
+     "hero void on the right: crew photograph added"
+    ]
+   }
+  },
+  {
+   "key": "home",
+   "scope": "opener",
+   "gate": ".ds-induction/taste/demos/B/inspect-home-opener/gate.json: 0 FAIL, 1 WARN (card-rows is a page-wide rule; the opener holds no cards)",
+   "allowances": [],
+   "craft_lint": {
+    "1440": "0 findings",
+    "390": "0 findings"
+   },
+   "look": null
+  }
+ ],
+ "story_check": {
+  "file": ".ds-induction/taste/demos/B/story-check.run.js",
+  "settings": {
+   "MAX_HOLD": 1,
+   "BLOCKOUT": false,
+   "VIEWPORT_SECONDS": 2,
+   "READ_SECONDS_PER_WORD": 0.3,
+   "WORD_CAP": 12,
+   "MAX_SCREENS": 14,
+   "IMAGE_KB": 350,
+   "SCENE_CAP": 3,
+   "PICTURE_FLOOR": 4,
+   "GENERATED_COUNTS": 0,
+   "HIJACK": [],
+   "WHEEL": 400,
+   "IDLE_MS": 5000,
+   "SCRAMBLE_MAX": 40,
+   "smoothing_weight": 0.14,
+   "source": "profile.json story block; pictures own (BLOCKOUT false)"
+  },
+  "status": "findings",
+  "fails": 0,
+  "warns": 2,
+  "results": "0 FAIL. Warnings: parallax-unmeasured (opener: the photograph moves 40 px = 7.5% of its height, inside the 8% limit, and is never fully inside the viewport, so the check cannot measure it; judged by hand: within the limit); too-many-words (opener holds 30 words: the h1, the five statements and the payoff that the brief makes the motion content; each statement is still for its full reading window).",
+  "probes": {
+   "firstView": "h1 opacity 1 in view at 1.5 s",
+   "wheelFirst": "moved at 1.5 s",
+   "keys": "Space and PageDown move the page",
+   "reducedRunning": "0 running at 1.2 s reduced motion",
+   "reducedWheel": "400 px wheel landed 400 px within 150 ms",
+   "idle": "pause control is a button; no idle motion FAIL",
+   "tails": "0 entrance tails"
+  },
+  "n_a_rules": [],
+  "fixed_during_check": [
+   "focus-hidden on the closed menu (menu not rendered while closed)",
+   "picture floor: opener carries 4 own pictures (photograph and three product cut-outs)",
+   "motion floor: 11 moving elements (statements, cut-outs, payoff, photograph)",
+   "nondeterministic p=0 state: photograph rise moved from CSS keyframes into the chapter's progress",
+   "text-moves-while-read: still window starts after the payoff lands",
+   "parallax on the cut-outs: travel reduced to 8 px"
+  ]
+ },
+ "scene_sheets": {
+  "dir": ".ds-induction/taste/demos/B/scenes-home",
+  "read": [
+   "opener-desktop.jpg (final, after the first-statement change)",
+   "opener-phone.jpg (final)",
+   "reduced-desktop.jpg (final, 12 screens)"
+  ],
+  "note": "the opener frames at 0% to 100% read as a sequence: the first statement and its cut-out are in place at 0%, the other four statements and their cut-outs land across the first fifth of the hold, the payoff follows; the phone shows the finished composition; reduced motion shows every screen at rest"
+ },
+ "motion": {
+  "load": "home: 0 hidden content at first paint; the opener statements and cut-outs are hidden at scroll 0 by design (they land with progress) and the reveals below the fold trigger on scroll",
+  "products_filter_click": "no entrance/exit defects except the 320 ms family collapse (rows reach zero height; the trace reads the final frame as a vanish)",
+  "menu_phone_open": "no issues (opens in 600 ms, links stagger 40 ms)",
+  "menu_close": "250 ms wipe; then removed from layout (display none) so nothing inside it can take focus",
+  "hover_probe": "buttons: 200 ms background, press scale 0.97 at 140 ms"
+ },
+ "keyboard_checks": {
+  "menu": "Escape closes, focus returns to the Menu button, aria-expanded false, page inert cleared",
+  "filter": "Enter on Cold: aria-pressed true, 'Showing 4 of 11 families.', visible focus ring",
+  "form": "empty submit: focus moves to the error summary; six fields aria-invalid with described errors; valid submit: success state takes focus, no network call"
+ },
+ "font_audit": {
+  "BRAND": "Red Hat Display | Red Hat Text",
+  "results": "0 elements outside, 0 faces not loaded at 1440 and 390 on all four pages"
+ },
+ "console": "0 errors and 0 warnings at 1440, 768 and 390 on every page in the final gate runs; fresh loads clean",
+ "typecheck": "npx tsc --noEmit: pass",
+ "pictures": [
+  {
+   "slot": "home opener photograph",
+   "source": "own",
+   "credit": "Bellis client photograph (hero/bellis-hard-hat.jpg)"
+  },
+  {
+   "slot": "home opener cut-outs (3)",
+   "source": "own",
+   "credit": "Bellis client product shots, cut out by the lead (cutouts/rockwool-slabs, foamglas-cryogenic, rubber-insulation)"
+  },
+  {
+   "slot": "home jobs (5): cut-out, pipe cover, acoustic foam, Pyrogel HPS, Foamglas",
+   "source": "own",
+   "credit": "client pictures in the shared pool"
+  },
+  {
+   "slot": "home steps: Foamglas specimen, sheet-metal rolling, crew (operator)",
+   "source": "own",
+   "credit": "client pictures"
+  },
+  {
+   "slot": "home workshop (3): stainless tanker, removable covers, fabric expansion joint",
+   "source": "own",
+   "credit": "client pictures"
+  },
+  {
+   "slot": "home photograph strip (10 repeats of 10 client pictures)",
+   "source": "own",
+   "credit": "client pictures; decorative, alt empty"
+  },
+  {
+   "slot": "products family thumbnails (9)",
+   "source": "own",
+   "credit": "client pictures"
+  },
+  {
+   "slot": "corrosion: rusted flange (hero), valve pipework, interam, cut-out Foamglas, thermobreak",
+   "source": "own",
+   "credit": "client pictures"
+  },
+  {
+   "slot": "contact: branch building, crew sign, operator, sheet-metal rolling, crew (hero)",
+   "source": "own",
+   "credit": "client pictures"
+  }
+ ],
+ "copy_added": [
+  "Materials: (label before a job's materials list)",
+  "Showing N of 11 families. (live count under the job filter)",
+  "Menu, Close, Site menu, Footer, Bellis Australia home (accessible names only)",
+  "Pause motion (AmbientPause default label, photograph strip)",
+  "Sales email, Main line, Five branches, Talk to an expert: all from the deck (no addition)"
+ ],
+ "allowances": [],
+ "allowances_note": "No --allow rule ids were used and no taste rule was allowed. Two devices are used that the house rules do not name: the accordion's orange tints (one hue, dealt palette family) and the photograph marquee with a pause control (story-kit AmbientPause). Neither needed an allowance.",
+ "sample_details": [],
+ "departures": [
+  {
+   "from": "direction: hero headline uppercase",
+   "why": "the type system says choose uppercase or lowercase; chose lowercase: the copy's h1 and headings must hold two lines at 390, lowercase does, uppercase did not at a readable size, and the logo is lowercase"
+  },
+  {
+   "from": "hero blueprint: 11.4vw, leading 0.88, tracking -0.02em, centred",
+   "why": "type system leading 0.92 and tracking -0.03em (it wins over the blueprint); desktop headline 10vw because the copy 'Insulation for heavy industry.' is two lines at this size; flush left per the direction's composition"
+  },
+  {
+   "from": "phone headline 17vw",
+   "why": "the copy deck's h1 cannot hold two lines at 17vw on 390 px; phone headline is 10.5vw"
+  },
+  {
+   "from": "hero photograph cropped by the bottom edge to two thirds",
+   "why": "it is cropped only by the first screen's bottom edge; the photograph is not fully inside the viewport, so the rise measures as unmeasured and is judged by hand (7.5% of its height)"
+  },
+  {
+   "from": "stats: one figure at clamp(180px, 23vw, 380px)",
+   "why": "the figure sits at the display step (about 135 px at 1440): the five-step system forbids a sixth size. The other three figures are shown too, because the deck has four figures and each must show. Weaker than the blueprint: see rough"
+  },
+  {
+   "from": "proof: one accent-coloured heading tile twice as wide, first",
+   "why": "magenta is kept for buttons alone; the heading is set above the grid instead"
+  },
+  {
+   "from": "proof: eight tiles at most on a phone",
+   "why": "proof is never sampled: all 24 names show, by sector; phone tiles are 2:1 (not 3:2) so the board stays near 1.5 screens"
+  },
+  {
+   "from": "showcase: output slips along the bottom edge with sample output",
+   "why": "no sample output in the deck or the client's assets; the slips carry the deck's capability lines, in the left column, as a stack of unequal slips"
+  },
+  {
+   "from": "contact: newsletter or booking bar with a name and email input",
+   "why": "the deck has no newsletter; the three-cell bar is phone, sales email and the action, from the deck"
+  },
+  {
+   "from": "photograph strip: cells and marquee",
+   "why": "marquee of client pictures with the story kit's AmbientPause (WCAG 2.2.2)"
+  },
+  {
+   "from": "video: one moving clip",
+   "why": "no footage in the client's assets and the owner ruled own pictures only; the moving picture is the opener's photograph rise (scroll-linked, within 8%) and the marquee"
+  },
+  {
+   "from": "accordion stage tints from the dealt palette",
+   "why": "one hue, darkest to lightest: #d9650b, #ef8a1c, #f9a21f, #ffc65c (orange family of the dealt candy palette and one darker step)"
+  },
+  {
+   "from": "footer: wordmark built from blocks",
+   "why": "built from the letters of the client's name, one size (the display step), not from the logo, which is only supplied at 165 px or less"
+  }
+ ],
+ "rough": [
+  "The stats figure does not own its screen as strongly as the blueprint wants: 1981 sits at about 135 px at 1440 and the right half of the field is empty by design. The sixth size the blueprint implies was refused.",
+  "The phone opener stacks its three cut-outs between the photograph and the statements, which reads busy and pushes the statements below the first screen on a phone.",
+  "Entrance motion on the utility pages is the Reveal rise at 700 ms with 70 ms stagger; the look is judged from overview sheets only.",
+  "The first screen photograph is cropped at the viewport's bottom edge rather than to two thirds of its height.",
+  "The products families collapse over 320 ms when filtered; the motion trace reports the final frame as a vanish. Watched at speed it is a collapse, not a cut.",
+  "The contact page has not had a look round after its final changes; the 390 Contact layout was checked by gate and geometry only.",
+  "Not verified: the 820 px width (the gates measured 1440, 768 and 390; the brief's 820 screenshots were not taken), the full keyboard walk through every chrome link, the reduced-motion sheet of Products and Corrosion, the production build, the owner's live review on a phone.",
+  "Fonts load from Google Fonts with a plain @import (dev workbench only); the production licence check is not done.",
+  "No look round scored against the fourteen passes; no critique scores are recorded as evidence.",
+  "Not verified: the 820 px width (the gates measured 1440, 768 and 390; no 820 screenshots were taken), a full keyboard walk through every chrome link, the production build, and the owner's live review on a phone."
+ ],
+ "findings_for_the_notes": [
+  {
+   "kind": "trap",
+   "text": "A useChapterProgress call in the component that renders StoryChapter reads the finished state (the hook needs the chapter's context). Put the hook in a child rendered inside the chapter.",
+   "reproduction": "Opener.tsx before the split: statements stayed at p=1 at scroll 0",
+   "workaround": "OpenerBody child component"
+  },
+  {
+   "kind": "trap",
+   "text": "Story-check focus-hidden counts links inside an inert panel and inside a visibility:hidden panel as focusable. A closed menu is rendered only while open (three states: closed, opening, open, closing).",
+   "reproduction": "story-check.run.js FAIL focus-hidden on the closed menu",
+   "workaround": "menu state machine; display none when closed"
+  },
+  {
+   "kind": "trap",
+   "text": "A time-based CSS animation on a picture in a live chapter fails the determinism check at p=0 (nondeterministic). Scrub the rise with the chapter's progress instead.",
+   "reproduction": "story-check nondeterministic opener at p=0 on first visit",
+   "workaround": "photo rise as a GSAP tween over the first quarter of the hold"
+  },
+  {
+   "kind": "audit",
+   "text": "The taste probe's empty-middle reads a clipped moving marquee's off-screen pictures as a horizontal gap; its blank-gap rule does not count flat colour blocks or single letters as content. Both are probe limits, defended in the report.",
+   "reproduction": "taste-gate page scope on Home and every page's footer",
+   "workaround": "defended WARN"
+  },
+  {
+   "kind": "trap",
+   "text": "The gate's covered-text rule caught a phone-only overlap (a branch note over a city name) that the 1440 layout does not show. Check the gate's other widths when a grid places children by column.",
+   "reproduction": "taste-gate page scope on Contact, screen at 390",
+   "workaround": "stack the branch rows on a phone"
+  },
+  {
+   "kind": "trap",
+   "text": "Playwright MCP's run_code_unsafe cannot read files outside the repo or use require or dynamic import in its context, and echoes the whole snippet per call; the taste toolkit's Chrome client (taste/scripts/lib/cdp.mjs) runs craft-lint and the font audit from Node without pasting them.",
+   "reproduction": "browser_run_code_unsafe with a wrapper that reads craft-lint.js",
+   "workaround": ".ds-induction/taste/demos/B/run-checks.mjs and capture.mjs"
+  }
+ ],
+ "files_written": [
+  "src/design-system/demos/B/demo.tsx",
+  "src/design-system/demos/B/demo.css",
+  "src/design-system/demos/B/story.json",
+  "src/design-system/demos/B/parts/primitives.tsx",
+  "src/design-system/demos/B/parts/Chrome.tsx",
+  "src/design-system/demos/B/pages/Home.tsx",
+  "src/design-system/demos/B/pages/Opener.tsx",
+  "src/design-system/demos/B/pages/Products.tsx",
+  "src/design-system/demos/B/pages/Corrosion.tsx",
+  "src/design-system/demos/B/pages/Contact.tsx",
+  ".ds-induction/taste/demos/B/font-audit.js",
+  ".ds-induction/taste/demos/B/story-check.run.js",
+  ".ds-induction/taste/demos/B/run-checks.mjs",
+  ".ds-induction/taste/demos/B/capture.mjs",
+  ".ds-induction/taste/demos/B/motion-*.run.js",
+  ".ds-induction/taste/demos/B/inspect-*",
+  ".ds-induction/taste/demos/B/scenes-home/",
+  ".ds-induction/evidence/demos/B/*.png",
+  ".ds-induction/evidence/reports/demos/B.json"
+ ],
+ "commits": "none"
+}

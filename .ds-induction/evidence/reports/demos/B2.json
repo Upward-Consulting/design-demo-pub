@@ -1,0 +1,605 @@
+{
+  "demo": "B2",
+  "revision": "home v2 of B (B is frozen; B2 changes the Home opener and what follows it)",
+  "builder_model": "haiku-5.5 xhigh",
+  "direction": "loud-flat-poster (Loud and flat, seed 101), Candy chapters palette kept",
+  "port": 8932,
+  "lane": "src/design-system/demos/B2/ (+ .ds-induction/evidence/demos/B2/, .ds-induction/taste/demos/B2/, .ds-induction/evidence/reports/demos/B2.json)",
+  "urls": {
+    "home": "http://127.0.0.1:5201/ds.html?view=demo&d=B2&page=home",
+    "home_still": "http://127.0.0.1:5201/ds.html?view=demo&d=B2&page=home&still=1",
+    "products": "http://127.0.0.1:5201/ds.html?view=demo&d=B2&page=products",
+    "corrosion": "http://127.0.0.1:5201/ds.html?view=demo&d=B2&page=corrosion",
+    "contact": "http://127.0.0.1:5201/ds.html?view=demo&d=B2&page=contact",
+    "side_by_side": "lead uses ?view=demos&page=home (not opened by the builder)"
+  },
+  "structure_v2": [
+    "Opener (lock chapter, hold 1, weight 0, phone rest): h1 'insulation for heavy industry.' (4 words), 'Talk to an expert' and 'or call 1300 740 564' (links), crew photograph (crewRoofSmall) rising 7.5% of its height and settling its tilt 6 to 4 degrees, five stickers landing one per job in order (cutRockwool temperature 0.12-0.24, cutFoamglas cold 0.28-0.40, acousticFoam tile noise 0.44-0.56, pyrogelCut tile fire 0.60-0.72, rustedFlange tile corrosion 0.76-0.88), rests 0.88-1.",
+    "Statements (not held): five statement fields after the stage, one line each (too hot to touch / too cold to hold / too loud to work beside / too close to fire / too wet to last), flat colour fields ink, paper, cyan, pink, orange, then the payoff 'bellis insulates against all five.' on ink. Masked-line reveals at 88% of the viewport, 700 ms, 70 ms stagger, field itself does not move.",
+    "The existing five-jobs section continues as in B (job pictures for noise, fire and corrosion changed so no sticker picture repeats on Home)."
+  ],
+  "pages": [
+    {
+      "key": "home",
+      "scope": "page",
+      "gate": {
+        "result": "0 FAIL, 4 WARN (final run, 1440)",
+        "warns": [
+          "card-rows @1440 (+768): defended: the proof tiles, the workshop slips and the branch cells are flat colour tiles of the deck's groups, not boxed cards; the sections are B's and the brief keeps them.",
+          "size-count @1440 and 390 (20 sizes): defended: the display sizes are the direction's per-block poster sizes (the statements 7-9vw, the figure, the fields), set by the sheet, not a stray scale.",
+          "no-footage @1440: defended: the client's pool holds no honest clip and the owner ruled own pictures only (no generated or found pictures).",
+          "blank-gap @768 452 px at ~12650 px: not resolved. It sits between the closing field and the footer at 768 px and was flagged on B too; the footer is chrome and frozen for this build."
+        ]
+      },
+      "allowances": [],
+      "craft_lint": "1440 and 390 after the final pass: only the footer 'touching' finding (chrome, frozen; 4 px between 'Main line' and a footer link).",
+      "look": {
+        "round": 1,
+        "passes": 14,
+        "scores": {
+          "design": 7,
+          "usability": 6.5,
+          "creativity": 7.5,
+          "content": 6.5,
+          "overall": 6.9
+        },
+        "calc": "0.4x7 + 0.3x6.5 + 0.2x7.5 + 0.1x6.5 = 6.9",
+        "viewed": [
+          "1440 first frame p0, mid-hold p50, finished p100",
+          "1440 finished full page (still=1, after a scroll pass), 8 sheets",
+          "390 first frame and phone finished full page (2 sheets, before the workshop fix; the fixed area was then checked by measurement)",
+          "reduced motion (scenes sheet)",
+          "scenes sheets desktop and phone (3 sheets, all read)"
+        ],
+        "pass_notes": {
+          "1_one_second": "first frame: the headline and the magenta action; at p0 the photograph and no stickers, so the one answer is the headline. Weaker than B's first frame (see compare).",
+          "2_squint": "two big masses in the stage (yellow with the headline, the photo collage) then the black, white, cyan, pink, orange statement bands: strong and clear.",
+          "3_cover_logo": "the stickers are the device: the insulation products stuck on the crew photograph. A competitor could not use the same five stickers, but the headline could belong to an insulation distributor, as before.",
+          "4_edges": "left edge of the headline, action and fields at 24 px; statement lines alternate left and right on purpose (zig-zag), two edges by design.",
+          "5_space_frame": "the stage's lower-left is empty at p0 until the stickers land (a rest that fills during the hold; at p100 it is full). The statements and the fields keep 24 px margins both sides.",
+          "6_type": "jump from 16-20 px body to 100-160 px display is decisive; the 11.2vw headline is the largest mass; the phone h1 at 12.4vw is about 40 px larger than B's 10.6vw.",
+          "7_colour": "yellow ground holds the most, black and white the rest; cyan, pink and orange once each in the statement bands; magenta only on the actions.",
+          "8_images": "real pictures: crew photograph, five stickers (own pool), plus B's job, step and workshop pictures; the job pictures no longer repeat a sticker.",
+          "9_sameness": "stage, statement stack, jobs fields, steps, workshop, proof, figures, branches, close: each section its own layout (the statement stack and the field stack are both full-bleed bands, by design, one line each).",
+          "10_phone": "the phone first screen is its own composition (headline 12.4vw, action, photo at 84% width and the stickers under it); the workshop photograph overlapped the copy on the phone and was fixed (grid row reset).",
+          "11_fullness": "no screen is a narrow column; the stage and each statement field fill the width; the lower-left of the first frame is the one thin spot.",
+          "12_substance": "every deck string shown; the primary action is visible on the first screen at 390 and at every desktop size; the statement block carries the five jobs the page then explains.",
+          "13_collisions": "measured at 1280x720, 1366x768, 1440x900, 1920x1080, 820x1180, 390x844, 320x568: h1, action and phone link never overlap, no sticker lands on text, no sideways scroll. The phone workshop overlap was the one collision found and is fixed.",
+          "14_competitor_live_thing": "live thing: the stickers arrive as the visitor scrolls, one job at a time; a competitor distributor could show product photos on a yellow ground, so the idea is the category's in part."
+        },
+        "top3_fixed": [
+          "phone: the workshop photograph covered the lead and the first chips (desktop row placement carried into the phone grid) -> grid-row reset on the phone; overlap measured as gone",
+          "first screen: the action sat at the bottom-left, far from the headline, and the stage's lower-right carried little mass -> action directly under the headline (the brief's 'under it'), collage widened from column 7 to column 5",
+          "statement fields: their mask padding hung into the bottom room (craft-lint bottom-inset, 22 findings before the fix, 0 after) -> line margin reset, field bottom room kept; the phone workshop slips tilt removed (near-tangent 2.2 px) -> square on the phone"
+        ],
+        "caps_applied": "none (0 FAIL; no empty-ground cap; the first frame is recorded as a weakness, not capped)",
+        "rounds": "one round with fixes; the fixed areas were re-checked by measurement or by the gate, not by a second look at the screenshots"
+      }
+    },
+    {
+      "key": "products",
+      "scope": "not re-gated",
+      "gate": "not run in this lane (Products is not changed; its console is clean at 1440)",
+      "allowances": []
+    },
+    {
+      "key": "corrosion",
+      "scope": "not re-gated",
+      "gate": "not run in this lane (Corrosion is not changed; its console is clean at 1440)",
+      "allowances": []
+    },
+    {
+      "key": "contact",
+      "scope": "not re-gated",
+      "gate": "not run in this lane (Contact is not changed; its console is clean at 1440)",
+      "allowances": []
+    }
+  ],
+  "story_check": {
+    "file": ".ds-induction/taste/demos/B2/story-check.run.js",
+    "settings": {
+      "MAX_HOLD": 1,
+      "BLOCKOUT": false,
+      "MAX_SCREENS": 14,
+      "IMAGE_KB": 350,
+      "WORD_CAP": 12,
+      "READ_SECONDS_PER_WORD": 0.3,
+      "VIEWPORT_SECONDS": 2,
+      "MOTION_FLOOR": 8,
+      "SCENE_CAP": 3,
+      "PICTURE_FLOOR": 4,
+      "GENERATED_COUNTS": 0,
+      "SHOTS": ".ds-induction/taste/demos/B2/story-shots",
+      "smoothing_weight": 0,
+      "source": "story.json (= profile.json story: budgets 14 / 350 / 120 / 60, smoothing none)"
+    },
+    "result": {
+      "status": "findings",
+      "fails": 7,
+      "warns": 2
+    },
+    "fails": [
+      "focus-hidden x7 on the closed menu (Close, Home, Products, Corrosion control, Contact, phone, Talk to an expert): checker false positive, the closed menu is inert and Tab never enters it (lead confirmed by keyboard); the menu is not changed."
+    ],
+    "warns": [
+      "parallax-unmeasured on a sticker (div, travel 13 px): the arrival slide is 6% of its own height (stickerRise 6, inside 8%); judged by hand: pass.",
+      "image-bytes on the opener: 403 KB of images transferred against 350 KB (the check's own count this run, cache disabled; matches the file-size sum of 402.7 KiB). Not met: see first_screen_images.desktop_chapter_all_stickers_KiB."
+    ],
+    "rules_now": {
+      "too_many_words": "0 (the stage holds 4 words: the h1; the links are not counted)",
+      "read_window": "0 (h1 visible and still across the whole hold, 1.0 screen against 0.6 needed)",
+      "text_moves_while_read": "0 (textStill [0,1])",
+      "dead_stretch": "0",
+      "motion_floor": "14 moving elements counted by the checker (floor 8): the photograph rise and tilt, the sticker arrivals and their tilts",
+      "first_view": "pass (h1 opacity 1 in the first viewport at 1.5 s)",
+      "wheel": "pass (400 px wheel moved the page at 1.5 s)",
+      "native_scroll": "pass (Space and PageDown move scrollY)",
+      "reduced_motion": "0 running animations; wheel landed 400/400 in 150 ms",
+      "idle_motion": "nothing moves on a clock (no load animation on the stage)",
+      "text_over_picture": "none (no text over a picture on the stage)",
+      "img_no_alt": "0 (every stage image has alt; stickers carry the pool's truthful alts)",
+      "image_bytes": "403 KB by the check (WARN, budget 350); first screen desktop 179.7 KiB",
+      "picture_floor": "6 own pictures in the chapter (floor 4): pass",
+      "length": "no finding (chapter 1.8 screens; story budget 14 screens)"
+    },
+    "n_a_for_one_chapter_opener": [
+      "consecutive-locks (one lock chapter)",
+      "scene-cap (one chapter, under 3)",
+      "hijack-unchecked (no hijack)"
+    ],
+    "before_after": {
+      "B_source": "B.json story_check (B's final run, not re-run here: the lane does not allow opening demo B)",
+      "rows": [
+        {
+          "measure": "words on the held stage",
+          "B": 30,
+          "B2": 4,
+          "target": "<= 12"
+        },
+        {
+          "measure": "too-many-words",
+          "B": "1 WARN (30 words)",
+          "B2": "0",
+          "target": "0"
+        },
+        {
+          "measure": "read-window",
+          "B": "6 WARN (each statement 0.00-0.07 screens, needs 0.60-0.75)",
+          "B2": "0 (statements are off the stage; the h1 holds 1.0 screen, needs 0.6)",
+          "target": "0"
+        },
+        {
+          "measure": "text-moves-while-read",
+          "B": "1 WARN (statement move at 0.75-1)",
+          "B2": "0",
+          "target": "0"
+        },
+        {
+          "measure": "dead-stretch",
+          "B": "none reported",
+          "B2": "0",
+          "target": "0"
+        },
+        {
+          "measure": "motion floor (moving elements, floor 8)",
+          "B": "not recorded in B.json",
+          "B2": "14",
+          "target": ">= 8"
+        },
+        {
+          "measure": "first view",
+          "B": "pass",
+          "B2": "pass",
+          "target": "pass"
+        },
+        {
+          "measure": "wheel capture",
+          "B": "pass",
+          "B2": "pass",
+          "target": "pass"
+        },
+        {
+          "measure": "reduced motion (running animations)",
+          "B": "0",
+          "B2": "0",
+          "target": "0"
+        },
+        {
+          "measure": "focus-hidden (closed menu)",
+          "B": "7 FAIL (checker false positive)",
+          "B2": "7 FAIL (same false positive, unchanged menu)",
+          "target": "documented false positive"
+        },
+        {
+          "measure": "parallax-unmeasured",
+          "B": "not reported",
+          "B2": "1 WARN (sticker arrival 6%, judged by hand: passes)",
+          "target": "judged by hand"
+        },
+        {
+          "measure": "first-screen image bytes, desktop",
+          "B": "about 1,330 KB (B.json)",
+          "B2": "179.7 KiB at load (photograph 155.7 + first sticker 19.6 + logo 4.3); 402.7 KiB across the hold",
+          "target": "< 350 KB"
+        },
+        {
+          "measure": "first-screen image bytes, phone (390x844)",
+          "B": "about 300 KB (crew photo only)",
+          "B2": "323.2 KiB at load (finished composition: photograph 50.3 + five stickers 252.9 + logo 4.3 + a job picture 21.6); the photograph and five stickers alone 297.3 KiB",
+          "target": "< 120 KB"
+        },
+        {
+          "measure": "chapter image bytes, desktop",
+          "B": "about 1,330 KB",
+          "B2": "402.7 KiB by file size and by the check (WARN, budget 350)",
+          "target": "< 350 KB"
+        },
+        {
+          "measure": "JS (gzip)",
+          "B": "not measured (dev server unminified)",
+          "B2": "not measured (dev server unminified)",
+          "target": "< 60 KB"
+        }
+      ]
+    },
+    "shape_note": "Story-check numbers for B are B.json's; B's Home was not opened by the builder."
+  },
+  "scene_sheets": {
+    "status": "run and read",
+    "files": [
+      ".ds-induction/taste/demos/B2/scenes-home/opener-desktop.jpg",
+      ".ds-induction/taste/demos/B2/scenes-home/opener-phone.jpg",
+      ".ds-induction/taste/demos/B2/scenes-home/reduced-desktop.jpg"
+    ],
+    "read": "all three read: desktop opener (photograph rises, stickers land one per job in order, stage rests, statement block follows); phone opener (finished composition, stickers in place, statement stack below); reduced motion (15 screens, every section populated, no blank band)."
+  },
+  "motion": {
+    "sticker_sequence": {
+      "tool": "motion-trace-stickers.run.js, wheel 16 px steps over 800 px, root .b-opener",
+      "status": "no appear, vanish or transition on any sticker; the jump rule flags only the scrubbed motion (photograph rise 2.5 px per 16 px wheel step, sticker rotation and translate), which is scrub, not a transition",
+      "stickers_driven_by": "GSAP paused timeline, tl.progress(p); arrival 0.12 p long, power2.out (scrubbed)",
+      "transitions_on_scrubbed_elements": "none"
+    },
+    "statement_reveal": {
+      "tool": "motion-trace-statements.run.js (no findings) and a direct sample of .b-mask__in as a field crosses 88%",
+      "measured": "line mask rises from translate 105% to 0 in 700 ms (transition 0.7 s), second field delayed 140 ms (70 ms stagger), field itself does not move, data-in set at the trigger",
+      "armed_only_with_motion": true
+    },
+    "hover_probe": "not run (the brief names the sticker sequence and the statement reveals; no hover-probe result is claimed)",
+    "menu": "unchanged from B (open 600 ms, close 250 ms, focus contained)"
+  },
+  "keyboard_checks": {
+    "walk": "header and opener by Tab from the top: brand, Home, Products, Corrosion control, Contact, phone, header 'Talk to an expert', opener 'Talk to an expert', opener phone link, then the steps buttons; every stop shows a 3 px solid focus ring. Observation: the first Tab from the top landed on the brand link, not the skip link (the chrome is frozen; not investigated further).",
+    "menu": "not re-walked (unchanged from B)",
+    "form": "not re-walked (Contact unchanged)"
+  },
+  "font_audit": {
+    "status": "ok at 390 (final run): 165 text elements, 0 outside Red Hat Display / Red Hat Text, 0 not loaded; faces loaded: Red Hat Display 900; Red Hat Text 400, 500, 700",
+    "at_1440": "run in the earlier pass, same faces, ok"
+  },
+  "craft_lint": {
+    "1440": "final-ish run: only the footer 'touching' (chrome)",
+    "390": "final run after the workshop fix: only the footer 'touching' (chrome); earlier near-tangent (workshop slips) fixed",
+    "fixed": [
+      "bottom-inset on statement fields (22 findings at 1440 before the fix, then 4 from the mask margin, 0 after)",
+      "workshop slips at 390 (near-tangent 2.2 px)",
+      "phone workshop photograph over the copy (overlap found by eye, measured, fixed)"
+    ]
+  },
+  "console": "0 errors on home (live and still, 1440 and 390), products, corrosion and contact at 1440; 3 info messages each (dev server)",
+  "typecheck": "npx tsc --noEmit exit 0 (final)",
+  "taste_gate": {
+    "page": {
+      "result": "0 FAIL, 4 WARN",
+      "report": ".ds-induction/taste/demos/B2/gate-home-page/report.json"
+    },
+    "opener": {
+      "result": "0 FAIL, 2 WARN (card-rows, size-count: defended above)",
+      "report": ".ds-induction/taste/demos/B2/gate-home-opener/report.json"
+    }
+  },
+  "widths": {
+    "opener_7_viewports": [
+      "1280x720",
+      "1366x768",
+      "1440x900",
+      "1920x1080",
+      "820x1180",
+      "390x844",
+      "320x568"
+    ],
+    "result": "h1 and action visible at p0 at all seven; no text overlap; no sticker over text at p0 or p1; no sideways scroll at any width (scrollWidth equals clientWidth)"
+  },
+  "h1": {
+    "size": "min(11.2vw, 18svh): 161.3 px at 1440x900; second line 81.3% of the content width (owner accepted 11.2vw)",
+    "case": "lowercase (the display rule), two lines at 390 (48 px)"
+  },
+  "first_screen_images": {
+    "method": "CDP Network.setCacheDisabled=true; fresh load of ds.html?view=demo&d=B2&page=home; wait 3 s; every image resource requested before any scroll (performance entries, transferSize). Desktop chapter: then seek p 0.1, 0.3, 0.5, 0.7, 0.9, 1 and sum the opener's files. Units: KiB (bytes / 1024).",
+    "desktop_1440x900_first_screen": {
+      "KiB": 179.7,
+      "files": [
+        "hero/bellis-hard-hat-1100.webp (crewRoofSmall) 155.7",
+        "cutouts/rockwool-slabs.webp (first sticker, in place at p0) 19.6",
+        "brand/bellis-logo-horizontal.webp 4.3"
+      ],
+      "target": "< 350",
+      "met": true
+    },
+    "desktop_chapter_all_stickers_KiB": {
+      "KiB": 402.7,
+      "files": [
+        "crewRoofSmall 155.7",
+        "cutRockwool 19.6",
+        "cutFoamglas 87.4",
+        "acousticFoamSmall 60.6",
+        "pyrogelCutSmall 49.8",
+        "rustedFlange (corrosion-control-pipe.jpg) 29.5"
+      ],
+      "target": "< 350 (IMAGE_KB)",
+      "met": false,
+      "over_by_KiB": 52.7,
+      "story_check_same_run": "image-bytes WARN 403 KB"
+    },
+    "phone_390x844_first_screen_finished_composition": {
+      "KiB": 323.2,
+      "files": [
+        "bellis-hard-hat-640.webp (crewRoofPhone, phone source) 50.3",
+        "cutRockwool 19.6",
+        "cutFoamglas 87.4",
+        "acousticFoamSmall 60.6",
+        "pyrogelCutSmall 49.8",
+        "rustedFlange 29.5",
+        "logo 4.3",
+        "products/pyrogel-xte-xtf.webp 21.6 (the temperature job picture: Chrome's lazy threshold loads it before the first scroll; not part of the opener)"
+      ],
+      "target": "< 120",
+      "met": false,
+      "over_by_KiB": 203.2
+    },
+    "phone_five_stickers_and_photograph_KiB": {
+      "KiB": 297.3,
+      "note": "the phone finished composition with all five stickers and the photograph, the number asked for; stickers were not dropped",
+      "target": "< 120",
+      "met": false,
+      "over_by_KiB": 177.3
+    },
+    "root_cause": "the five stickers are 252.9 KiB; the largest are the Foamglas cut-out (87.4 KiB; the file on disk is 89,234 bytes, unchanged from before the lead's clean-up, so the 113 KB total the lead quoted does not match the file sizes measured here: Rockwool 19.6 + Foamglas 87.4 = 107.0 KiB without the unused rubber cut-out), and the acoustic foam (60.6 KiB) and Pyrogel (49.8 KiB) tiles. Even the phone photograph alone (50.3 KiB) plus the Rockwool cut-out (19.6 KiB) is 69.9 KiB; the phone plan shows all five, so 120 KiB needs the Foamglas cut-out and the tiles smaller, not fewer stickers.",
+    "what_would_fix_it": "a WebP re-encode of the Foamglas cut-out at display size (about 400 px), or the lead's ruling on the phone budget"
+  },
+  "js": {
+    "measured": "not measured for production: the dev server serves unminified modules (4.8 MB transferred for the workbench), so the 60 KB gzip budget is not checked; GSAP is the opener's only addition and is used as a paused timeline"
+  },
+  "pictures": [
+    {
+      "slot": "opener photograph",
+      "source": "own",
+      "credit": "hero/bellis-hard-hat-640.webp (crewRoofPhone, phone source at 599 px and below) and hero/bellis-hard-hat-1100.webp (crewRoofSmall, above)"
+    },
+    {
+      "slot": "opener stickers (5)",
+      "source": "own",
+      "credit": "cutouts/rockwool-slabs.webp (temperature, in place at p0), cutouts/foamglas-cryogenic.webp (cold, arrives at 0.28), commercial/ainsul-80-640.webp (noise tile, arrives at 0.44), products/pyrogel-cut-640.webp (fire tile, arrives at 0.60), services/corrosion-control-pipe.jpg (corrosion tile, arrives at 0.76)"
+    },
+    {
+      "slot": "jobs (Home)",
+      "source": "own",
+      "credit": "products/pyrogel-xte-xtf.webp (temperature), services/contract-services.webp (people), services/oil-gas-energy.webp (noise), products/aspen-aerogel-pyrogel-hps.webp (fire), products/thermobreak-tube.webp (corrosion)"
+    },
+    {
+      "slot": "steps",
+      "source": "own",
+      "credit": "hero/site-photo-2016.jpg (Estimate; alt is the truthful branch alt), products/foamglas-cryogenic.webp (Procure), services/sheet-metal-fabrication.webp (Fabricate), services/removable-mats.webp (Install and maintain)"
+    },
+    {
+      "slot": "workshop",
+      "source": "own",
+      "credit": "services/custom-metal-jobs.webp"
+    }
+  ],
+  "copy_added": [
+    "The five problems insulation solves. (visually hidden h2 over the statement block; the deck has no heading for the block)"
+  ],
+  "allowances": [],
+  "allowances_note": "No --allow used; no gate rule was allowed.",
+  "departures": [
+    {
+      "from": "held stage carried the five statements (30 words)",
+      "to": "stage carries the h1 and the action only (4 words); statements are ordinary fields after the stage",
+      "why": "owner's 12-word cap and read-window ruling; the brief asks for this"
+    },
+    {
+      "from": "payoff on the stage at p0",
+      "to": "payoff is the last statement field (ink)",
+      "why": "keeps the stage at 4 words; the payoff still lands after the five"
+    },
+    {
+      "from": "action at the bottom-left of the stage",
+      "to": "action directly under the headline; phone link under it",
+      "why": "brief: 'the magenta button under it'; also closes the empty stage left-bottom at p0"
+    },
+    {
+      "from": "headline 11vw",
+      "to": "11.2vw (min with 18svh)",
+      "why": "at 11vw the second line spans 79.8% of the content width at 1440, under the 80% floor; 11.2vw gives 81.3%"
+    },
+    {
+      "from": "phone headline 10.6vw (B)",
+      "to": "12.4vw",
+      "why": "the phone first screen read small at 10.6vw; at 12.4vw 'heavy industry.' fills most of the phone width (checked in the phone screenshot, not measured)"
+    },
+    {
+      "from": "job pictures noise, fire, corrosion (B: acoustic foam, Pyrogel cut, rusted flange)",
+      "to": "oil-gas-energy, Pyrogel HPS, Thermobreak",
+      "why": "those three pictures are now stickers on the stage; no picture repeats on Home (B review finding 28)"
+    },
+    {
+      "from": "step 4 picture (B: oil-gas-energy)",
+      "to": "removable covers",
+      "why": "oil-gas-energy moved to the noise job; the step keeps a picture"
+    },
+    {
+      "from": "workshop slips tilted 1 and -1 degree on the phone",
+      "to": "square on the phone",
+      "why": "two slips 350 px wide with 1 degree tilt left their edges 2.2 px apart (craft-lint near-tangent)"
+    },
+    {
+      "from": "lazy stickers (loading=lazy in the DOM at load)",
+      "to": "sticker sources set when p is 0.04 before each arrival (rAF from the latest p)",
+      "why": "desktop first screen would otherwise load 425 KB of stickers before the first scroll"
+    },
+    {
+      "from": "first sticker (Rockwool) arrives over p 0.12-0.24",
+      "to": "first sticker is on the collage at p = 0 (from = to = 0, placed, never moving); the other four arrive over p 0.28-0.88",
+      "why": "owner ruling (follow-up): the first frame as rich as B's"
+    },
+    {
+      "from": "photograph as a plain img",
+      "to": "picture element: crewRoofPhone (640 px) below 600 px, crewRoofSmall (1100 px) above",
+      "why": "owner ruling (follow-up): phone photograph at 599 px and below"
+    },
+    {
+      "from": "payoff on the stage (B) and the 12-word rule",
+      "to": "payoff is the last statement field; accepted by the owner (follow-up Q5)",
+      "why": "owner ruling"
+    },
+    {
+      "from": "headline 11vw",
+      "to": "11.2vw, accepted by the owner (follow-up Q6)",
+      "why": "owner ruling"
+    },
+    {
+      "from": "noise and fire stickers at 1000 px (acousticFoam, pyrogelCut)",
+      "to": "acousticFoamSmall and pyrogelCutSmall (640 px files, the lead's additions; they show at 400 px or less)",
+      "why": "owner follow-up item 1"
+    }
+  ],
+  "rough": [
+    "First frame: as rich as B's, not identical. B's first frame also had the first statement 'too hot to touch.' in the lower-left; v2 keeps that text in the field after the stage, so the lower-left stays open at p0.",
+    "Phone first screen 323.2 KiB against 120 (photograph plus five stickers 297.3 KiB). Not met; the number is given, the stickers are not dropped.",
+    "Desktop chapter 402.7 KiB against 350 (WARN on the check). Foamglas cut-out 87.4 KiB is the largest piece; the lead's file.",
+    "Image budgets are checked with the cache disabled; the phone job picture (21.6 KiB) loads before the first scroll through Chrome's lazy threshold, not through the opener.",
+    "JS unmeasured (no production build); gap noted, not a blocker.",
+    "Footer 'touching' and the blank-gap at 768 px are in the frozen chrome; left alone per the lead.",
+    "Menu focus-hidden FAILs (7) are the checker's false positive; the menu is unchanged.",
+    "Hover probe not run."
+  ],
+  "owner_questions": [
+    "Answered (follow-up): payoff on the statement block (Q5) accepted; 11.2vw headline (Q6) accepted; the 60 KB JS budget stands (Q7), with JS unmeasured until a production build exists (noted gap); chrome left alone, footer gap goes to the system build's notes (Q8).",
+    "Answered (follow-up): the Rockwool sticker is on the collage at p = 0 (Q2): done.",
+    "Open for the lead: the phone first screen is 323.2 KiB (photograph and five stickers 297.3 KiB) against 120 KiB; the desktop chapter is 402.7 KiB against 350 KiB. Both are the Foamglas cut-out (87.4 KiB) and the stickers' sizes. A WebP re-encode of the Foamglas cut-out at display size is the next step; the lead's '113 KB together' does not match the file sizes here (Rockwool 19.6 + Foamglas 87.4 KiB).",
+    "Open for the owner: is the phone budget (120 KiB) to hold for the finished composition with five stickers, or is the phone allowed the photograph plus stickers at a higher number?"
+  ],
+  "findings_for_the_notes": [
+    {
+      "kind": "story-check limitation",
+      "text": "image-bytes reads 2 KB for a chapter whose files are cached from an earlier load (transferSize 0). Reload the page before the story check, or count file sizes, before trusting the number."
+    },
+    {
+      "kind": "story-check limitation",
+      "text": "parallax-unmeasured fires on an arrival slide that is never fully inside the viewport in a scrubbed chapter; the entrance rule says arrivals do not count, but the WARN still appears when the box is partly outside."
+    },
+    {
+      "kind": "pictures",
+      "text": "ainsul-80.jpg (200 KB) and pyrogel-cut.webp (96 KB) are the heavy stickers; a WebP re-encode at display size is the lead's call."
+    },
+    {
+      "kind": "pictures",
+      "text": "pictures.versiFoam alt still says 'drums' (review note 139); not rendered by B2."
+    }
+  ],
+  "review_findings": [
+    {
+      "id": "S13",
+      "status": "fixed",
+      "note": "held stage now 4 words (h1 only); statements moved to ordinary fields."
+    },
+    {
+      "id": "S31",
+      "status": "not fixed",
+      "note": "the action stays inside the held chapter as a link (the brief's instruction); the header action remains the first CTA for the chrome."
+    },
+    {
+      "id": "S8",
+      "status": "not fixed",
+      "note": "desktop first-screen weight 155 KB (was 1,330 KB): fixed on desktop; phone first screen 584 KB: not fixed (lead's files)."
+    },
+    {
+      "id": "S33",
+      "status": "not fixed",
+      "note": "JS budget 60 vs 15 KB: owner question; production JS not measured."
+    },
+    {
+      "id": "L-opener-overlap",
+      "status": "fixed",
+      "note": "no overlap at seven viewports (1280x720 to 320x568)."
+    },
+    {
+      "id": "L-opener-pacing",
+      "status": "disputed",
+      "note": "the statements no longer share the stage; the pacing question moves to the owner (not held)."
+    },
+    {
+      "id": "S15",
+      "status": "fixed",
+      "note": "stickers and photograph placed in percent of the photograph's box."
+    },
+    {
+      "id": "S28",
+      "status": "fixed",
+      "note": "no picture repeats on Home across the stage, jobs and steps (three job pictures and one step picture changed)."
+    },
+    {
+      "id": "P-low-noise-picture",
+      "status": "fixed",
+      "note": "the rubber insulation cut-out under 'too loud' is gone; the noise sticker is the acoustic foam tile."
+    },
+    {
+      "id": "J-home-blank-band",
+      "status": "fixed",
+      "note": "still=1 full page after a scroll pass shows no blank band."
+    },
+    {
+      "id": "S14",
+      "status": "fixed",
+      "note": "h1 and action static at p0; nothing on the stage moves on a clock."
+    },
+    {
+      "id": "S17",
+      "status": "fixed",
+      "note": "'since 1981' kept as in B."
+    },
+    {
+      "id": "S3/S4/S5/S6",
+      "status": "fixed",
+      "note": "menu and hover rules unchanged from B's fixes."
+    }
+  ],
+  "compare_with_B": {
+    "first_impression": "as rich as B's first frame, not quite: v2's first frame now has the headline, the action under it, the photograph and the Rockwool sticker in place at p0 (as B's did), but B's frame also had the first statement 'too hot to touch.' at the bottom-left. In v2 that statement is the first field after the stage, so the lower-left of the first frame stays open by design. Judged by eye on home-p0-1440.png.",
+    "sequence": "better: the statements read as poster fields with the payoff last; the other four stickers land one per job over the hold. B's held stack read as a wall of small statements.",
+    "phone": "bigger headline (12.4vw against B's 10.6vw), phone photograph at 640 px; heavier first screen: 323.2 KiB against B's about 300 KB, and all five stickers are in the finished phone composition (297.3 KiB for the photograph and stickers alone against the 120 KiB target).",
+    "desktop_first_screen": "155.7 KiB photograph plus 19.6 KiB sticker, 179.7 KiB total at load, against B's about 1,330 KB: met (under 350 KiB)."
+  },
+  "files_written": [
+    "src/design-system/demos/B2/pages/Opener.tsx (follow-up: <picture> for the photograph, the first sticker in place at p0, noise and fire tiles on the 640 px files)",
+    "src/design-system/demos/B2/story.json (follow-up: first sticker from = to = 0, stickerNote, ids of the 640 px tiles)",
+    "src/design-system/demos/B2/pages/Statements.tsx (new: the five statement fields and the payoff)",
+    "src/design-system/demos/B2/pages/Home.tsx (statements after the opener; job and step pictures changed)",
+    "src/design-system/demos/B2/demo.css (opener, statement fields, phone and rest rules; workshop phone rule)",
+    ".ds-induction/evidence/demos/B2/ (home-p0-1440.png, home-p50-1440.png, home-p100-1440.png, home-still-1440.png, home-390.png, home-still-390.png, sheets/)",
+    ".ds-induction/taste/demos/B2/ (story-check.run.js, font-audit.js, craft-lint-wrap.js, font-audit-wrap.js, motion-trace-stickers.run.js, motion-trace-statements.run.js, gate-home-page/, gate-home-opener/, scenes-home/, story-shots/)",
+    ".ds-induction/evidence/reports/demos/B2.json (this report)"
+  ],
+  "commits": "none (no git commands run)",
+  "gate_rerun": {
+    "typecheck": "npx tsc --noEmit exit 0",
+    "console": "0 errors at 1440 and 390 (live and still), 3 info messages",
+    "taste_page": "0 FAIL, 4 WARN (card-rows, size-count, no-footage, blank-gap at 768 unresolved): unchanged",
+    "taste_opener": "0 FAIL, 2 WARN (card-rows, size-count): unchanged",
+    "story_check": "0 too-many-words, 0 read-window, 0 text-moves-while-read, 0 dead-stretch; focus-hidden 7 FAIL (checker false positive); parallax-unmeasured 1 WARN (6% arrival, judged by hand); image-bytes 403 KB WARN; motion floor 14; first view pass; wheel pass; native scroll pass; reduced motion 0 running",
+    "reduced_motion": "0 running animations, not armed, all five stickers and the statements visible, h1 and action opaque, no sideways scroll",
+    "seven_viewports": "1280x720, 1366x768, 1440x900, 1920x1080, 820x1180, 390x844, 320x568: h1 and action visible and in the viewport at p0; no text overlap at p0 or p1; no sticker over text; scrollWidth equals clientWidth everywhere; the first sticker visible at p0 at desktop sizes",
+    "screenshots": "home-p0-1440.png, home-p50-1440.png, home-p100-1440.png, home-still-1440.png, home-390.png, home-still-390.png re-taken after the change"
+  }
+}

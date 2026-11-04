@@ -1,0 +1,2020 @@
+{
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=contact",
+ "at": "2026-11-04T05:39:13.574Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.54,
+    0.56,
+    0.14,
+    0.83,
+    0.56,
+    0.36
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 0,
+    "transitions": 10,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4738,
+     "screens": 5.3,
+     "words": 305,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "site-photo-2016.jpg",
+      "oil-gas-energy.webp",
+      "sheet-metal-fabrication.webp",
+      "technical-support.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 2,
+     "size": 144,
+     "vw": 10,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.56,
+     "top": 208,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "lines": 2,
+     "size": 144,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 208,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Main line 1300 740 564",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 956,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Sales email sales@bellis.com.au",
+      "words": 3,
+      "chars": 31,
+      "lines": 2,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 956,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 1669,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 1811,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 1988,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2136,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2285,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2433,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 62.7,
+      "vw": 4.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.48,
+      "top": 2806,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3719,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      19,
+      26,
+      63,
+      144
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 48,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "text": "Talk to an expert."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 2686,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#ffd249"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Contact",
+      "Talk to an expert"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4738,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.b-page-hero.b-contact-hero",
+      "tag": "section",
+      "top": 88,
+      "height": 1105,
+      "words": 26,
+      "media": 1,
+      "middle": 40,
+      "heading": {
+       "text": "Talk to an",
+       "size": 144,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 180,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-photo-row",
+      "tag": "section",
+      "top": 1193,
+      "height": 356,
+      "words": 0,
+      "media": 3,
+      "middle": 8,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cbranches",
+      "tag": "section",
+      "top": 1549,
+      "height": 1137,
+      "words": 68,
+      "media": 0,
+      "middle": 247,
+      "heading": {
+       "text": "Five branches",
+       "size": 63,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 39,
+      "textLeft": 24,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cform",
+      "tag": "section",
+      "top": 2686,
+      "height": 1033,
+      "words": 52,
+      "media": 1,
+      "middle": 130,
+      "heading": {
+       "text": "Send an enquiry",
+       "size": 63,
+       "tag": "h2"
+      },
+      "left": 12,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 199,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 3719,
+      "height": 1019,
+      "words": 102,
+      "media": 0,
+      "middle": 105,
+      "heading": {
+       "text": "Products",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 52,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2520,
+      "height": 272
+     },
+     {
+      "top": 3600,
+      "height": 440
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Talk to an expert.",
+      "size": 144,
+      "top": 208,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 5
+     },
+     {
+      "x": 732,
+      "n": 2
+     },
+     {
+      "x": 968,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 660,
+     "y": 120,
+     "w": 180,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.57,
+    0.82,
+    1,
+    0.27,
+    0.48,
+    0.94,
+    0.71,
+    0.33
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 0,
+    "transitions": 10,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7907,
+     "screens": 7.7,
+     "words": 294,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "site-photo-2016.jpg",
+      "oil-gas-energy.webp",
+      "sheet-metal-fabrication.webp",
+      "technical-support.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 2,
+     "size": 76.8,
+     "vw": 10,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 208,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "lines": 2,
+     "size": 76.8,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 208,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 3365,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3526,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3742,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3958,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4174,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4390,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5843,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6659,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      18,
+      23,
+      44,
+      77
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 48,
+     "max": {
+      "size": 76.8,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "text": "Talk to an expert."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 4686,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#ffd249"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.49
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7907,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "h1#contact-h1",
+      "tag": "h1",
+      "top": 208,
+      "height": 141,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-contact-hero__pic",
+      "tag": "div",
+      "top": 489,
+      "height": 900,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-contact-cells",
+      "tag": "div",
+      "top": 1429,
+      "height": 264,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 50,
+      "right": 508,
+      "textLeft": 50,
+      "textRight": 508,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-photo-row",
+      "tag": "section",
+      "top": 1789,
+      "height": 1456,
+      "words": 0,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-cbranches",
+      "tag": "section",
+      "top": 3245,
+      "height": 1441,
+      "words": 68,
+      "media": 0,
+      "middle": 153,
+      "heading": {
+       "text": "Five branches",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 34,
+      "textLeft": 24,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-cform__intro",
+      "tag": "div",
+      "top": 4806,
+      "height": 982,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 347,
+      "textLeft": 24,
+      "textRight": 347,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-cform__body",
+      "tag": "div",
+      "top": 5843,
+      "height": 696,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 224,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#b-footer.b-footer",
+      "tag": "footer",
+      "top": 6659,
+      "height": 1247,
+      "words": 102,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Products",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 52,
+      "textLeft": 24,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6540,
+      "height": 476
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Talk to an expert.",
+      "size": 77,
+      "top": 208,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 6
+     },
+     {
+      "x": 520,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.64,
+    0.91,
+    0.46,
+    0.3,
+    0.88,
+    0.54,
+    0.53,
+    0.34
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 0,
+    "transitions": 10,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6424,
+     "screens": 7.6,
+     "words": 294,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "site-photo-2016.jpg",
+      "oil-gas-energy.webp",
+      "sheet-metal-fabrication.webp",
+      "technical-support.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "chars": 18,
+     "lines": 2,
+     "size": 41,
+     "vw": 10.5,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert.",
+     "words": 4,
+     "lines": 2,
+     "size": 41,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert.",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Five branches",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 1943,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Brisbane",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2201,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2407,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2612,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2817,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3023,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send an enquiry",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3924,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B E L L I S",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5015,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      17,
+      20,
+      36,
+      41
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.7
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 41,
+      "vw": 10.5,
+      "font": "Red Hat Display",
+      "text": "Talk to an expert."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffd249",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 1,
+      "l": 0.64
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffd249",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#a4f6f8",
+       "top": 3260,
+       "hsl": {
+        "h": 181,
+        "s": 0.86,
+        "l": 0.81
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0a0a0a",
+       "share": 0.96
+      },
+      {
+       "color": "#ffd249",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0a0a0a",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.04
+      },
+      "fg": "#ffd249"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.49
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6424,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.b-page-hero.b-contact-hero",
+      "tag": "section",
+      "top": 72,
+      "height": 1052,
+      "words": 26,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an",
+       "size": 41,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.b-photo-row",
+      "tag": "section",
+      "top": 1124,
+      "height": 747,
+      "words": 0,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-cbranches__head",
+      "tag": "div",
+      "top": 1943,
+      "height": 179,
+      "words": 14,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 265,
+      "right": 31,
+      "textLeft": 265,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ol.b-lineup-branch",
+      "tag": "ol",
+      "top": 2161,
+      "height": 1027,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Brisbane",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 48,
+      "textLeft": 16,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-cform__intro",
+      "tag": "div",
+      "top": 3332,
+      "height": 552,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 18,
+      "textLeft": 16,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-cform__body",
+      "tag": "div",
+      "top": 3924,
+      "height": 1018,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-wordmark",
+      "tag": "div",
+      "top": 5015,
+      "height": 186,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.b-footer__grid",
+      "tag": "div",
+      "top": 5320,
+      "height": 1072,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Products",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 38,
+      "textLeft": 16,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4944,
+      "height": 272
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Talk to an expert.",
+      "size": 41,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 6
+     },
+     {
+      "x": 265,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 440px stretch at 3600px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 10 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 347px of the width empty: div.b-cform__intro.",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/tablet-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/demos/B/inspect-contact-page/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

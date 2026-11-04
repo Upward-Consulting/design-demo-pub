@@ -1,0 +1,848 @@
+{
+  "demo": "B",
+  "revision": 1,
+  "builder_model": "haiku-5.5 xhigh",
+  "direction": "loud-flat-poster (Loud and flat, seed 101)",
+  "port": 8932,
+  "lane": "src/design-system/demos/B/",
+  "urls": {
+    "home": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=home",
+    "products": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=products",
+    "corrosion": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=corrosion",
+    "contact": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=contact",
+    "home_still": "...&page=home&still=1"
+  },
+  "pages": [
+    {
+      "key": "home",
+      "scope": "page",
+      "gate": {
+        "result": "0 FAIL, 4 WARN (final run)",
+        "warns": [
+          "card-rows @1440 (3 rows of boxed cards: proof, workshop slips, branches)",
+          "size-count @1440 and 390 (21 font sizes)",
+          "no-footage @1440 (no honest video in the pool)",
+          "blank-gap @768 452 px at 11592 (not resolved)"
+        ]
+      },
+      "allowances": [],
+      "craft_lint": "last full run before the final round: touching x1 and squeezed logo at 390; the final round changed the phone header (not re-linted)",
+      "look": {
+        "round": 1,
+        "viewed": [
+          "1440 opener first screen",
+          "1440 jobs intro and first field",
+          "1440 steps accordion",
+          "390 opener",
+          "still view checked by section (no blank section)"
+        ],
+        "scores": {
+          "design": 7,
+          "usability": 6.5,
+          "creativity": 7,
+          "content": 6.5,
+          "overall": 6.8
+        },
+        "top3": [
+          "the jobs intro band is left-heavy (copy in the left half, right half empty)",
+          "the proof and branches sections are rows of boxed tiles (card-rows)",
+          "size count (21 sizes) from the vw display scale"
+        ],
+        "caps": "none applied (no FAIL)",
+        "note": "scores from the frames viewed; the other full-page sections were measured, not looked at in round 2"
+      }
+    },
+    {
+      "key": "products",
+      "scope": "page",
+      "gate": {
+        "result": "0 FAIL, 4 WARN (final run)",
+        "warns": [
+          "size-count @1440 and 768 (10 sizes)",
+          "no-footage @1440",
+          "lopsided @1440 'Specialty' (a flat field with its name; 630 px of empty width by design)",
+          "blank-gap @1440 416 px at 9768 (not resolved)"
+        ]
+      },
+      "allowances": [],
+      "craft_lint": "last full run before the final round: touching x1 at 1440, overflow lead at 390 (fixed by the wrapper change, not re-linted)",
+      "look": {
+        "round": 1,
+        "viewed": [
+          "1440 hero and filter"
+        ],
+        "scores": {
+          "design": 7,
+          "usability": 7,
+          "creativity": 6.5,
+          "content": 6.5,
+          "overall": 6.9
+        },
+        "top3": [
+          "family panels share one template",
+          "banding thumbnail frame not checked",
+          "no video"
+        ],
+        "caps": "none applied",
+        "note": "only the hero and filter frame were viewed"
+      }
+    },
+    {
+      "key": "corrosion",
+      "scope": "page",
+      "gate": {
+        "result": "0 FAIL, 2 WARN (final run)",
+        "warns": [
+          "size-count @1440 and 768 (10 sizes)",
+          "no-footage @1440"
+        ]
+      },
+      "allowances": [],
+      "craft_lint": "last full run before the final round: overflow lead at 390 (fixed), logo squeeze (fixed)",
+      "look": {
+        "round": 1,
+        "viewed": [
+          "1440 full page"
+        ],
+        "scores": {
+          "design": 7.5,
+          "usability": 7,
+          "creativity": 7,
+          "content": 6.5,
+          "overall": 7.15
+        },
+        "top3": [
+          "heading spaces between spans (fixed after the look)",
+          "no video",
+          "size count"
+        ],
+        "caps": "none applied",
+        "note": "full-page look at 1440"
+      }
+    },
+    {
+      "key": "contact",
+      "scope": "page",
+      "gate": {
+        "result": "0 FAIL, 3 WARN (final run)",
+        "warns": [
+          "card-rows @1440 (branch rows)",
+          "no-footage @1440",
+          "size-count @390 (11 sizes)"
+        ]
+      },
+      "allowances": [],
+      "craft_lint": "last full run before the final round: touching x1, squeezed logo (fixed)",
+      "look": {
+        "round": 1,
+        "viewed": [
+          "390 full page"
+        ],
+        "scores": {
+          "design": 6,
+          "usability": 7,
+          "creativity": 5.5,
+          "content": 6,
+          "overall": 6.2
+        },
+        "top3": [
+          "branch rows are a repeated box template (card-rows)",
+          "placeholders visible in every branch row (deck, owner decision)",
+          "the enquiry section is a standard stack below the photo"
+        ],
+        "caps": "none applied",
+        "note": "full-page look at 390 only"
+      }
+    }
+  ],
+  "story_check": {
+    "settings": {
+      "MAX_HOLD": 1,
+      "BLOCKOUT": false,
+      "MAX_SCREENS": 14,
+      "IMAGE_KB_DESKTOP": 350,
+      "IMAGE_KB_PHONE_FROM_STORY_JSON": 120,
+      "JS_KB_GZ_FROM_STORY_JSON": 60,
+      "smoothing_weight": 0,
+      "source": "story.json (budgets and smoothing) agree with profile.json story block"
+    },
+    "result": {
+      "status": "findings",
+      "fails": 7,
+      "warns": 8
+    },
+    "fails": [
+      "focus-hidden x7: closed-menu links and buttons (Close, Home, Products, Corrosion control, Contact, phone, Talk to an expert). The check flags any focusable element under an [inert] ancestor, including ones that cannot take focus; a Tab walk confirms focus never enters the closed menu. Conflict: the check suggests display:none, which motion-standards section 3 row 8 forbids for navigation (owner or lead ruling)."
+    ],
+    "warns": [
+      "too-many-words: 30 on the held stage (cap 12) (owner question)",
+      "read-window x6: each statement is still for about 0.00 to 0.07 screens, needs 0.60 to 0.75 (one-screen hold cannot give each statement its reading time: owner question)",
+      "text-moves-while-read x1 (statement move at 0.75 to 1, not resolved)"
+    ],
+    "probes": {
+      "first_view": "pass",
+      "native_scroll": "pass",
+      "reduced_motion_running_animations": "0",
+      "wheel": "pass"
+    },
+    "n_a_for_one_chapter_opener": [
+      "consecutive-locks (needs two lock chapters)",
+      "scene-cap (one chapter, under the 3 cap)",
+      "hijack-unchecked (no hijack)"
+    ]
+  },
+  "scene_sheets": {
+    "status": "not re-run after the final round (round 1 sheets: opener-desktop, opener-phone, reduced-desktop)"
+  },
+  "motion": {
+    "opener_p0": "h1 and action transform none, opacity 1, no animation (round 1 measurement; unchanged since)",
+    "menu": "open 600 ms, close 250 ms (transform and visibility)",
+    "reveals": "translate 24 px, 700 ms, staggered 70 ms, armed only with motion on; no hidden state",
+    "motion_trace_and_hover_probe": "not run in this round"
+  },
+  "keyboard_checks": {
+    "menu_trap": "pass (round 1 and final batch: Tab wraps, Escape returns focus, root inert and page scroll restored)",
+    "form": "pass (round 1: error summary receives focus; success state local)",
+    "skip_link": "pass"
+  },
+  "font_audit": {
+    "status": "ok on all four pages (round 1 run; not re-run after the final round)",
+    "faces": [
+      "Red Hat Display 900",
+      "Red Hat Text 400, 500, 700"
+    ]
+  },
+  "console": "0 errors on all pages at 1440, 820, 390 and 320 (final batch)",
+  "typecheck": "npx tsc --noEmit exit 0 (final)",
+  "widths": {
+    "checked": [
+      1440,
+      820,
+      390,
+      320
+    ],
+    "sideways_scroll": "none on 4 pages x 4 widths (final batch)"
+  },
+  "first_screen_images": {
+    "desktop_kb": "about 1,330 (over the 350 budget)",
+    "phone_kb": "about 300 (crewRoof only; over the 120 budget)",
+    "note": "lead must re-encode crewRoof (271 KB jpg) and the three cut-outs (679, 223, 159 KB); cut-outs are not loaded on the phone"
+  },
+  "js": {
+    "measured": "dev server, unminified: 4.8 MB transferred (not comparable to the 60 KB gzip budget); no production build measured"
+  },
+  "pictures": [
+    {
+      "slot": "opener photograph",
+      "source": "own",
+      "credit": "hero/bellis-hard-hat.jpg (crewRoof)"
+    },
+    {
+      "slot": "opener cut-outs",
+      "source": "own",
+      "credit": "cutouts/rockwool-slabs.png, foamglas-cryogenic.png, rubber-insulation.png"
+    },
+    {
+      "slot": "job fields",
+      "source": "own",
+      "credit": "products/pyrogel-xte-xtf.webp, services/contract-services.webp, commercial/ainsul-80.jpg, products/pyrogel-cut.webp, services/corrosion-control-pipe.jpg"
+    },
+    {
+      "slot": "steps",
+      "source": "own",
+      "credit": "hero/site-photo-2016.jpg (alt overridden), products/foamglas-cryogenic.webp, services/sheet-metal-fabrication.webp, services/oil-gas-energy.webp"
+    },
+    {
+      "slot": "workshop",
+      "source": "own",
+      "credit": "services/custom-metal-jobs.webp"
+    },
+    {
+      "slot": "products hero",
+      "source": "own",
+      "credit": "cutouts/foamglas-cryogenic.png"
+    },
+    {
+      "slot": "products families",
+      "source": "own",
+      "credit": "foamglas-cryogenic, pyrogel-xte-xtf, ainsul-80, rockwool-slabs, custom-metal-jobs, steel-banding, removable-mats, foamglas (no picture for tapes, mastics, specialty)"
+    },
+    {
+      "slot": "corrosion",
+      "source": "own",
+      "credit": "services/corrosion-control-pipe.jpg, marine-insulated-pipe.webp, contract-services.webp, thermobreak-tube.webp"
+    },
+    {
+      "slot": "contact",
+      "source": "own",
+      "credit": "services/technical-support.webp (alt overridden), hero/site-photo-2016.jpg (alt overridden), photo strip of 16 pool pictures"
+    }
+  ],
+  "copy_added": [
+    "Bellis in numbers.",
+    "Photographs of Bellis work (visually hidden h2)",
+    "Pause the photographs",
+    "Play the photographs",
+    "Call (button label before the deck phone number)",
+    "Showing all {n} families. / Showing {x} of {n} families for {job}.",
+    "Site menu (dialog label)",
+    "Pages (nav label)",
+    "Main (header nav label)",
+    "Bellis Australia, home (logo link label)",
+    "Back to top",
+    "Menu",
+    "Close",
+    "Capabilities",
+    "Materials",
+    "Lines",
+    "Bellis (wordmark label)"
+  ],
+  "allowances": [],
+  "allowances_note": "No gate rule was allowed; no --allow used.",
+  "departures": [
+    {
+      "from": "display type case: the sheet names uppercase as the display default and allows either case",
+      "why": "lowercase chosen by measurement: uppercase at this copy length gives about 7.4vw at 1440 (below the hero blueprint), lowercase gives 10.6 to 11vw and spans 80.7% of the width on two lines. Applied to every display heading; the report states it."
+    },
+    {
+      "from": "accordion flex-basis transition (450 ms)",
+      "why": "house rule: transform and opacity only. The width changes at once and the open body fades in over 380 ms."
+    },
+    {
+      "from": "full-bleed photograph and slips in the showcase (section 2)",
+      "why": "the pool pictures are at most 980 px wide, so they cannot bleed at 1440 without exceeding maxW. The workshop uses a tilted photograph and paper slips instead."
+    },
+    {
+      "from": "proof: four across with a double-width accent heading tile",
+      "why": "accent magenta is for buttons only; the heading is a full-width row, and four sector tiles follow."
+    },
+    {
+      "from": "contact three-cell bar: two inputs and a submit",
+      "why": "the bar carries the main line, the sales email and a jump to the form; the form is below in full, with validation."
+    },
+    {
+      "from": "reveals fade in (opacity)",
+      "why": "content must be readable before any entrance plays (the blank-band finding): reveals are a 24 px rise only."
+    },
+    {
+      "from": "five statements shown one at a time in one slot (brief allowed)",
+      "why": "brief section A.3 allows one at a time; the desktop finished view lists all five in a wrapped row; the phone lists them stacked."
+    },
+    {
+      "from": "one picture per statement field, tilted up to 3 degrees",
+      "why": "brief C.1 asks for a picture or a cut-out in each field; the tilt is within 12 degrees and no text is rotated."
+    },
+    {
+      "from": "stats: one figure owns the field",
+      "why": "the brief asks for four figures; 1981 owns the field at 23vw and the other three sit beneath in a row."
+    },
+    {
+      "from": "job filter: six colours including pink, cyan and an orange tint",
+      "why": "one flat field per job, as the brief asks; pink and cyan appear once each in the filter."
+    }
+  ],
+  "rough": [
+    "First-screen image weight is about 1.33 MB on desktop (budget 350 KB). Needs re-encoded pool files from the lead.",
+    "The opener holds 30 words against the 12-word cap; the statements do not each get a reading window inside one screen.",
+    "'Talk to an expert' sits inside the held chapter (owner ruling).",
+    "Products banding thumbnail still uses the pool photograph (frame not verified).",
+    "Card-row and size-count WARNs on Home and Contact; no video anywhere (none in the pool).",
+    "Home blank-gap WARN at 768 (452 px) not resolved; Products blank-gap WARN at 1440 (416 px) not resolved.",
+    "The proof tiles are a grid of boxes; the branch rows are a repeated template.",
+    "Phone h1 is about 37 px (the copy is 30 characters, so 17vw is not reachable).",
+    "Scene sheets, motion trace and hover probe not re-run after the final round; font audit and craft lint from round 1.",
+    "Deck items the lead must change: home.hero.lead and contact.title ('five branches, one phone number'), contact.branchesNote ('Each branch has its own number' as a line), the 'Named on the Bellis website' lead (confirm each site), the 'In the Quick Look index' detail (not shown)."
+  ],
+  "owner_questions": [
+    "12-word cap on the held opener: all five statements plus the payoff sit in the story chapter (30 words on the held stage). Option A: hold the h1 and payoff only and move the statements into normal flow after the stage. Option B: rule an allowance for the opener.",
+    "Read windows: with a one-screen hold, each statement gets about 0.14 screens. A reading window of 0.6 screens each needs a two-screen hold. Which do you want?",
+    "JS budget: profile.json says 60 KB gzipped; story-mode says the house default is 15 KB. The opener loads GSAP (about 29 KB brotli in the stack sheet). Which number is ruled?",
+    "Closed menu: the story check wants display:none; the house motion rule forbids it for navigation. Ruling needed.",
+    "Primary action inside the held chapter (S31): keep it, or move it beside the chapter?",
+    "Branch phone numbers, certifications, legal line, street address for Melbourne: owner or client to supply.",
+    "Candy palette versus heavy-industry credibility: keep, or narrow to yellow and black?",
+    "Named sites and 'since 1981' (against the '30' and '35 years' claims): confirm before launch."
+  ],
+  "findings_for_the_notes": [
+    {
+      "kind": "checker-limitation",
+      "text": "story-check focus-hidden flags focusable elements under [inert] even when they cannot take focus; the closed menu is inert and visibility hidden, and Tab never enters it.",
+      "reproduction": "story-check.run.js line 385, the why test uses closest('[inert]') without checking focusability",
+      "workaround": "none in the lane (display:none would break the house motion rule)"
+    },
+    {
+      "kind": "deck",
+      "text": "home.hero.lead and contact.title repeat the 'one phone number' claim contradicted by 'Each branch has its own number'.",
+      "reproduction": "src/design-system/content/demo-copy.ts lines 51 and 187",
+      "workaround": "the lane does not render home.hero.lead; contact.title only sets the document title"
+    },
+    {
+      "kind": "pictures",
+      "text": "Opener first-screen weight is about 1.33 MB; the lead must re-encode the cut-outs and the hard-hat photograph.",
+      "reproduction": "Opener images: rockwool 223 KB, foamglas-cryogenic 679 KB, rubber 159 KB, hard-hat 271 KB",
+      "workaround": "cut-outs hidden on the phone (not fetched)"
+    }
+  ],
+  "review_findings": [
+    {
+      "id": "S1",
+      "status": "fixed",
+      "note": "Invented h2 removed; Home stats now carry 'Bellis in numbers.' and the Home branch heading is the deck's 'Five branches'. Deck hero.lead and contact.title still say 'one phone number' (deck change for the lead)."
+    },
+    {
+      "id": "S2",
+      "status": "fixed",
+      "note": "Home photograph strip removed; Contact strip imgs are lazy (30 of 30 below the fold)."
+    },
+    {
+      "id": "S3",
+      "status": "fixed",
+      "note": "Menu is a focus container (Tab/Shift+Tab wrap, Escape returns focus); verified in the Tab walk and the batch run."
+    },
+    {
+      "id": "S4",
+      "status": "fixed",
+      "note": "Closed menu hidden by transform and visibility (not display none), and inert while closed; the story check still flags it, see findings_for_the_notes."
+    },
+    {
+      "id": "S5",
+      "status": "fixed",
+      "note": "All :hover rules inside (hover: hover) and (pointer: fine); verified 15 of 15."
+    },
+    {
+      "id": "S6",
+      "status": "fixed",
+      "note": "Header, main and footer targets are 44 px or more at 390; the skip link is 42 px outside those landmarks (not changed)."
+    },
+    {
+      "id": "S7",
+      "status": "fixed",
+      "note": "Accordion grid/flex transition removed (content fades, width changes at once); filter height animation removed; reduced-motion reset covers the rest."
+    },
+    {
+      "id": "S8",
+      "status": "not fixed",
+      "note": "First-screen image transfer is about 1.33 MB (crewRoof 271 KB, cutFoamglas 679 KB, cutRockwool 223 KB, cutRubber 159 KB). The pool files are the lead's; cut-outs are hidden and not loaded on the phone."
+    },
+    {
+      "id": "S9",
+      "status": "fixed",
+      "note": "Home strip removed; no eager images below the first screen on any page."
+    },
+    {
+      "id": "S10",
+      "status": "fixed",
+      "note": "Hero lead is a full-width-column grid item on Products, Corrosion and Contact (wrapper bug removed); verified at 390 and 1440."
+    },
+    {
+      "id": "S11",
+      "status": "fixed",
+      "note": "Home headline and stat heading no longer claim one phone number; the deck text remains in demo-copy.ts (lead change)."
+    },
+    {
+      "id": "S12",
+      "status": "fixed",
+      "note": "Opener story.json smoothing weight 0 and Opener passes it through."
+    },
+    {
+      "id": "S13",
+      "status": "not fixed",
+      "note": "Held stage holds 30 words against the 12-word cap (owner question; see owner_questions)."
+    },
+    {
+      "id": "S14",
+      "status": "fixed",
+      "note": "Opener h1 and action are static at p 0; the statements, cut-outs and payoff move only with p. The only load entrance is the utility hero h1 mask on Products, Corrosion and Contact, outside the story chapter."
+    },
+    {
+      "id": "S15",
+      "status": "fixed",
+      "note": "Cut-outs positioned relative to the photograph box (percentages), not fixed pixels; verified at 1280 to 1920 and 820."
+    },
+    {
+      "id": "S16",
+      "status": "fixed",
+      "note": "'[branch phone]' removed from the Home sales-email cell; it appears on Contact only, in the branch rows."
+    },
+    {
+      "id": "S17",
+      "status": "fixed",
+      "note": "Lead figure reads 'since' as a unit in the same element as 1981."
+    },
+    {
+      "id": "S18",
+      "status": "fixed",
+      "note": "Home and Contact branch-building images carry truthful alts (no 2016 date); pictures.ts unchanged."
+    },
+    {
+      "id": "S19",
+      "status": "fixed",
+      "note": "Opener timeline killed on unmount (useLayoutEffect cleanup); rebuilt lazily under StrictMode."
+    },
+    {
+      "id": "S20",
+      "status": "fixed",
+      "note": "b-menu-link keyframes added; links stagger 40 ms from 120 ms."
+    },
+    {
+      "id": "S21",
+      "status": "fixed",
+      "note": "Menu uses transform (600 ms open, 250 ms close); grid-rows and flex-grow animations removed. The accordion keeps an instant width change with a fading body, justified by the house transform/opacity rule (departure)."
+    },
+    {
+      "id": "S22",
+      "status": "fixed",
+      "note": "h1s and section h2s are read from the deck; the opener h1 is split at 'heavy' from the deck string. aria-labels added to copy_added."
+    },
+    {
+      "id": "S23",
+      "status": "fixed",
+      "note": "Products filter is an h2; Contact photo strip has a visually hidden h2."
+    },
+    {
+      "id": "S24",
+      "status": "fixed",
+      "note": "Same as S15."
+    },
+    {
+      "id": "S25",
+      "status": "fixed",
+      "note": "Products and Contact branch lead wrappers placed in the grid; verified."
+    },
+    {
+      "id": "S26",
+      "status": "fixed",
+      "note": "Phone stats: 22vw per figure, lead 1981 at 27vw so it fits 343 px; the 1981 figure is 124 px at 1440 (not 135)."
+    },
+    {
+      "id": "S27",
+      "status": "fixed",
+      "note": "Cut-outs are positioned relative to the photograph and hidden on the phone (they are not fetched there)."
+    },
+    {
+      "id": "S28",
+      "status": "fixed",
+      "note": "Cut-outs each used once; Home job pictures are distinct; Contact hero (crewSign) and form (branchBuilding) differ."
+    },
+    {
+      "id": "S29",
+      "status": "fixed",
+      "note": "Display headings set lowercase (chosen by measurement, see departures); the report states it."
+    },
+    {
+      "id": "S30",
+      "status": "fixed",
+      "note": "Departures listed with reasons in this report."
+    },
+    {
+      "id": "S31",
+      "status": "not fixed",
+      "note": "'Talk to an expert' sits inside the held chapter at p 0. Owner ruling needed: it is visible and static at p 0; if the rule holds, move it beside the chapter."
+    },
+    {
+      "id": "S32",
+      "status": "fixed",
+      "note": "Departure reasons rewritten from the measured render."
+    },
+    {
+      "id": "S33",
+      "status": "not fixed",
+      "note": "story.json js_kb_gz 60 follows the profile; the house default is 15 (owner question). Production JS not measured (the dev server serves unminified modules)."
+    },
+    {
+      "id": "J-home-blank-band",
+      "status": "fixed",
+      "note": "Finished view has no blank section (per-section check: all sections carry text or pictures)."
+    },
+    {
+      "id": "J-home-h1-case",
+      "status": "fixed",
+      "note": "Display headings are lowercase; the h1 spans 80.7% of the content width at 1440 on two lines."
+    },
+    {
+      "id": "J-home-copy-contradiction",
+      "status": "fixed",
+      "note": "Home copy contradiction removed on the page (deck change still needed)."
+    },
+    {
+      "id": "J-home-stats-one-figure",
+      "status": "not fixed",
+      "note": "partly: 1981 owns the field at 23vw; the other three figures sit in a row beneath it."
+    },
+    {
+      "id": "J-home-proof-tiles",
+      "status": "not fixed",
+      "note": "partly: Heading tile is full width, then four sector tiles (not four across with a double-width heading tile)."
+    },
+    {
+      "id": "J-home-showcase-departure",
+      "status": "disputed",
+      "note": "departure, recorded: Workshop uses a tilted photograph and paper slips instead of a full-bleed photo (pool pictures are at most 980 px wide, so they cannot bleed at 1440). Recorded."
+    },
+    {
+      "id": "J-home-feature-scale",
+      "status": "fixed",
+      "note": "Statement fields at 8.6vw (about 124 px at 1440), two lines at most."
+    },
+    {
+      "id": "J-home-pause-control",
+      "status": "fixed",
+      "note": "No floating pause on Home; the strip's pause control sits on Contact at its edge."
+    },
+    {
+      "id": "J-home-cert-placeholder",
+      "status": "fixed",
+      "note": "Certification placeholder is a line of text, not a black bar."
+    },
+    {
+      "id": "J-products-sameness",
+      "status": "not fixed",
+      "note": "partly: Alternating panels, mirrored layouts and full-field families break the rhythm; the panels still share one template."
+    },
+    {
+      "id": "J-products-banding-frame",
+      "status": "not fixed",
+      "note": "Banding thumbnail still uses the pool photograph; the blue frame was not verified or cropped."
+    },
+    {
+      "id": "J-products-empty-rows",
+      "status": "fixed",
+      "note": "Families without a picture are flat colour fields with their names."
+    },
+    {
+      "id": "J-products-thumbnails",
+      "status": "fixed",
+      "note": "Family pictures are about 46% of the panel width (up to their maxW)."
+    },
+    {
+      "id": "J-corrosion-phone-squeeze",
+      "status": "fixed",
+      "note": "Corrosion lead at full width on the phone."
+    },
+    {
+      "id": "J-corrosion-paint-card",
+      "status": "fixed",
+      "note": "Each step band has a picture."
+    },
+    {
+      "id": "J-corrosion-caption",
+      "status": "fixed",
+      "note": "Third-person client caption omitted (the deck allows that)."
+    },
+    {
+      "id": "J-corrosion-heading-break",
+      "status": "fixed",
+      "note": "Heading lines wrap naturally; the 'treat it' break is no longer forced."
+    },
+    {
+      "id": "J-contact-repeat-photo",
+      "status": "fixed",
+      "note": "Team photograph once (hero); the form uses the branch building."
+    },
+    {
+      "id": "J-contact-placeholders",
+      "status": "disputed",
+      "note": "owner decision: '[branch phone]' kept on Contact only, as written; owner must supply the branch numbers."
+    },
+    {
+      "id": "J-contact-form-fields",
+      "status": "fixed",
+      "note": "White fields with 3 px ink borders on the cyan field."
+    },
+    {
+      "id": "J-brand-candy",
+      "status": "disputed",
+      "note": "owner decision: Candy palette kept with yellow and black dominant and pink and cyan once each; the owner decides whether it fits heavy industry."
+    },
+    {
+      "id": "J-phone-h1",
+      "status": "not fixed",
+      "note": "partly: Phone h1 at about 37 px (lowercase, two lines); the copy is 30 characters, so 17vw is not reachable."
+    },
+    {
+      "id": "J-phone-stats",
+      "status": "fixed",
+      "note": "Phone stats own their screen (1981 at 27vw, three figures in a row)."
+    },
+    {
+      "id": "J-competitor-test",
+      "status": "not fixed",
+      "note": "partly: Hero is the crew photograph with the rising cut-outs; the statement stack and headline still read as generic poster devices."
+    },
+    {
+      "id": "L-opener-overlap",
+      "status": "fixed",
+      "note": "No overlap at 1280x720, 1366x768, 1440x900, 1536x864, 1920x1080, 820x1180 (verifier pass, round 1); the stage is now the viewport minus the header and the chapter is live at 1440x900."
+    },
+    {
+      "id": "L-menu-focus-order",
+      "status": "fixed",
+      "note": "Focus stays inside the menu; Escape returns focus to the Menu button."
+    },
+    {
+      "id": "L-footer-wordmark-merge",
+      "status": "fixed",
+      "note": "First block is cyan, and the footer has top padding, so no block touches the black band above."
+    },
+    {
+      "id": "L-menu-scroll-lock",
+      "status": "fixed",
+      "note": "Document overflow hidden while the menu is open; restored on close (verified)."
+    },
+    {
+      "id": "L-opener-pacing",
+      "status": "disputed",
+      "note": "owner decision: Statements spread over p 0 to 0.56 with the payoff at 0.70; the owner rules on the pacing."
+    },
+    {
+      "id": "P-low-opener-photo-tilt",
+      "status": "fixed",
+      "note": "Opener photo starts at 4 degrees."
+    },
+    {
+      "id": "P-low-skip-outline",
+      "status": "fixed",
+      "note": "Skip link outline is ink (visible on yellow)."
+    },
+    {
+      "id": "P-low-hidden-focusable-reveal",
+      "status": "fixed",
+      "note": "Reveals never hide content now (translate only), so nothing is focusable while hidden."
+    },
+    {
+      "id": "P-low-footer-links-rest",
+      "status": "fixed",
+      "note": "Footer links underlined at rest."
+    },
+    {
+      "id": "P-low-required-aria",
+      "status": "fixed",
+      "note": "aria-required on the six required controls."
+    },
+    {
+      "id": "P-low-lang",
+      "status": "fixed",
+      "note": "html lang set to en-AU while the demo is shown."
+    },
+    {
+      "id": "P-low-menu-landmark-names",
+      "status": "fixed",
+      "note": "Menu dialog labelled 'Site menu', nav labelled 'Pages'."
+    },
+    {
+      "id": "P-low-magenta-text",
+      "status": "fixed",
+      "note": "Current-page link underlined in ink; magenta is buttons only."
+    },
+    {
+      "id": "P-low-enquire-names",
+      "status": "fixed",
+      "note": "Each Enquire now link has its family name in a visually hidden span."
+    },
+    {
+      "id": "P-low-exit-boundary",
+      "status": "fixed",
+      "note": "Opener ground ends at a white band (hard cut)."
+    },
+    {
+      "id": "P-low-dead-selectors",
+      "status": "not fixed",
+      "note": "Not swept; some unused rules may remain."
+    },
+    {
+      "id": "P-low-css-literals",
+      "status": "not fixed",
+      "note": "Not moved into tokens."
+    },
+    {
+      "id": "P-low-dependency-note",
+      "status": "not fixed",
+      "note": "GSAP is used as a paused timeline only; recorded here, not in decisions.md."
+    },
+    {
+      "id": "P-low-accordion-feedback",
+      "status": "not fixed",
+      "note": "No hover or press feedback on the accordion tabs."
+    },
+    {
+      "id": "P-low-single-source-copy",
+      "status": "not fixed",
+      "note": "Opener phone value remains hard-coded in the chapter; the 'Scroll' cue is not used."
+    },
+    {
+      "id": "P-low-alt-sign",
+      "status": "fixed",
+      "note": "Contact hero alt no longer says the workers hold the sign."
+    },
+    {
+      "id": "P-low-alt-versifoam",
+      "status": "disputed",
+      "note": "not rendered: versiFoam is not rendered by this demo."
+    },
+    {
+      "id": "P-low-cutout-alt",
+      "status": "fixed",
+      "note": "Cut-outs render with alt=\"\" on the opener."
+    },
+    {
+      "id": "P-low-tapes-picture",
+      "status": "fixed",
+      "note": "Tapes family shows no picture (flat field), not the endothermic mat."
+    },
+    {
+      "id": "P-low-report-accuracy",
+      "status": "fixed",
+      "note": "Report rewritten from measurements."
+    },
+    {
+      "id": "P-low-motion-consistency",
+      "status": "not fixed",
+      "note": "partly: Home reveals now translate on the same timing as the other pages."
+    },
+    {
+      "id": "P-low-noise-picture",
+      "status": "fixed",
+      "note": "The third cut-out on the opener is the rubber insulation shot, kept under the statement 'too loud to work beside.' (the deck does not list an acoustic product; owner/lead may want an acoustic cut-out)."
+    },
+    {
+      "id": "R1-body-13px",
+      "status": "disputed",
+      "note": "Refuted by the review; body copy is 18 px or more."
+    },
+    {
+      "id": "R2-masked-900ms",
+      "status": "disputed",
+      "note": "Refuted by the review; the utility hero mask runs 800 ms."
+    },
+    {
+      "id": "R3-important",
+      "status": "disputed",
+      "note": "Refuted by the review; the two !important declarations are the phone override."
+    },
+    {
+      "id": "R4-founding-date",
+      "status": "disputed",
+      "note": "Refuted by the review; the date is not the largest figure with no marker (the caption explains it)."
+    },
+    {
+      "id": "R5-opener-stall",
+      "status": "disputed",
+      "note": "Refuted by the review; the statements move through the hold (see L-opener-pacing)."
+    }
+  ],
+  "files_written": [
+    "src/design-system/demos/B/demo.tsx",
+    "src/design-system/demos/B/demo.css",
+    "src/design-system/demos/B/story.json",
+    "src/design-system/demos/B/parts/Chrome.tsx",
+    "src/design-system/demos/B/parts/primitives.tsx",
+    "src/design-system/demos/B/pages/Opener.tsx",
+    "src/design-system/demos/B/pages/Home.tsx",
+    "src/design-system/demos/B/pages/Products.tsx",
+    "src/design-system/demos/B/pages/Corrosion.tsx",
+    "src/design-system/demos/B/pages/Contact.tsx",
+    ".ds-induction/evidence/demos/B/*.png (10 page captures and 2 still views, plus look-*.png)",
+    ".ds-induction/taste/demos/B/ (gate logs, story-check copy, font-audit copy)"
+  ],
+  "commits": "none (no git commands run)"
+}

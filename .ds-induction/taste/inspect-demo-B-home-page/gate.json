@@ -1,0 +1,26 @@
+{
+ "at": "2026-11-04T07:18:13.514Z",
+ "url": "http://127.0.0.1:5201/ds.html?view=demo&d=B&page=home",
+ "scope": "page",
+ "label": "demo-B-home",
+ "profile": ".ds-induction/taste/profile.json",
+ "adopted": "all",
+ "allow": [
+  "dev-server"
+ ],
+ "granted": {
+  "profile": [],
+  "run": []
+ },
+ "lint": {
+  "files": 6,
+  "fail": 0,
+  "warn": 0,
+  "allowedAway": 0,
+  "findings": []
+ },
+ "inspect": {
+  "exit": 0,
+  "report": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-B-home-page/report.json"
+ }
+}

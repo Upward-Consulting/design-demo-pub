@@ -1,0 +1,39 @@
+TASTE GATE · LINT   7 file(s) · scope page
+  WARN [outlined-box] src/design-system/demos/A/demo.css:377  border: 1px solid
+      → A 1px outlined box. Prefer a filled surface or no box.
+  RESULT: 0 FAIL, 1 WARN
+
+TASTE GATE · INSPECT   scope page · allowed dev-server
+
+TASTESKILL · INSPECT   http://127.0.0.1:5201/ds.html?view=demo&d=A&page=home
+
+MEASURED (first viewport listed)
+  hero headline   "Insulation for heavy industry."  4 words · 2 line(s) · 99.4px (6.9vw) · Young Serif 400 · tracking -0.02em · leading 0.95
+  @768px          2 line(s) · 53px
+  @390px          2 line(s) · 46px
+  typefaces       Source Serif 4 88%, Young Serif 12%
+  sizes in use    14 / 18 / 22 / 36 / 64 / 99 / 432 px   body 17.9px / 1.5
+  colour          page #0f0f0f · sections #0f0f0f #ffffff #dafa9c · button #dafa9c
+  page            10.6 screens · 619 words · 10 images · hero media 18% img
+  headings        30 · longest 3 line(s) · median 1 words
+
+WARN — fix, or be able to defend
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .ds-induction/taste/inspect-demo-A-home-page/desktop-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/desktop-page-01.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/desktop-page-02.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/desktop-page-03.jpg
+  tablet 768px    .ds-induction/taste/inspect-demo-A-home-page/tablet-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/tablet-page-01.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/tablet-page-02.jpg
+  mobile 390px    .ds-induction/taste/inspect-demo-A-home-page/mobile-fold.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/mobile-page-01.jpg
+                  .ds-induction/taste/inspect-demo-A-home-page/mobile-page-02.jpg
+
+report: .ds-induction/taste/inspect-demo-A-home-page/report.json
+RESULT: 0 FAIL, 1 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.
+
+gate summary: /home/james/Desktop/Workspace/design-systems/bellis-new/design-v5/.ds-induction/taste/inspect-demo-A-home-page/gate.json
