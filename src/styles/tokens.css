@@ -1,0 +1,72 @@
+/* Design tokens: Bellis "Operating range" system.
+   Colour is taken from the brand's observed blues and greys, plus three signal
+   colours that carry meaning: cold blue, hot ember and fire red. Teal marks acoustic. */
+
+:root {
+  /* Surfaces */
+  --paper: #ffffff;
+  --paper-2: #f2f5f7;
+  --paper-3: #e3e9ee;
+  --line: #d3dbe2;
+  --line-strong: #8d9ba8;
+
+  /* Ink */
+  --ink: #0f1b26;
+  --ink-2: #33414f;
+  --ink-3: #56636f;
+
+  /* Brand blue and navy (navy is the brand's #275787 taken darker) */
+  --navy: #0b2a44;
+  --navy-2: #123a5c;
+  --blue: #036aaa;
+  --blue-press: #02568c;
+  --sky: #2ea3f2;
+  --blue-tint: #e3f0f9;
+
+  /* Signal colours */
+  --ember: #b8400a;
+  --ember-tint: #fbe8da;
+  --red: #a8271c;
+  --red-tint: #fbe3df;
+  --teal: #0d6e67;
+  --teal-tint: #d9efec;
+  --graphite: #414c57;
+  --graphite-tint: #e8ecf0;
+  --hivis: #f2b705;
+  --ph-tint: #fff1b8;
+
+  /* The temperature line: cold blue to ember, used as the one graphic device */
+  --cold-grad: linear-gradient(90deg, #036aaa 0%, #2ea3f2 24%, #c5ced7 50%, #f0a36c 76%, #b8400a 100%);
+  --cold-grad-v: linear-gradient(180deg, #036aaa 0%, #2ea3f2 24%, #c5ced7 50%, #f0a36c 76%, #b8400a 100%);
+
+  /* Spacing, on a 4 px base */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Type: IBM Plex. Condensed for display, Sans for text, Mono for data and labels */
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-cond: 'IBM Plex Sans Condensed', 'IBM Plex Sans', 'Arial Narrow', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --fs-label: 12px;
+  --fs-small: 14px;
+  --fs-body: 17px;
+  --fs-lead: clamp(18px, 1.2vw + 0.6rem, 21px);
+  --fs-h3: 24px;
+  --fs-h2: clamp(34px, 3.4vw + 0.6rem, 54px);
+  --fs-h1: clamp(44px, 5.4vw + 0.6rem, 88px);
+  --lh-body: 1.6;
+
+  /* Layout */
+  --wrap: min(1200px, calc(100% - 32px));
+  --radius: 2px;
+  --header-h: 72px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
