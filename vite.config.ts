@@ -1,7 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// The dev-only workbench (ds.html) is served by `vite` in dev and is never listed in build.rollupOptions.input.
+// Both pages are production entries: index.html (the site) and ds.html (the workbench, at /ds.html).
 export default defineConfig({
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        ds: 'ds.html',
+      },
+    },
+  },
 });

@@ -1,5 +1,5 @@
 /// <reference types="vite/client" />
-// Entry of the dev-only workbench (ds.html). Never imported by the app; never listed in build.rollupOptions.input.
+// Entry of the workbench (ds.html, published at /ds.html). Never imported by the app.
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
@@ -10,10 +10,6 @@ import '../../index.css';
 import './furniture.css';
 import { Providers } from './providers';
 import { Workbench } from './Workbench';
-
-if (import.meta.env.PROD) {
-  throw new Error('The design-system workbench is dev-only and must never be built.');
-}
 
 const root = document.getElementById('ds-root');
 if (!root) throw new Error('#ds-root is missing from ds.html');

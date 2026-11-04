@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./jsx-runtime-Bfl5FgmA.js";var r=t(),i=e(),a=n();(0,i.createRoot)(document.getElementById(`root`)).render((0,a.jsx)(r.StrictMode,{children:(0,a.jsx)(`p`,{children:`Bellis design v5: the demo proposals live in the dev workbench (ds.html).`})}));
