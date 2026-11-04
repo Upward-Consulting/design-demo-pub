@@ -1,0 +1,47 @@
+/* Workbench furniture only (dev). Demo pages style themselves in their own demo.css. */
+[data-ds-furniture] {
+  font-family: system-ui, sans-serif;
+  color: #1d1d1d;
+}
+.ds-index {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+.ds-index ul {
+  padding-left: 0;
+  list-style: none;
+}
+.ds-index li {
+  margin: 8px 0;
+}
+.ds-index a {
+  margin-right: 12px;
+}
+.ds-notice {
+  padding: 24px;
+  background: #fff4e5;
+  border-left: 4px solid #c25a00;
+  margin: 16px;
+}
+.ds-compare {
+  padding: 24px;
+  background: #e9e9e9;
+}
+.ds-compare-demo {
+  margin-bottom: 40px;
+}
+.ds-compare-row {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+.ds-compare-row iframe {
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  transform-origin: top left;
+}
+.ds-compare-row figure {
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+{
+ "_about": "Taste profile for bellis-design-v1 (Bellis Australia website). PROPOSED by the lead on 2026-11-04, not yet ruled by the owner. Recommended default for Compose: adopt all house rules. Route families for the demos are all utility pages (page). No generated pictures.",
+ "status": "proposed",
+ "adopted": "all",
+ "surfaces": {
+  "page": ["/", "/products", "/contact"],
+  "story": [],
+  "openers": [],
+  "screen": []
+ },
+ "generated_pictures": {"allowed": false, "surfaces": [], "floor_share": 0},
+ "allow": [],
+ "demos": {
+  "a": {"direction": "one-motif", "seed": 11, "status": "built, awaiting owner review"},
+  "b": {"direction": "colour-chapters", "seed": 12, "status": "stopped before build; not built"},
+  "c": {"direction": "name-as-monument", "seed": 13, "status": "stopped before build; not built"}
+ },
+ "demo_count": {"set_by": "owner, 2026-11-04", "words": "just do one", "note": "Lead chose three by default without asking. Owner set it to one. Partial files of b and c moved to .ds-induction/evidence/stopped-demos/."}
+}

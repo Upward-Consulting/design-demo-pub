@@ -1,0 +1,1594 @@
+{
+ "url": "http://localhost:5191/ds.html?view=demo&d=a&page=contact",
+ "at": "2026-11-04T02:49:31.223Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.48,
+    0.66,
+    0.24,
+    0.93
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 2,
+    "transitions": 23,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3582,
+     "screens": 4,
+     "words": 245,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "pyrogel-cut.webp",
+      "sheet-metal-fabrication.webp",
+      "bellis-hard-hat.jpg",
+      "procurement-materials.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 92.2,
+     "vw": 6.4,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.27,
+     "top": 261,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "lines": 2,
+     "size": 92.2,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 261,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to an expert about your line.",
+      "words": 7,
+      "chars": 34,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 1003,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Branches",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 1856,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Brisbane (head office)",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1989,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gladstone",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2113,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Melbourne (Epping)",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2208,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Darwin",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2304,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Perth",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2399,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 135,
+      "vw": 9.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 2796,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      19,
+      26,
+      34,
+      48,
+      92,
+      135
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 135,
+      "vw": 9.4,
+      "font": "Stack Sans Headline",
+      "text": "B"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 955,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.58
+      },
+      {
+       "color": "#0b0b0b",
+       "share": 0.29
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.08
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0b0b0b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Call 1300 740 564"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.41
+     },
+     {
+      "type": "img",
+      "ratio": 0.2
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3582,
+    "margins": {
+     "left": 115,
+     "right": 115
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero.a-hero--short",
+      "tag": "section",
+      "top": 80,
+      "height": 760,
+      "words": 23,
+      "media": 1,
+      "middle": 216,
+      "heading": {
+       "text": "Talk to",
+       "size": 92,
+       "tag": "h1"
+      },
+      "left": 115,
+      "right": 115,
+      "textLeft": 115,
+      "textRight": 844,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.a-coupon.a-fill",
+      "tag": "section",
+      "top": 955,
+      "height": 743,
+      "words": 44,
+      "media": 4,
+      "middle": 101,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 163,
+      "right": 163,
+      "textLeft": 163,
+      "textRight": 393,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section",
+      "tag": "section",
+      "top": 1698,
+      "height": 954,
+      "words": 49,
+      "media": 0,
+      "middle": 205,
+      "heading": {
+       "text": "Branches",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 115,
+      "right": 115,
+      "textLeft": 115,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 2652,
+      "height": 930,
+      "words": 98,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 115,
+      "right": 151,
+      "textLeft": 115,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Talk to an expert",
+      "size": 92,
+      "top": 261,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 115,
+      "n": 4
+     },
+     {
+      "x": 163,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 780,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.43,
+    0.87,
+    0.38,
+    0.81,
+    0.93
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 2,
+    "transitions": 23,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4320,
+     "screens": 4.2,
+     "words": 236,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "pyrogel-cut.webp",
+      "sheet-metal-fabrication.webp",
+      "bellis-hard-hat.jpg",
+      "procurement-materials.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 76.8,
+     "vw": 10,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.41,
+     "top": 150,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "lines": 2,
+     "size": 76.8,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 150,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to an expert about your line.",
+      "words": 7,
+      "chars": 34,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 1133,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Branches",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2432,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 152,
+      "vw": 19.8,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3274,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      18,
+      23,
+      25,
+      36,
+      77,
+      152
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 152,
+      "vw": 19.8,
+      "font": "Stack Sans Headline",
+      "text": "B"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 1085,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.59
+      },
+      {
+       "color": "#0b0b0b",
+       "share": 0.27
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.08
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0b0b0b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Call 1300 740 564"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.25
+     },
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4320,
+    "margins": {
+     "left": 45,
+     "right": 45
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero.a-hero--short",
+      "tag": "section",
+      "top": 68,
+      "height": 956,
+      "words": 23,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to",
+       "size": 77,
+       "tag": "h1"
+      },
+      "left": 45,
+      "right": 0,
+      "textLeft": 45,
+      "textRight": 279,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.a-coupon.a-fill",
+      "tag": "section",
+      "top": 1085,
+      "height": 1258,
+      "words": 44,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 73,
+      "textLeft": 73,
+      "textRight": 195,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section",
+      "tag": "section",
+      "top": 2344,
+      "height": 835,
+      "words": 49,
+      "media": 0,
+      "middle": 50,
+      "heading": {
+       "text": "Branches",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 45,
+      "right": 45,
+      "textLeft": 45,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 3178,
+      "height": 1141,
+      "words": 98,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 45,
+      "right": 46,
+      "textLeft": 45,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Talk to an expert",
+      "size": 77,
+      "top": 150,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 45,
+      "n": 4
+     },
+     {
+      "x": 73,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.7,
+    0.96,
+    0.96,
+    0.28,
+    0.8,
+    0.98,
+    0.96
+   ],
+   "motion": {
+    "elements": 25,
+    "css": 2,
+    "transitions": 23,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5148,
+     "screens": 6.1,
+     "words": 236,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "technical-support.webp",
+      "pyrogel-cut.webp",
+      "sheet-metal-fabrication.webp",
+      "bellis-hard-hat.jpg",
+      "procurement-materials.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 46.8,
+     "vw": 12,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.5,
+     "top": 115,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Talk to an expert",
+     "words": 4,
+     "lines": 2,
+     "size": 46.8,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Talk to an expert",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 115,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to an expert about your line.",
+      "words": 7,
+      "chars": 34,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 948,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Branches",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2710,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3659,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      17,
+      20,
+      21,
+      30,
+      47,
+      66
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 66.3,
+      "vw": 17,
+      "font": "Stack Sans Headline",
+      "text": "B"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 900,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.59
+      },
+      {
+       "color": "#0b0b0b",
+       "share": 0.27
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.08
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0b0b0b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Call 1300 740 564"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.48
+     },
+     {
+      "type": "img",
+      "ratio": 0.21
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5148,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero.a-hero--short",
+      "tag": "section",
+      "top": 64,
+      "height": 780,
+      "words": 23,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to",
+       "size": 47,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquiry.a-coupon.a-fill",
+      "tag": "section",
+      "top": 900,
+      "height": 1722,
+      "words": 44,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-section",
+      "tag": "section",
+      "top": 2622,
+      "height": 941,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Branches",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 3563,
+      "height": 1585,
+      "words": 98,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 33,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Talk to an expert",
+      "size": 47,
+      "top": 115,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-contact-page/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

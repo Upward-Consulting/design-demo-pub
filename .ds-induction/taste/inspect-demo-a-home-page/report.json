@@ -1,0 +1,2070 @@
+{
+ "url": "http://localhost:5191/ds.html?view=demo&d=a&page=home",
+ "at": "2026-11-04T02:48:30.773Z",
+ "allow": [
+  "dev-server"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.54,
+    0.38,
+    0.27,
+    0.49,
+    0.93,
+    0.85,
+    0.74,
+    0.91,
+    0.95
+   ],
+   "motion": {
+    "elements": 49,
+    "css": 2,
+    "transitions": 47,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7868,
+     "screens": 8.7,
+     "words": 668,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bellis-hard-hat.jpg",
+      "oil-gas-energy.webp",
+      "banner-1.jpg",
+      "mining.webp",
+      "marine-insulated-pipe.webp",
+      "versi-foam-low-gwp.webp",
+      "corrosion-control-pipe.jpg",
+      "sheet-metal-fabrication.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "chars": 40,
+     "lines": 2,
+     "size": 61.2,
+     "vw": 4.3,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.4,
+     "top": 306,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "lines": 2,
+     "size": 61.2,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "words": 5,
+      "chars": 40,
+      "lines": 2,
+      "size": 61.2,
+      "vw": 4.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 306,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Materials , custom sheet-metal fabrication , installation and shutdown maintenance , from branches in Queensland, Victoria, the Northern Territory and Western Australia.",
+      "words": 22,
+      "chars": 169,
+      "lines": 3,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 1044,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Insulation does five jobs in a plant",
+      "words": 7,
+      "chars": 36,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 1425,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our product range",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2205,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our services",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 3472,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Named projects",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 5483,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Enquire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 362.2,
+      "vw": 25.2,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 6624,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 135,
+      "vw": 9.4,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 7082,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      19,
+      26,
+      34,
+      48,
+      61,
+      135,
+      362
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 362.2,
+      "vw": 25.2,
+      "font": "Stack Sans Headline",
+      "text": "Enquire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#e6e6e6",
+       "top": 1363,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 3314,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b0b0b",
+       "share": 0.54
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.42
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.02
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#036aaa",
+      "hsl": {
+       "h": 203,
+       "s": 0.97,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.46
+     },
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7868,
+    "margins": {
+     "left": 115,
+     "right": 115
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero",
+      "tag": "section",
+      "top": 80,
+      "height": 820,
+      "words": 21,
+      "media": 1,
+      "middle": 86,
+      "heading": {
+       "text": "Mechanical insulation",
+       "size": 61,
+       "tag": "h1"
+      },
+      "left": 115,
+      "right": 115,
+      "textLeft": 115,
+      "textRight": 755,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-intro",
+      "tag": "section",
+      "top": 900,
+      "height": 304,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Materials",
+       "size": 34,
+       "tag": "span"
+      },
+      "left": 222,
+      "right": 245,
+      "textLeft": 222,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-jobs",
+      "tag": "section",
+      "top": 1204,
+      "height": 842,
+      "words": 73,
+      "media": 1,
+      "middle": 135,
+      "heading": {
+       "text": "Insulation does five jobs in a plant",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 123,
+      "textLeft": 736,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#products.a-section",
+      "tag": "section",
+      "top": 2047,
+      "height": 1267,
+      "words": 166,
+      "media": 0,
+      "middle": 52,
+      "heading": {
+       "text": "Our product range",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 98,
+      "right": 115,
+      "textLeft": 115,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.a-section.a-fill",
+      "tag": "section",
+      "top": 3314,
+      "height": 1983,
+      "words": 189,
+      "media": 9,
+      "middle": 32,
+      "heading": {
+       "text": "Our services",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 115,
+      "right": 115,
+      "textLeft": 115,
+      "textRight": 132,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.a-section",
+      "tag": "section",
+      "top": 5297,
+      "height": 1083,
+      "words": 92,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Named projects",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 143,
+      "right": 196,
+      "textLeft": 143,
+      "textRight": 196,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-cta.a-fill",
+      "tag": "section",
+      "top": 6380,
+      "height": 558,
+      "words": 22,
+      "media": 0,
+      "middle": 547,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 115,
+      "right": 245,
+      "textLeft": 115,
+      "textRight": 840,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 6938,
+      "height": 930,
+      "words": 98,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 115,
+      "right": 151,
+      "textLeft": 115,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "size": 61,
+      "top": 306,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 115,
+      "n": 8
+     },
+     {
+      "x": 736,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 720,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.44,
+    0.48,
+    0.29,
+    0.31,
+    0.94,
+    0.89,
+    0.89,
+    0.82,
+    0.89,
+    0.93
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 2,
+    "transitions": 46,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9834,
+     "screens": 9.6,
+     "words": 659,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bellis-hard-hat.jpg",
+      "oil-gas-energy.webp",
+      "banner-1.jpg",
+      "mining.webp",
+      "marine-insulated-pipe.webp",
+      "versi-foam-low-gwp.webp",
+      "corrosion-control-pipe.jpg",
+      "sheet-metal-fabrication.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "chars": 40,
+     "lines": 2,
+     "size": 53.8,
+     "vw": 7,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.65,
+     "top": 150,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "lines": 2,
+     "size": 53.8,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "words": 5,
+      "chars": 40,
+      "lines": 2,
+      "size": 53.8,
+      "vw": 7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.65,
+      "top": 150,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Insulation does five jobs in a plant",
+      "words": 7,
+      "chars": 36,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2107,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our product range",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 2651,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our services",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 4170,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Named projects",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 36.1,
+      "vw": 4.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 6926,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Enquire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 203.2,
+      "vw": 26.5,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8506,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 152,
+      "vw": 19.8,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8789,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      18,
+      23,
+      25,
+      36,
+      54,
+      152,
+      203
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 203.2,
+      "vw": 26.5,
+      "font": "Stack Sans Headline",
+      "text": "Enquire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#e6e6e6",
+       "top": 1437,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 4082,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b0b0b",
+       "share": 0.53
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.42
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.02
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#036aaa",
+      "hsl": {
+       "h": 203,
+       "s": 0.97,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.25
+     },
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9834,
+    "margins": {
+     "left": 45,
+     "right": 45
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero",
+      "tag": "section",
+      "top": 68,
+      "height": 956,
+      "words": 21,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Mechanical insulation",
+       "size": 54,
+       "tag": "h1"
+      },
+      "left": 45,
+      "right": 0,
+      "textLeft": 45,
+      "textRight": 223,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-intro",
+      "tag": "section",
+      "top": 1024,
+      "height": 325,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Materials",
+       "size": 25,
+       "tag": "span"
+      },
+      "left": 107,
+      "right": 155,
+      "textLeft": 107,
+      "textRight": 155,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-jobs",
+      "tag": "section",
+      "top": 1349,
+      "height": 1214,
+      "words": 73,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 48,
+      "textLeft": 45,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#products.a-section",
+      "tag": "section",
+      "top": 2563,
+      "height": 1520,
+      "words": 166,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Our product range",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 46,
+      "textLeft": 45,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.a-section.a-fill",
+      "tag": "section",
+      "top": 4082,
+      "height": 2728,
+      "words": 203,
+      "media": 9,
+      "middle": 0,
+      "heading": {
+       "text": "Our services",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 45,
+      "right": 45,
+      "textLeft": 45,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.a-section",
+      "tag": "section",
+      "top": 6810,
+      "height": 1248,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Named projects",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 103,
+      "textLeft": 73,
+      "textRight": 103,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-cta.a-fill",
+      "tag": "section",
+      "top": 8058,
+      "height": 635,
+      "words": 22,
+      "media": 0,
+      "middle": 105,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 45,
+      "right": 114,
+      "textLeft": 45,
+      "textRight": 266,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 8693,
+      "height": 1141,
+      "words": 98,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 45,
+      "right": 46,
+      "textLeft": 45,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "size": 54,
+      "top": 150,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 45,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.69,
+    0.47,
+    0.44,
+    0.54,
+    0.6,
+    0.95,
+    0.98,
+    0.91,
+    0.96,
+    0.96,
+    0.76,
+    0.75
+   ],
+   "motion": {
+    "elements": 40,
+    "css": 2,
+    "transitions": 38,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11758,
+     "screens": 13.9,
+     "words": 658,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "bellis-hard-hat.jpg",
+      "oil-gas-energy.webp",
+      "banner-1.jpg",
+      "mining.webp",
+      "marine-insulated-pipe.webp",
+      "versi-foam-low-gwp.webp",
+      "corrosion-control-pipe.jpg",
+      "sheet-metal-fabrication.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "chars": 40,
+     "lines": 2,
+     "size": 33.2,
+     "vw": 8.5,
+     "font": "Stack Sans Headline",
+     "weight": 300,
+     "tracking": -0.022,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.79,
+     "top": 115,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mechanical insulation for heavy industry",
+     "words": 5,
+     "lines": 2,
+     "size": 33.2,
+     "font": "Stack Sans Headline"
+    },
+    "headings": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "words": 5,
+      "chars": 40,
+      "lines": 2,
+      "size": 33.2,
+      "vw": 8.5,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 115,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Insulation does five jobs in a plant",
+      "words": 7,
+      "chars": 36,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1643,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our product range",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2347,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our services",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 4121,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Named projects",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.022,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 8606,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Enquire",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 104.8,
+      "vw": 26.9,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10081,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "B e l l i s",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Stack Sans Headline",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 0.74,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10269,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Stack Sans Text",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Stack Sans Headline",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      17,
+      20,
+      21,
+      30,
+      33,
+      66,
+      105
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Stack Sans Text",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 19.7
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 104.8,
+      "vw": 26.9,
+      "font": "Stack Sans Headline",
+      "text": "Enquire"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#e6e6e6",
+       "top": 1267,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#0b0b0b",
+       "top": 4017,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b0b0b",
+       "share": 0.53
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.42
+      },
+      {
+       "color": "#c4c4c4",
+       "share": 0.02
+      },
+      {
+       "color": "#4a4a4a",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#036aaa",
+      "hsl": {
+       "h": 203,
+       "s": 0.97,
+       "l": 0.34
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Talk to an expert"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 8586
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.48
+     },
+     {
+      "type": "img",
+      "ratio": 0.21
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "stack sans headline",
+     "stack sans text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11758,
+    "margins": {
+     "left": 11,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.a-hero",
+      "tag": "section",
+      "top": 64,
+      "height": 780,
+      "words": 21,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Mechanical insulation",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-intro",
+      "tag": "section",
+      "top": 844,
+      "height": 335,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 52,
+      "textLeft": 20,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-jobs",
+      "tag": "section",
+      "top": 1179,
+      "height": 1080,
+      "words": 73,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Insulation does five jobs in a plant",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-head",
+      "tag": "div",
+      "top": 2347,
+      "height": 170,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 61,
+      "textLeft": 20,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul.a-ranges",
+      "tag": "ul",
+      "top": 2557,
+      "height": 1373,
+      "words": 141,
+      "media": 0,
+      "middle": 3,
+      "heading": {
+       "text": "Cold and cryogenic",
+       "size": 17,
+       "tag": "h3"
+      },
+      "left": 7,
+      "right": 23,
+      "textLeft": 92,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.a-head",
+      "tag": "div",
+      "top": 4105,
+      "height": 130,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Our services",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul.a-services__grid",
+      "tag": "ul",
+      "top": 4283,
+      "height": 4127,
+      "words": 187,
+      "media": 9,
+      "middle": 0,
+      "heading": {
+       "text": "Oil & gas and energy",
+       "size": 17,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.a-section",
+      "tag": "section",
+      "top": 8498,
+      "height": 1286,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Named projects",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 38,
+      "right": 43,
+      "textLeft": 38,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.a-cta.a-fill",
+      "tag": "section",
+      "top": 9784,
+      "height": 388,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to an expert about your line.",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 137,
+      "textLeft": 20,
+      "textRight": 137,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.a-footer.a-fill",
+      "tag": "footer",
+      "top": 10173,
+      "height": 1585,
+      "words": 98,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bellis Australia",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 33,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Mechanical insulation for heavy industry",
+      "size": 33,
+      "top": 115,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 11
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/desktop-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/desktop-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/desktop-page-02.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/tablet-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/tablet-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/mobile-fold.jpg",
+   "pages": [
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/mobile-page-01.jpg",
+    "/home/james/Desktop/Workspace/design-systems/bellis-new/design-v1/.ds-induction/taste/inspect-demo-a-home-page/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

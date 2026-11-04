@@ -1,0 +1,182 @@
+{
+  "demo": "a",
+  "name": "One motif",
+  "direction": "one-motif",
+  "seed": 11,
+  "builder": "demo builder A",
+  "at": "2026-11-04",
+  "status": "built, checks run, awaiting owner review",
+  "folder": "src/design-system/demos/a/",
+  "files": ["demo.tsx", "parts.tsx", "catalogue.ts", "home.tsx", "products.tsx", "contact.tsx", "demo.css"],
+  "motif": {
+    "shape": "The blue quarter-arc of the Bellis 'b': a 90-degree ring segment (outer radius R, inner radius 0.64R, as in the logo).",
+    "why": "It is the brand's own mark and it is also the subject's most made object: a lagged 90-degree pipe elbow, the cladding piece Bellis fabricates. One clause: the logo's arc is a pipe bend.",
+    "checked_against": "Tested against the subject's other simple geometry (the full ring of a pipe section, the straight band of a jacket). The quarter-arc wins because it is in the logo and reads as a bend; the client's circle-cropped range tiles were avoided wherever possible because circles would be a second shape.",
+    "where_it_runs": [
+      "Hero of every page: the giant ring, flat oxblood, drawn as one stroke that bends into place on load, with the page's photograph in its hole as the logo's bowl sits in its arc",
+      "Every photograph, tab, button, chip, tile and panel: square corners plus one full-radius bend at the top right (radius = the frame's shorter side, via a 9999px corner)",
+      "The bend mark: the quarter-ring at text size beside list titles, job titles, branch names, errors",
+      "The services field and the closing band: a giant bend on their top-right corner",
+      "The mobile menu opens from the Menu button's corner as a growing quadrant",
+      "The closing arrow is a bent arrow; the footer letters are knocked out of bent blocks"
+    ]
+  },
+  "pages": [
+    { "key": "home", "url": "http://localhost:5191/ds.html?view=demo&d=a&page=home" },
+    { "key": "products", "url": "http://localhost:5191/ds.html?view=demo&d=a&page=products" },
+    { "key": "contact", "url": "http://localhost:5191/ds.html?view=demo&d=a&page=contact" }
+  ],
+  "gate": {
+    "command": "node <skill>/snippets/taste-gate.mjs \"<url>\" --scope page --label demo-a-<key>",
+    "scope": "page (utility pages; profile surfaces list /, /products, /contact as page)",
+    "profile": ".ds-induction/taste/profile.json (proposed, adopted: all)",
+    "allowances": ["dev-server (dropped automatically for workbench URLs)"],
+    "blockout": false,
+    "results": {
+      "home": { "exit": 0, "fail": 0, "warn": 1, "rules": ["no-footage"], "motion_elements": { "1440": 49, "768": 48, "390": 40 }, "summary": ".ds-induction/taste/inspect-demo-a-home-page/gate.json" },
+      "products": { "exit": 0, "fail": 0, "warn": 1, "rules": ["no-footage"], "motion_elements": { "1440": 24, "768": 24, "390": 24 }, "summary": ".ds-induction/taste/inspect-demo-a-products-page/gate.json" },
+      "contact": { "exit": 0, "fail": 0, "warn": 1, "rules": ["no-footage"], "motion_elements": { "1440": 25, "768": 25, "390": 25 }, "summary": ".ds-induction/taste/inspect-demo-a-contact-page/gate.json" }
+    },
+    "warn_defence": {
+      "no-footage": "The client supplied stills only (the deck has no clip) and the profile allows no generated pictures, so there is no honest footage to loop; the one moving picture is the shutter on the jobs photograph."
+    },
+    "fixed_along_the_way": [
+      "focal-point @768 (tablet h1 raised to 7vw)",
+      "reduced-hidden @1440 (closed menu and hidden header action now aria-hidden)",
+      "icon-cards @390 (bend marks removed from the project tile labels; the tiles carry the bend in their corners)",
+      "grey-body on products (use lines set in full ink, label in muted)",
+      "off-centre on contact (coupon full-bleed on phone, branch phones right-aligned)",
+      "still-page WARN on contact (form parts given entrances)",
+      "covered-text on home and products (stretched-link word wrapped in a span; the overlay paints nothing)"
+    ],
+    "source_lint": {
+      "command": "taste/scripts/lint.mjs on demos/a/*.tsx, *.ts, demo.css",
+      "result": "1 FAIL, 0 WARN",
+      "rules": ["eyebrow"],
+      "note": "False positive: home.tsx reads the deck field copy.home.eyebrow, whose text is set as the h1. The rendered pages have no eyebrow (the inspector found none). Not suppressed. The earlier hairline (visually-hidden utility), shadow (invalid-field ring) and ease-in (menu close) hits were fixed."
+    }
+  },
+  "craft_lint": {
+    "snippet": "snippets/craft-lint.js with ROOT = [data-demo=\"a\"], after scrolling every entrance in, scrollbar hidden",
+    "results": {
+      "home": { "1440": "no-issues-detected", "390": "issues: touching x5 (inline frames in the statement at 21px), fixed with a 6px minimum gap" },
+      "products": { "1440": "no-issues-detected", "390": "no-issues-detected" },
+      "contact": { "1440": "no-issues-detected", "390": "no-issues-detected" }
+    },
+    "smallest_text_px": { "1440": 14, "390": 13 },
+    "font_audit": "copy at .ds-induction/taste/demos/a/font-audit.js with BRAND = Stack Sans Headline | Stack Sans Text: 0 elements outside, 0 not loaded, on all three pages at 1440 and 390",
+    "type_sizes_in_use": { "home": [14, 16, 19, 26, 34, 48, 61, 135, 362], "products": [14, 16, 19, 26, 48, 92, 135, 362], "contact": [14, 16, 19, 26, 34, 48, 92, 135] }
+  },
+  "interaction_checks": {
+    "console": "0 errors, 0 warnings on all three pages at 1440 and 390 (gate runs and Playwright runs)",
+    "sideways_scroll_390": "none (scrollWidth 390 on all three pages)",
+    "h1_per_page": 1,
+    "header_keyboard": "Tab order: Skip to content, logo, (desktop) Products, Services, Contact, phone, action; the header action is hidden, aria-hidden and out of the tab order while the page's own action is on screen, and slides in after it",
+    "mobile_menu": "Opens from the Menu button by Enter; focus moves to Close; Tab is trapped inside; Escape closes and returns focus to Menu; closed links are visibility:hidden and not focusable (0 reachable); main and footer are inert while open",
+    "form": "Empty submit shows a summary ('Check the 5 fields marked below.'), per-field messages tied by aria-describedby, aria-invalid outlines, and focus moves to the first invalid field in DOM order; the need choice is a radio group (arrow keys move it); a valid submit shows a success panel that sends nothing and takes focus",
+    "reduced_motion": "No element armed, no animation running, the ring drawn at rest; the gate's reduced-hidden check passes",
+    "motion_values": {
+      "hover_colour": "200ms ease (buttons, links, chips, closing band swap)",
+      "hover_picture_scale_and_arrow": "360ms expo out",
+      "press": "140ms scale 0.97",
+      "entrances": "700ms expo out, 20px rise (16px rise without fade below 1000px), 70ms stagger, once, at 88% of the viewport",
+      "signature_shutter": "jobs photograph opens from the left, clip-path over 800ms expo out while the picture settles from 1.10 to rest",
+      "hero_ring_draw": "800ms expo out stroke draw on load (decorative shape; the photograph and copy are visible from the first frame)",
+      "menu": "opens 640ms expo out as a quadrant from the Menu corner, links staggered 40ms; closes 250ms",
+      "filter_change": "items re-enter 460ms, 55ms stagger"
+    }
+  },
+  "look_round": {
+    "rubric": "taste/references/critique.md, fourteen passes on the gate screenshots",
+    "home": {
+      "rounds": [
+        {
+          "round": 1,
+          "seen_in_one_second": "a giant oxblood bend wrapping a grey photograph of two crew fixing cladding on a roof",
+          "idea": "The logo's quarter-arc, which is also a lagged pipe elbow, frames every picture, tab, button and panel.",
+          "live_thing": "none on home beyond the shutter and the header action that appears once the hero action scrolls away",
+          "layout_words": "hero=colour-field / intro=statement / jobs=split / ranges=list / services=grid on field / projects=tiles / closing=band / footer=band",
+          "scores": { "design": 8, "usability": 8, "creativity": 7.5, "content": 5, "overall": 7.6 },
+          "caps": ["no live thing on home: creativity <= 7.5", "deck placeholders visible ([placeholder] certificate, legal entity, owner to confirm): content <= 5"],
+          "top_three": [
+            "The page closed with two giant-type oxblood bands in a row ('Enquire', then a 34svh block-built 'Bellis'), so the second stole the first's climax (desktop-page-02/03). Fixed: the footer mark is now a 20svh, 760px sign-off with more ground above it.",
+            "The jobs photograph was washed out by its white sky and read weaker than every other picture (desktop-page-01). Fixed: denser grade on that picture only and a tighter crop on the worker and pipework.",
+            "The statement's inline frames were 29px smudges that did not read as pictures (desktop-page-01). Fixed: frames enlarged to 0.95em x 1.6em with a 6px minimum gap."
+          ]
+        },
+        {
+          "round": 2,
+          "scores": { "design": 8, "usability": 8, "creativity": 7.5, "content": 5, "overall": 7.6 },
+          "caps": ["no live thing on home: creativity <= 7.5", "deck placeholders: content <= 5"],
+          "remaining": "Named projects heading tile and quality tile hold a placed void between label and text; the CUI picture is soft at 4:3"
+        }
+      ]
+    },
+    "products": {
+      "seen_in_one_second": "'Product range' beside the oxblood ring with Foamglas shells in its hole",
+      "live_thing": "find by problem: five bend-shaped toggles filter the eleven ranges with a live count",
+      "layout_words": "hero=colour-field / filter=controls / catalogue=list / closing=band / footer=band",
+      "scores": { "design": 7.5, "usability": 8.5, "creativity": 7.5, "content": 5, "overall": 7.6 },
+      "caps": ["two labelled picture placeholders and the stock placeholder: content <= 5"],
+      "top_problem": "The two-column catalogue is a calm, standard list; the two placeholder frames read as grey blobs until the client sends pictures"
+    },
+    "contact": {
+      "seen_in_one_second": "'Talk to an expert' beside the ring holding the Bellis team photograph, then an oxblood coupon",
+      "live_thing": "choose what you need by picture, and a form with real validation and a success state",
+      "layout_words": "hero=colour-field / enquiry=coupon split / branches=index list / footer=band",
+      "scores": { "design": 7.5, "usability": 8.5, "creativity": 8, "content": 5, "overall": 7.7 },
+      "caps": ["[branch phone] and legal placeholders: content <= 5"],
+      "top_problem": "The 'Estimate' choice uses the deck's procurement picture, a stock 3D render that breaks the grade of the client's own photographs"
+    },
+    "note": "Scored as the juror who did not build it. Every page sits under 8.0 because of the content cap from deck placeholders and, on home, the live-thing cap."
+  },
+  "pictures": {
+    "provenance": "own (the client's), all from the deck's pictures map except two range tiles; every <img> has width, height and alt and sits in a data-provenance=\"own\" wrapper; all photographs desaturated per the palette note",
+    "home": ["logo", "heroCrew", "prod.pyrogelCut", "svc.sheetMetal", "svc.marineBulkhead", "svc.contract", "svc.oilGas", "prod.foamglasCryo", "prod.rockwool", "ainsul", "prod.pyrogelXte", "svc.customMetal", "prod.steelBanding", "prod.rubber", "svc.expansion", "prod.foamglas", "tiles/mastics-adhesives.png", "tiles/electrical-heat-tracing.png", "heroLng", "svc.mining", "svc.marinePipe", "prod.versiFoam", "corrosionPipe", "svc.removableMats", "svc.technical"],
+    "products": ["logo", "prod.foamglasCryo", "prod.rockwool", "ainsul", "prod.pyrogelXte", "svc.customMetal", "prod.steelBanding", "prod.rubber", "svc.expansion", "prod.foamglas"],
+    "contact": ["logo", "svc.technical", "prod.pyrogelCut", "svc.sheetMetal", "heroCrew", "svc.procurement"],
+    "unused": ["prod.aerogelHps", "prod.perlite", "prod.needleFelt", "prod.thermobreak", "prod.interam", "svc.environment"],
+    "placeholder_slots": [
+      { "slot": "range-mastics", "page": "products", "label": "[photo: mastics and adhesives]" },
+      { "slot": "range-specialty", "page": "products", "label": "[photo: specialty]" }
+    ],
+    "tiles_note": "The two tiles are imported from src/design-system/assets/own/tiles/ (outside the pictures map) and shown at 76px on home only, inside the 120px limit; enlarged 1.45x so the bend, not the tile's circle, does the cropping.",
+    "image_requests": [
+      "Client photographs of the mastics and adhesives range and of a specialty line (heat tracing or anticorrosion wrap), to replace the two placeholders",
+      "A client photograph for estimating and procurement, to replace the stock render svc.procurement"
+    ]
+  },
+  "deviations": [
+    { "what": "Palette kept as dealt (oxblood #7d0c14 on grey #e2e2e2); the logo blue is not the action colour.", "why": "The sheet's palette uses one hue for ink, accent and field, so it cannot carry the blue without a second accent. The logo stays blue in the header. Owner decides; a blue version is a swap of --da-ink, --da-accent, --da-fill and their muted, press and raise steps (for example navy #275787 or deep blue #036AAA on the same grey)." },
+    { "what": "Hero copy roles: h1 is copy.home.eyebrow ('Mechanical insulation for heavy industry'); the supporting sentence is copy.home.headline; copy.home.lede moved to the statement section directly under the hero.", "why": "The gate FAILs eyebrow labels and headlines over two lines, and the 78-character headline cannot hold two lines at display size in columns 1-6 (the display face measures 0.44 em per character). All three deck strings still show, in order." },
+    { "what": "Home h1 at 4.25vw (61px at 1440), not 6.4vw; set in weight 300, not heavy.", "why": "Column 1-6 width; the type sheet (one weight, 300) outranks the hero blueprint. Products and contact titles are short and run at the sheet's 6.4vw." },
+    { "what": "The giant shape is cropped by the right edge, the hero's bottom and the hero's top (under the sticky header) rather than the viewport top, and holds the hero photograph in its hole.", "why": "The header sits on bare ground so its links stay legible on every page; the brief requires a hero picture and the direction puts photographs inside the motif. The ring rests on the hero's baseline as the logo's arc does." },
+    { "what": "Shutter-image runs on the jobs photograph (below the fold), not on the hero picture.", "why": "Motion must not hide above-the-fold content. The hero instead draws its ring (a decorative shape) on load." },
+    { "what": "Work blueprint (stacked folders) used for the nine services as a 3x3 grid of folder tabs on the oxblood field, not four to six sticky full-height bands.", "why": "Nine services in 80svh bands would take about seven screens; the tab-on-folder geometry is kept." },
+    { "what": "Intro statement at 34px on desktop and 21px on phone, not up to 62px and 8vw.", "why": "The gate allows a three-line statement only at 36px or less on desktop and treats 22px+ text on a phone as a heading." },
+    { "what": "Features points: body at 19px in full ink, not 15px soft ink.", "why": "Gate body-size and grey-body rules." },
+    { "what": "Contact coupon holds seven fields with visible labels and the need choice as picture radio tiles in the stub; notches stay semicircles.", "why": "The brief's form has seven fields and validation needs visible labels; the notches are the coupon's functional cue, the one curve that is not the motif." },
+    { "what": "Closing band word is 'Enquire' (from copy.actions.enquire), with copy.home.closingTitle and closingBody top-left.", "why": "The only one-word verb in the deck; it spans the content width at 25.5vw, inside the blueprint's 24-30vw." },
+    { "what": "Footer mark reduced to a 20svh sign-off.", "why": "Look round: at 34svh it competed with the closing word directly above it." },
+    { "what": "Scroll entrances below 1000px rise 16px without fading.", "why": "Content is never hidden on a phone or tablet, so a fast flick never meets a blank band and full-page captures are complete." },
+    { "what": "Two client range tiles imported from assets/own/tiles/.", "why": "Mastics and specialty have no deck picture; the brief names tiles for the product ranges. The lead should confirm the import, or they become placeholders." },
+    { "what": "Navigation: Products, Services (home#services), Contact, the phone number, and the action. The header action hides while the page's own action is on screen.", "why": "Only three pages exist; the action shows exactly once on every screen." }
+  ],
+  "rough": [
+    "The problem-to-range mapping on the products page is derived from the deck's own words (title, lines, use, the CUI service's remedies); the owner should confirm it.",
+    "svc.procurement (Estimate choice) is a stock 3D render; corrosionPipe (1024x298) is soft cropped to 4:3.",
+    "Home at 390 is 11,758px (about 14 screens); the services and footer lists run long on a phone.",
+    "Named projects heading and quality tiles hold a placed void between label and text.",
+    "The source lint's eyebrow FAIL is a false positive on the deck's field name.",
+    "Full-page Playwright captures can briefly re-show the header action while the viewport resizes; the live page hides it correctly."
+  ],
+  "console_errors": [],
+  "screenshots": {
+    "home": [".ds-induction/evidence/demos/a/home-1440.png", ".ds-induction/evidence/demos/a/home-390.png"],
+    "products": [".ds-induction/evidence/demos/a/products-1440.png", ".ds-induction/evidence/demos/a/products-390.png"],
+    "contact": [".ds-induction/evidence/demos/a/contact-1440.png", ".ds-induction/evidence/demos/a/contact-390.png"],
+    "gate_sheets": [".ds-induction/taste/inspect-demo-a-home-page/", ".ds-induction/taste/inspect-demo-a-products-page/", ".ds-induction/taste/inspect-demo-a-contact-page/"]
+  },
+  "tokens": "--da-* on :root:has([data-demo='a']) in demo.css: ground, surface, surface-press, ink, muted, accent, accent-ink, accent-press, fill, fill-ink, fill-muted, fill-raise, fill-hover, two font families, seven type steps, margin, gutter, section, header height, bend radii, motion durations and two eases. No raw colour outside the token block.",
+  "typecheck": "npx tsc --noEmit: no errors in demos/a"
+}
